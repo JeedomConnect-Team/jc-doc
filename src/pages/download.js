@@ -21,7 +21,7 @@ function Hello() {
                             <img width="163" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1492214400&h=3ef4307fa479838e52fe9bd8bd17913b" alt="Télécharger sur App Store" />
                         </a>
                         <a href='https://github.com/jared-94/JeedomConnect/releases'>
-                            <img width="200" alt='Télécharger sur Github' src='/img/getGithub.png' />
+                            <img width="200" alt='Télécharger sur Github' src='img/getGithub.png' />
                         </a>
                     </div>
                 </div>
