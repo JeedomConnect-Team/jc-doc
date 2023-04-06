@@ -20,7 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jared-94', // Usually your GitHub org/user name.
   projectName: 'jc-doc', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'build',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://jared-94.github.io/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
