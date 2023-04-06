@@ -10,8 +10,8 @@ Le projet **Jeedom Connect** se compose de 2 parties : un plugin pour Jeedom, et
 
 Pour utiliser Jeedom Connect vous aurez besoin :
 - Une installation fonctionnelle de Jeedom
-- Le plugin Jeedom Connect disponible sur le Market Jeedom <a href="https://market.jeedom.com/index.php?v=d&p=market_display&id=4077" target="_blank"><img src='/img/logo-MARKET.svg' width='10%' /></a>
-- L'application Jeedom Connect sur le Play Store <a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src='/img/playstore.png' width='10%'/></a>  ou bien l'application JeeConnect sur l'App Store <a href="https://apps.apple.com/us/app/jeeconnect/id1566533727" target="_blank"><img src="/img/applestore.png" width='10%'/></a>  
+- Le plugin Jeedom Connect disponible sur le Market Jeedom <a href="https://market.jeedom.com/index.php?v=d&p=market_display&id=4077" target="_blank"><img src='../../img/logo-MARKET.svg' width='10%' /></a>
+- L'application Jeedom Connect sur le Play Store <a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src='../img/playstore.png' width='10%'/></a>  ou bien l'application JeeConnect sur l'App Store <a href="https://apps.apple.com/us/app/jeeconnect/id1566533727" target="_blank"><img src="../img/applestore.png" width='10%'/></a>  
 
 ### Pré-requis
 
@@ -28,11 +28,11 @@ Pour utiliser Jeedom Connect vous aurez besoin :
       <td>&ge; 4.2</td>
     </tr>
     <tr>
-      <td><img alt="Android" src="/img/android.svg" /> Android</td>
+      <td><img alt="Android" src="../img/android.svg" /> Android</td>
       <td>&ge; 6 (Services Google requis)</td>
     </tr>
     <tr>
-      <td><img alt="iOS" src="/img/apple.svg" />iOS</td>
+      <td><img alt="iOS" src="../img/apple.svg" />iOS</td>
       <td>&ge; 13</td>
     </tr>
     </tbody>
@@ -44,9 +44,9 @@ Pour utiliser Jeedom Connect vous aurez besoin :
   <thead>
     <tr>
       <th><strong>Interface</strong></th>
-      <th><img alt="Android" src="/img/android.svg" />Android (Store)</th>
-      <th><img alt="Android" src="/img/android.svg" />Android (APK)</th>
-      <th><img alt="iOS" src="/img/apple.svg" />iOS</th>
+      <th><img alt="Android" src="../img/android.svg" />Android (Store)</th>
+      <th><img alt="Android" src="../img/android.svg" />Android (APK)</th>
+      <th><img alt="iOS" src="../img/apple.svg" />iOS</th>
       </tr>
   </thead>
   <tbody>
@@ -90,9 +90,9 @@ Pour utiliser Jeedom Connect vous aurez besoin :
   <thead>
     <tr>
       <th><strong>Intégration</strong></th>
-      <th><img alt="Android" src="/img/android.svg" />Android (Store)</th>
-      <th><img alt="Android" src="/img/android.svg" />Android (APK)</th>
-      <th><img alt="iOS" src="/img/apple.svg" />iOS</th>
+      <th><img alt="Android" src="../img/android.svg" />Android (Store)</th>
+      <th><img alt="Android" src="../img/android.svg" />Android (APK)</th>
+      <th><img alt="iOS" src="../img/apple.svg" />iOS</th>
       </tr>
   </thead>
   <tbody>

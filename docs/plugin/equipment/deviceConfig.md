@@ -39,10 +39,10 @@ La configuration de cette partie est optionnelle, et n'est à réaliser que si v
 - Ajouter un résumé, après l'avoir sélectionné dans la liste déroulante  
 - Importer l'ensemble des résumés existants (le bouton est caché si vous avez déjà tous les résumés dans l'application)
 
-<img src="/img/JC_assistant_summary.png" width="50%" />  
+<img src="../../../img/JC_assistant_summary.png" width="50%" />  
 
 Il vous est ensuite possible de cliquer sur chaque résumé pour personnaliser les icônes et leurs conditions d'affichage.  
-<img src="/img/JC_summary_conditions.png" width="50%" />  
+<img src="../../../img/JC_summary_conditions.png" width="50%" />  
 
 Deux variables sont disponibles : `#value#` et `#total#` :  
 
@@ -59,10 +59,10 @@ Deux variables sont disponibles : `#value#` et `#total#` :
 - **Ajouter un groupe** : Vous pouvez ranger vos widgets dans un menu dépliable (type "acordéon").  
   - **Actif** : Le groupe sera (ne sera pas) affiché dans l'application.
   - **Développé par défaut** : Le comportement par défaut (plié / déplié) du menu.  
-  <img src="/img/screen-groupConfig.png" width="25%" />
+  <img src="../../../img/screen-groupConfig.png" width="25%" />
 
  Différentes actions sur possible sur chaque élément :  
- <img src="/img/btn-action-widget.png" width="20%" />  
+ <img src="../../../img/btn-action-widget.png" width="20%" />  
 
 - les flèches bleues permettent de monter ou descendre le widget par rapport aux autre widgets sur la même page. Elles permettent aussi de faire entrer ou sortir un widget dans un groupe  
 - le moins rouge permet d'enlever le widget de la page (ça ne supprime pas le widget dans Jeedom)

@@ -12,7 +12,7 @@ Il existe deux méthodes pour activer la reconnaissance :
 
 Pour activer la détection de mots clés, un assistant vous guide dans l'application.
 
-<img src='/img/voice4.png' width='200px' /><img src='/img/voice2.png' width='200px' /><img src='/img/voice3.png' width='200px' /><img src='/img/voice1.png' width='200px' />
+<img src='../../img/voice4.png' width='200px' /><img src='/img/voice2.png' width='200px' /><img src='../../img/voice3.png' width='200px' /><img src='../../img/voice1.png' width='200px' />
 
 Il est nécessaire de créer un compte gratuit chez [Picovoice](https://picovoice.ai/). Un compte permet :
 

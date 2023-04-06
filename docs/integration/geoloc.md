@@ -9,9 +9,9 @@ sidebar_position: 1
 Jeedom Connect dispose d'une fonction de Geofencing : définissez des lieux géographiques sur une carte et des commandes binaires seront créées dans votre équipement vous indiquant si l'appareil est dans ce lieu ou pas.
 
 Commencez par ouvrir l'application et rendez-vous dans les Préférences puis activez la géolocalisation.  
-<img src='/img/screen-geo1.png' width='200px' />
-<img src='/img/screen-geo2.png' width='200px' />
-<img src='/img/screen-geo3.png' width='200px' />
+<img src='../../img/screen-geo1.png' width='200px' />
+<img src='../../img/screen-geo2.png' width='200px' />
+<img src='../../img/screen-geo3.png' width='200px' />
 
 Pour le bon fonctionnement du service, il est impératif d'accepter toutes les autorisations, en particulier la `Localisation` doit être sur `Toujours autoriser` (Android 10+)
 
@@ -26,7 +26,7 @@ Jeedom Connect possède aussi une fonction de Tracking qui vous permet de connai
 
 Ces actions peuvent également être réalisées depuis le plugin, en utilisant la petite `cible` sous votre équipement, ou via le bouton `Personnaliser les Geofencing` sur la page de configuration de votre équipement JC :  
 
-<img src='/img/JeedomConnect_geofencing_icon.png' width='200px' />
+<img src='../../img/JeedomConnect_geofencing_icon.png' width='200px' />
 <br/><br/>  
 
 Vous arrivez sur une nouvelle fenêtre qui vous donne accès à 2 infos :  
@@ -34,7 +34,7 @@ Vous arrivez sur une nouvelle fenêtre qui vous donne accès à 2 infos :
 - la 1ère partie concerne les zones utilisées pour faire du geofencing déjà disponible sur votre équipement. Ces zones sont représentées en vert sur la carte.  
 - La 2nd partie, permet de voir toutes les zones qui ont été créées sur le plugin et qui peuvent être partagées entre différents équipements (ce qui évite d'avoir à recréer une zone "Maison" sur tous les appareils !). Ces zones sont représentées en rouge sur la carte.  
 
-<img src='/img/JeedomConnect_geofencing.png' width='600px' />
+<img src='../../img/JeedomConnect_geofencing.png' width='600px' />
 
 ### Comment ajouter une zone ?
 
@@ -66,7 +66,7 @@ Pour cela :
 
 Ensuite il suffit de cliquer sur le bouton `Localisation` disponible sur la page principale du plugin pour accèder à la carte.
 
-<img src='/img/JeedomConnect_localisation.png' width='600px' />
+<img src='../../img/JeedomConnect_localisation.png' width='600px' />
 
 Cette même carte peut être affichée sous forme de widget (au sens Jeedom du terme). Pour se faire, vous devez cocher la case `Visible` sur cette fenêtre, et sélectionner sous quel objet le widget devra être affiché.  
 
