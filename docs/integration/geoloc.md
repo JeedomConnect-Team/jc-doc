@@ -1,10 +1,10 @@
 ---
+id: geoloc
+title: Géolocalisation
 sidebar_position: 1
 ---
 
-# Géolocalisation
-
-## Géolocalisation <a name="geoloc"></a>
+## Géolocalisation {#configGeofence}
 
 Jeedom Connect dispose d'une fonction de Geofencing : définissez des lieux géographiques sur une carte et des commandes binaires seront créées dans votre équipement vous indiquant si l'appareil est dans ce lieu ou pas.
 
@@ -23,7 +23,7 @@ Vous pouvez ensuite aller sur `Gestion des lieux`.
 Jeedom Connect possède aussi une fonction de Tracking qui vous permet de connaitre à tout moment la position de votre appareil. Les coordonnées GPS (latitude,longitude) sont accessibles dans la commande `Position` de votre équipement.  
 
 <br/>
-
+<a name="configGeofence"></a>
 Ces actions peuvent également être réalisées depuis le plugin, en utilisant la petite `cible` sous votre équipement, ou via le bouton `Personnaliser les Geofencing` sur la page de configuration de votre équipement JC :  
 
 <img src='../../img/JeedomConnect_geofencing_icon.png' width='200px' />
@@ -56,7 +56,7 @@ Cliquez simplement sur le dernier icone en forme de `pin`, la carte se centre au
 Les petits pin bleus utilisés pour caractériser la zone peuvent être déplacés. Cliquez sur le point à déplacer, allez au nouvel endroit désiré, relachez la souris, voilà le point est déplacé !  
 Si vous connaissez les coordonnées GPS du nouveau point, vous pouvez également directement les saisir dans le tableau de droite, et la zone se mettra également à jour.
 
-## Localisation depuis le plugin
+## Localisation depuis le plugin {#localisation}
 
 Il est possible de suivre la localisation de vos équipements JC.  
 Pour cela :
