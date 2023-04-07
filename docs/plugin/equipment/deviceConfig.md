@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Configuration de l'apareil
+# Configuration de l'appareil
 
 La configuration du contenu de l'application se passe dans l'assistant.
 

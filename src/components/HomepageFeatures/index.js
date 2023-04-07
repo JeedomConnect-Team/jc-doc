@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Propulsé par React Native',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/poweredbyRN.svg').default,
     description: (
       <>
         L'application est dévelopée avec le framework React Native, et utilise les dernières technologies en matière de développement mobile.

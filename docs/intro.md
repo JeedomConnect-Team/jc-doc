@@ -1,17 +1,28 @@
 ---
+title: Introduction
 sidebar_position: 1
 ---
 
-# Introduction
 
-Le projet **Jeedom Connect** se compose de 2 parties : un plugin pour Jeedom, et une application pour Android / iOS.  
+Le projet **Jeedom Connect** se compose de deux parties : 
+- un **plugin** pour Jeedom 
+- une **application** pour Android / iOS.  
 
-## Premiers pas
+Vous trouverez ici une documentation pour la mise en place et l'utilisation de ces deux éléments.
+## Premiers pas {#getStarted}
 
 Pour utiliser Jeedom Connect vous aurez besoin :
 - Une installation fonctionnelle de Jeedom
-- Le plugin Jeedom Connect disponible sur le Market Jeedom <a href="https://market.jeedom.com/index.php?v=d&p=market_display&id=4077" target="_blank"><img src='../../img/logo-MARKET.svg' width='10%' /></a>
+- Le plugin Jeedom Connect disponible sur le Market Jeedom <a href="https://market.jeedom.com/index.php?v=d&p=market_display&id=4077" target="_blank"><img src='../img/logo-MARKET.svg' width='10%' /></a>
 - L'application Jeedom Connect sur le Play Store <a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src='../img/playstore.png' width='10%'/></a>  ou bien l'application JeeConnect sur l'App Store <a href="https://apps.apple.com/us/app/jeeconnect/id1566533727" target="_blank"><img src="../img/applestore.png" width='10%'/></a>  
+
+:::note
+Le système Android dispose de deux versions différentes : 
+- La version du Play Store
+- La version APK qui dispose de [Fonctionnalités](#features) supplémentaires
+
+**Ces deux versions ne peuvent pas cohabiter sur un même appareil.**
+:::
 
 ### Pré-requis
 
@@ -38,7 +49,7 @@ Pour utiliser Jeedom Connect vous aurez besoin :
     </tbody>
 </table>
 
-## Fonctionnalités
+## Fonctionnalités {#features}
 
 <table className="core-table">
   <thead>
