@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Facile à utiliser',
-    Svg: require('@site/static/img/social-card.svg').default,
+    Svg: require('@site/static/img/easy-card.svg').default,
     description: (
       <>
         Obtenez rapidement vos widgets grâce à la création automatique basée sur les types génériques de vos équipement, pour utiliser l'interface intuitive de l'application.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Personnalisable',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/social-card.svg').default,
     description: (
       <>
         Créez vos propres designs dans l'application, choisissez votre thème de couleurs, vos pages, vos widgets où vous voulez.
