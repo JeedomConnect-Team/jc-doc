@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Facile à utiliser',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/social-card.svg').default,
     description: (
       <>
         Obtenez rapidement vos widgets grâce à la création automatique basée sur les types génériques de vos équipement, pour utiliser l'interface intuitive de l'application.
