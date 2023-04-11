@@ -2,14 +2,14 @@ import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import React from 'react';
 import styles from './styles.module.css';
-import mediumZoom from 'medium-zoom'
+//import mediumZoom from 'medium-zoom'
 
 const Showcase = () => {
-
-    setTimeout(() => {
-        mediumZoom('img', {});
-    }, 1000);
-
+    /*
+        setTimeout(() => {
+            mediumZoom('img', {});
+        }, 1000);
+    */
     return (
         <Layout
             title="Gallerie"
