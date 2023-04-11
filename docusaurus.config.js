@@ -34,6 +34,10 @@ const config = {
     locales: ['fr'],
   },
 
+  plugins: [
+    'plugin-image-zoom'
+  ],
+
   presets: [
     [
       'classic',
@@ -56,6 +60,19 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      imageZoom: {
+        // CSS selector to apply the plugin to, defaults to '.markdown img'
+        selector: '.markdown img:not([zoom="false"])',
+        // Optional medium-zoom options
+        // see: https://www.npmjs.com/package/medium-zoom#options
+        options: {
+          margin: 24,
+          //background: '#BADA55',
+          //scrollOffset: 0,
+          //container: '#zoom-container',
+          //template: '#zoom-template',
+        },
+      },
       // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
@@ -72,7 +89,7 @@ const config = {
             label: 'Doc',
           },
           { to: '/download', label: 'Téléchargement', position: 'left' },
-          { to: '/gallery', label: 'Galerie', position: 'left' },
+          { to: '/showcase', label: 'Galerie', position: 'left' },
           {
             href: 'https://github.com/jared-94/JeedomConnect',
             label: 'GitHub',

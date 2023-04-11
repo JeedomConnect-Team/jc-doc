@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 
 
-<img src="../../../img/app/dataManagement.png"  width="50%" />
+<img src="../../../img/app/dataManagement.png"  width="400" />
 
 ### Recharger la configuration
 
