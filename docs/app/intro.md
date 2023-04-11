@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 
 
-Après avoir [installé le plugin](../intro#getStarted), [configuré celui-ci](../plugin/plugin-config), et [ajouté un équipement](../plugin/equipment/addEquipment), vous devez [installer l'appli](../../download).
+Après avoir [installé le plugin](../intro#getStarted), [configuré celui-ci](../plugin/plugin-config), et [ajouté un équipement](../plugin/equipment/add-equipment), vous devez [installer l'appli](../../download).
 
 :::info
 Spécifique ![Android](/img/android.svg) Android  

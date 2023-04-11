@@ -1,4 +1,5 @@
 ---
+id: add-equipment
 sidebar_position: 1
 ---
 

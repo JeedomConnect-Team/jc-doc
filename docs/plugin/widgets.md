@@ -1,8 +1,7 @@
 ---
+title: Widgets et composants
 sidebar_position: 2
 ---
-
-# Widgets et composants
 
 ## Gestion des widgets <a name="gestionWidget"></a>
 
