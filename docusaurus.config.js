@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://jared-94.github.io/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/jared-94/jc-doc/edit/main/docs/",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
