@@ -118,7 +118,7 @@ const config = {
             items: [
               {
                 label: 'Community Jeedom',
-                href: 'https://community.jeedom.com/',
+                href: 'https://community.jeedom.com/tag/plugin-jeedomconnect',
               },
               {
                 label: 'Market Jeedom',
@@ -132,6 +132,14 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/jared-94/JeedomConnect',
+              },
+              {
+                label: 'APK Versions',
+                href: 'https://github.com/jared-94/JeedomConnect/releases',
+              },
+              {
+                label: 'Nous soutenir',
+                href: 'https://www.paypal.com/paypalme/JeedomConnect',
               },
             ],
           },
