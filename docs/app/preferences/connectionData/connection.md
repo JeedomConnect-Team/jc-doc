@@ -5,7 +5,7 @@ sidebar_position: 1
 
 
 ## Informations sur la connexion
-<img src="../../../img/app/connection1.png"  width="400" />
+<img src="../../../../img/app/connection1.png"  width="400" />
 
 ### Bouton QR code
 Le bouton <img src="https://fonts.gstatic.com/s/i/materialicons/qr_code/v12/24px.svg" width="20" /> vous permet de télécharger sur votre appareil le QR Code de connexion à l'équipement en cours.
@@ -20,13 +20,13 @@ Indique le type de connexion en cours d'utilisation (`Http` ou `Websocket`).
 Indique l'adresse de connexion actuellement utilisée pour la connexion à Jeedom.
 
 ### Equipement
-Donne le nom de [l'équipement](../../plugin/equipment/add-equipment) auquel l'application est connectée.
+Donne le nom de [l'équipement](../../../plugin/equipment/add-equipment) auquel l'application est connectée.
 
 ### Utilisateur
 Nom de l'utilisateur Jeedom rattaché à l'équipement.
 
 ## Paramètres de connexion
-<img src="../../../img/app/connection2.png"  width="400" />
+<img src="../../../../img/app/connection2.png"  width="400" />
 
 ### Se déconnecter
 Déconnecte l'application de l'équipement.  

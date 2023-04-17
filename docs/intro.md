@@ -145,6 +145,18 @@ Le système Android dispose de deux versions différentes :
       <td>✅</td>
     </tr>
     <tr>
+      <td>Reconnaissance faciale</td>      
+      <td>✅</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Stream vidéo de la caméra</td>      
+      <td>✅</td>
+      <td>✅</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Ecran d'accueil (Launcher)</td>
       <td>✅</td>
       <td>✅</td>
