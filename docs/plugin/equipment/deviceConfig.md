@@ -15,14 +15,14 @@ Le bouton `Réinitialiser` (suivi de `Sauvegarder`) remet toute la configuration
 
 ## Menu du bas
 
-![](/img/screen-assistantBottom.png)
+![](/img/plugin/assistantBottom.png)
 
 Cette partie est assez explicite, elle permet de configurer les onglets qui apparaissent en bas de l'écran. Vous avez la possibilité de choisir vos icônes parmis tout un panel : celles de Jeedom, celles proposées par Material Design, ou encore sur Font Awesome(un moteur de recherche est intégré).  
 La configuration de cette partie est optionnelle, et n'est à réaliser que si vous souhaitez utiliser ces onglets.
 
 ## Menu du haut
 
- ![](/img/screen-assistantTop.png)
+ ![](/img/plugin/assistantTop.png)
 
  Cette partie est également explicite. Un menu sous forme d'onglets en haut de l'écran que vous pouvez 'slider'. Egalement facultatif.
 
@@ -49,17 +49,20 @@ Deux variables sont disponibles : `#value#` et `#total#` :
 - `#value#` correspond à la donnée du résumé remontée par Jeedom (nombre de volets ouverts par exemple)
 - `#total#` correspond au nombre total de commandes rattachées à ce résumé (nombre de volets total sur le résumé par exemple)
 
-## Widgets
+## Widgets / Composants
 
- ![](/img/screen-assistantWidgets.png)
- Définissez d'abord l'emplacement où placer le widget : sur quel menu / sous-menu que vous voulez le configurer.
- Vous pouvez ensuite filtrer sur le type de widget que vous allez ajouter (ne sont proposés que les types de widget déjà créés).  
- Sélectionnez le widget que vous souhaitez ajouter, puis enfin cliquez sur le **Ajouter ce widget** pour l'ajouter à votre configuration.  
+ ![](/img/plugin/assistantWidget.png)
+ Définissez d'abord l'emplacement où placer le widget/composant : sur quel menu / sous-menu que vous voulez le configurer.
+ Vous pouvez ensuite filtrer sur le type de widget/composant que vous allez ajouter (ne sont proposés que les types de widget déjà créés).  
+ Sélectionnez le widget ou composant que vous souhaitez ajouter, puis enfin cliquez sur le **Ajouter cet élément** pour l'ajouter à votre configuration.  
 
 - **Ajouter un groupe** : Vous pouvez ranger vos widgets dans un menu dépliable (type "acordéon").  
+
+  <img src="../../../img/plugin/assistantAddGroup.png" width="25%" />  
+
   - **Actif** : Le groupe sera (ne sera pas) affiché dans l'application.
   - **Développé par défaut** : Le comportement par défaut (plié / déplié) du menu.  
-  <img src="../../../img/screen-groupConfig.png" width="25%" />
+  
 
  Différentes actions sur possible sur chaque élément :  
  <img src="../../../img/btn-action-widget.png" width="20%" />  
@@ -67,3 +70,11 @@ Deux variables sont disponibles : `#value#` et `#total#` :
 - les flèches bleues permettent de monter ou descendre le widget par rapport aux autre widgets sur la même page. Elles permettent aussi de faire entrer ou sortir un widget dans un groupe  
 - le moins rouge permet d'enlever le widget de la page (ça ne supprime pas le widget dans Jeedom)
 - la flèche verte (vers la droite) permet de déplacer le widget sur une autre page
+
+## Fond d'écran
+
+ ![](/img/plugin/assistantBackground.png)
+
+ Dans cette section, vous pouvez configurer l'arrière plan général de l'application. Plus d'options sont disponibles dans [l'application](../../app/preferences/interface/pref-background).
+
+ 

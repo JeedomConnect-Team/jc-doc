@@ -8,7 +8,7 @@ sidebar_position: 1
 <img src="../../../../img/app/connection1.png"  width="400" />
 
 ### Bouton QR code
-Le bouton <img src="https://fonts.gstatic.com/s/i/materialicons/qr_code/v12/24px.svg" width="20" /> vous permet de télécharger sur votre appareil le QR Code de connexion à l'équipement en cours.
+Le bouton <img src="https://fonts.gstatic.com/s/i/materialicons/qr_code/v12/24px.svg" width="20" zoom="false" /> vous permet de télécharger sur votre appareil le QR Code de connexion à l'équipement en cours.
 
 ### Jeedom
 Nom du serveur Jeedom auquel l'application est connecté (défini dans Jeedom dans `Configuration` / `Général` / `Nom de votre Jeedom`).
