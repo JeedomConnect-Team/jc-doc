@@ -4,28 +4,6 @@ sidebar_position: 6
 
 # FAQ
 
-- [Comment télécharger l'application ?](#qOU)
-- [Quelle est la différence entre connexion HTTP, Websocket et Polling ?](#qConnexion)  
-- [L'application m'indique "Cet équipement utilise un ancien format de configuration. Veuillez effectuer la migration"](#qMigration)
-- [J'ai l'erreur suivante "Cette application requiert une version plus récente du plugin"](#qVersion)
-- [Je suis bêta-testeur, que dois-je faire ?](#qBeta)
-- [Je ne vois pas la batterie d'un de mes équipements sur JC, pourquoi ?](#qBattery)
-- [Comment « vider le cache » ou « supprimer les données » ?](#qVideCache)
-- [Quelles différences entre l'édition et la personnalisation d'un widget ?](#qEditCustom)
-- [Lors de ma première utilisation une pop-up me demande de "Sélectionner une application de l'écran d'accueil", que dois-je faire ?](#qSetLauncher)  
-- [Mon téléphone reste "bloqué" sur JeedomConnect. Comment retirer le mode launcher ?](#qLauncher)
-- [Comment configurer le widget Caméra ?](#qCamera)
-- [J'ai un message "A lire" qui n'arrête pas de s'afficher. Comment le masquer définitivement ?](#qWarning)
-- [Comment paramétrer les zones de Geofencing ?](./integration/geoloc#configGeofence)
-- [Comment voir les positions de mes appareils JC ?](./integration/geoloc#localisation)
-- [Les cartes de geofence et de localisation sont centrées sur Paris par défaut, comment changer ?](#qCarteParis)
-- [Comment formater une date/heure dans les widgets ?](#qDatetime)  
-- [J'ai un message "Address already in use" au démarrage du démon, comment faire ?](#qAddressUsed)  
-- [Je trouve l'application géniale ! Comment vous aider ?](#qDon)
-- [Je ne trouve pas de réponse à mon problème dans la doc. Que faire ?](#qForum)
-
----
-
 ## Comment télécharger l'application ? <a name="qOU"></a>
 
 L'application est disponible sur vos Store :
