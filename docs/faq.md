@@ -1,9 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # FAQ
-
 
 - [Comment télécharger l'application ?](#qOU)
 - [Quelle est la différence entre connexion HTTP, Websocket et Polling ?](#qConnexion)  
@@ -148,9 +147,9 @@ Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre
   - ces modifications impactent l’ENSEMBLE des équipements.
   - ces modifications sont directement visibles depuis la page principale côté plugin
 
->  
+>
 > exemple : je modifie la commande « ON » de ma lumière, tous mes équipements (mes téléphones) sont mis à jour avec cette nouvelle commande  
->  
+>
 
 - Personnaliser un widget :
   - permet de personnaliser la configuration d’un widget sur UN équipement
@@ -158,9 +157,9 @@ Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre
   - ces changements n’impactent pas tous les équipements, mais seulement celui sur lequel on fait le changement
   - ces changements surchargent et sont prioritaires par rapport à la définition standard du widget
 
->  
+>
 > exemple : par défaut mon widget fenetre est configuré pour avoir une fenêtre fermée bleu. ma femme prefère le jaune (ca lui rappelle le soleil des vacances), sur son équipement je vais donc personnaliser le widget fenêtre pour modifier l’icone de fenetre fermée avec la couleur jaune. Cette fenêtre jaune sera uniquement appliquée sur son équipement à elle.  
->  
+>
 
 <br/>
 
@@ -285,7 +284,11 @@ Vous pouvez retourner sur la page configuration de JC pour redémarrer le démon
 
 En partageant vos idées d'améliorations, vos suggestions et vos retours sur des bugs !
 Puisque ça a été demandé plusieurs fois, si vous souhaitez soutenir "financièrement" parlant, nous vous proposons de payer un café (ou deux, ou mille ! :) ) :  
-<a href="https://www.paypal.me/JeedomConnect" target="_blank"><img src="../img/bmc.png" width='20%'/></a>
+<a href="https://ko-fi.com/tomitomas" target="_blank"><img src="../img/support.png" width='20%'/></a>
+
+Ou bien
+
+<a href="https://www.paypal.me/JeedomConnect" target="_blank"><img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" width='20%'/></a>
 
 <br/>
 

@@ -139,7 +139,7 @@ const config = {
               },
               {
                 label: 'Nous soutenir',
-                href: 'https://www.paypal.com/paypalme/JeedomConnect',
+                to: '/docs/donate',
               },
             ],
           },
