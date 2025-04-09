@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+title: Stable
 ---
 
 # Chaque mise a jour est a faire sur l app ET le plugin en meme temps (sauf mentions contraire)  
