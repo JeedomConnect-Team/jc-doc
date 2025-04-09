@@ -1,8 +1,9 @@
 ---
+displayed_sidebar: changelogSidebar
 title: Beta
 ---
 
-# Changelog JeedomConnect
+# Changelog JeedomConnect BETA
 
 :::note
 Chaque mise a jour est a faire sur l app ET le plugin en meme temps (sauf mentions contraire)  
