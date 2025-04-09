@@ -20,7 +20,7 @@ function Hello() {
                         <a href="https://apps.apple.com/us/app/jeeconnect/id1566533727">
                             <img width="163" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1492214400&h=3ef4307fa479838e52fe9bd8bd17913b" alt="Télécharger sur App Store" />
                         </a>
-                        <a href='https://github.com/jared-94/JeedomConnect/releases'>
+                        <a href='https://github.com/jeedomconnect-team/JeedomConnect/releases'>
                             <img width="200" alt='Télécharger sur Github' src='img/getGithub.png' />
                         </a>
                     </div>

@@ -7,18 +7,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Jeedom Connect',
-  tagline: 'Solution mobile pour lamaison connectée',
+  tagline: 'Solution mobile pour la maison connectée',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://jared-94.github.io',
+  url: 'https://jeedomconnect-team.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/jc-doc/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'jared-94', // Usually your GitHub org/user name.
+  organizationName: 'jeedomconnect-team', // Usually your GitHub org/user name.
   projectName: 'jc-doc', // Usually your repo name.
   deploymentBranch: 'build',
   trailingSlash: false,
@@ -48,7 +48,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/jared-94/jc-doc/edit/main/",
+            "https://github.com/jeedomconnect-team/jc-doc/edit/main/",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -91,7 +91,7 @@ const config = {
           { to: '/download', label: 'Téléchargement', position: 'left' },
           { to: '/showcase', label: 'Galerie', position: 'left' },
           {
-            href: 'https://github.com/jared-94/JeedomConnect',
+            href: 'https://github.com/jeedomconnect-team/JeedomConnect',
             label: 'GitHub',
             position: 'right',
           },
@@ -131,11 +131,11 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/jared-94/JeedomConnect',
+                href: 'https://github.com/jeedomconnect-team/JeedomConnect',
               },
               {
                 label: 'APK Versions',
-                href: 'https://github.com/jared-94/JeedomConnect/releases',
+                href: 'https://github.com/jeedomconnect-team/JeedomConnect/releases',
               },
               {
                 label: 'Nous soutenir',
