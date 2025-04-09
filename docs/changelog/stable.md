@@ -411,7 +411,7 @@ Les possibilités de personalisation deviennent immense ! Vous pouvez dorénavan
 <summary>Bugs fixes</summary>
   
 - Arrière-plan automatique pour les widgets lumières.
-- Icône lumière quand intensité < 5 %.
+- Icône lumière quand intensité &lt; 5 %.
 - Sélecteur de fichiers sur iOS.
 - Notifications iOS quand l'application est fermée.
 - Crash au démarrage si un objet vide est présent dans la configuration Jeedom.

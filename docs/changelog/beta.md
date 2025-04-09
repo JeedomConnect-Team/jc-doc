@@ -552,7 +552,7 @@ Passage en stable
 - Bug fixes :
   - Fix icônes kikoo sur iOS
   - Arrière plan auto pour les widgets lumières
-  - Icône lumière quand intensité < 5%
+  - Icône lumière quand intensité &lt; 5%
   - Sélecteur de fichiers sur iOS
   - Notifications iOS quand l'appli est fermée
   - Crash au démarrage si objet vide dans la conf Jeedom
@@ -568,7 +568,7 @@ Passage en stable
 - Option d'inversion pour les commandes numériques dans le groupes de widgets
 - Opacité pour les arrières plan des widgets de lumières
 - Bug avec les favoris d'arrières plan
-- Icône par défaut sur les widgets lumières quand intensité < 10%
+- Icône par défaut sur les widgets lumières quand intensité &lt; 10%
 
 ## Version 1.1.8 (07/04/2022)
 
