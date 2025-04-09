@@ -596,7 +596,7 @@ fix mineur liens / documentation
 
 </p>
 </details>
-<br>
+<br/>
 
 ## Version 0.23.0 (07/10/2021)
 
