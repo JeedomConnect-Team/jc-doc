@@ -893,14 +893,10 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 
 ## Version 0.15.2 Beta (09/02/2021)
 
-## Version 0.15.2 Beta (09/02/2021)
-
 - Ajout des icônes Jeedom
 - Ajout des icônes Jeedom
 - Correction du bug des widgets en double
 - Correction du bug des widgets en double
-
-## Version 0.15.1 Beta (06/02/2021)
 
 ## Version 0.15.1 Beta (06/02/2021)
 
@@ -911,9 +907,6 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 
 ## Version 0.15.0 Beta (04/02/2021)
 
-## Version 0.15.0 Beta (04/02/2021)
-
-***Attention, l'application n'est plus en debug mais en release, veuillez désinstaller la version précédente***
 ***Attention, l'application n'est plus en debug mais en release, veuillez désinstaller la version précédente***
 
 - Pièces : possibilité de lié un objet Jeedom aux pièces
@@ -931,15 +924,6 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 
 ## Version 0.14.3 (27/01/2021)
 
-## Version 0.14.3 (27/01/2021)
-
-=======
-=======
-
-## Version 0.14.3 (28/01/2021)
-
-## Version 0.14.3 (28/01/2021)
-
 - Correction bug status lumières
 - Ajout icônes groupeus lumières
 - Option pour inverser un binaire
@@ -948,8 +932,6 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 - Bugs corrigés sur l'assistant de config action
 - Bug échelle historiquesistant de config
 - Bug échelle historique
-
-## Version 0.14.0 Beta (19/01/2021)
 
 ## Version 0.14.0 Beta (19/01/2021)
 
@@ -969,8 +951,6 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 
 ## Version 0.13.3 (18/01/2021)
 
-## Version 0.13.3 (18/01/2021)
-
 - Ajout de la connexion en http
 - Ajout de la connexion en http
 - Possibilité de donner 2 adresses (locale et externe). Le switch se fait automatiquement pas l'appli
@@ -986,8 +966,6 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 
 ## Version 0.12.0
 
-## Version 0.12.0
-
 - Historique : correction du bug des boutons de zoom
 - Historique : correction du bug des boutons de zoom
 - Historique : accès à l'historique de toutes les commandes info via la page détails
@@ -996,8 +974,6 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 - Scénarios : option pour l'accès à la page des scénarios. correction d'un bug sur cette page
 - Page de login : meilleur rendu en mode paysagescénarios. correction d'un bug sur cette page
 - Page de login : meilleur rendu en mode paysage
-
-## Version 0.11.0
 
 ## Version 0.11.0
 
@@ -1014,23 +990,13 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 
 ## Version 0.10.0
 
-## Version 0.10.0
-
-- Ajout de la géolocalisation
 - Ajout de la géolocalisation
 
 ## Version 0.5.0
 
-## Version 0.5.0
-
 - Ajout d'un widget Mode
-- Ajout d'un widget Mode
-- Ajout d'un widget Action Générique (other)
 - Ajout d'un widget Action Générique (other)
 
 ## Version 0.1.0
 
-## Version 0.1.0
-
-Version initiale
-Version initiale
+- Version initiale

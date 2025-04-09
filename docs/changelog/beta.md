@@ -1459,4 +1459,4 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 
 ## Version 0.1.0
 
-Version initiale
+- Version initiale
