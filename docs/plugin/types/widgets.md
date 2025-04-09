@@ -1,20 +1,19 @@
 ---
-title: Widgets et composants
+title: Widgets
 sidebar_position: 2
 ---
 
 ## Gestion des widgets <a name="gestionWidget"></a>
-
-Il est nécessaire de commencer par créer un widget pour ensuite pouvoir le rattacher à un (ou plusieurs) équipement(s).  
-Sur la page principale vous avez accès à l'ensemble des widgets que vous avez créé. Il est possible de les filtrer par type et de les classer (par Pièces, Nom, ou Type).  
 
 Pour créer un widget, cliquez sur "Ajouter un widget", sélectionnez ensuite le type de widget que vous souhaitez créer dans la liste déroulante de gauche puis renseignez les différents champs affichés à l'écran avant de finaliser la création en appuyant sur le bouton "Sauvegarder".  
 
 Quelques éléments sont standard et seront demandés pour l'ensemble des widgets :  
 
 - **Actif** : Le widget sera (ou pas) affiché dans l'application. Pratique si vous voulez par exemple gérer un groupe de lumières, mais ne pas afficher certaines d'entre elles.
+- **Visible sous condition** : Permet d'ajouter une condition pour afficher ou masquer cet élément (uniquement si 'actif' est coché).
 - **Pièce** : Sélection de la pièce associée (identique aux objets gérés dans Jeedom)
-- **Nom** : Nom du widget
+- **Nom** : Nom du widget, affiché sur le widget
+- **Nom d'affichage** : Nom affiché sur les pages de configuration. Si vide, alors le nom est utilisé.
 - **Sous-titre** Information complémentaire affichée dans l'application. Le mode personalisé permet de mettre une phrase quelconque, ou un texte dynamique
 - **Affichage forcé** : De façon standard, chaque widget (sauf exception) possède 3 types d'affichage : carte, vignette et détail. Les affichages carte et vignettes peuvent être choisis via l'icône en haut à droite dans l'application. L'affichage détail est une page entière affichée quand on click sur le widget. Vous pouvez ici forcer un widget à s'afficher d'une de ces 3 façons.  
    Attention pour le mode détail, le widget doit être seul sur sa page.
