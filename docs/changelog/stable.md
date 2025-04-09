@@ -1,8 +1,9 @@
 ---
 title: Stable
 ---
-
-# Chaque mise a jour est a faire sur l app ET le plugin en meme temps (sauf mentions contraire)  
+:::note
+Chaque mise a jour est a faire sur l app ET le plugin en meme temps (sauf mentions contraire)  
+:::
 
 ## Version 1.13.0 (02/03/25)  -  STABLE
 

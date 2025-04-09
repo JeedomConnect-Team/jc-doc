@@ -2,17 +2,19 @@
 title: Beta
 ---
 
-# Changelog JeedomConnect - BETA  
+# Changelog JeedomConnect
 
-## Chaque mise a jour est a faire sur l app ET le plugin en meme temps (sauf mentions contraires)  
+:::note
+Chaque mise a jour est a faire sur l app ET le plugin en meme temps (sauf mentions contraire)  
+:::
 
-## Version 1.13.1 (02/03/25)  -  BETA
+## Version 1.13.1 (02/03/25)
 
 PLUGIN UNIQUEMENT
 
 - ajout d'un lien dans l'app vers la Politique de Confidentialité de Jeedom Connect
 
-## Version 1.12.1 (02/03/25)  -  BETA
+## Version 1.12.1 (02/03/25)
 
 PLUGIN UNIQUEMENT
 
