@@ -111,6 +111,14 @@ const config = {
               {
                 label: 'Téléchargement',
                 to: '/download',
+              },
+              {
+                label: 'Licence',
+                to: '/license',
+              },
+              {
+                label: 'Politique de confidentialité',
+                to: '/privacy',
               }
             ],
           },
