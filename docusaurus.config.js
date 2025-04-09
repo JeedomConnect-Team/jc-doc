@@ -86,8 +86,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Doc',
+            label: 'Documentation',
           },
+          { to: '/doc/changelog', label: 'Changelog', position: 'left' },
           { to: '/download', label: 'Téléchargement', position: 'left' },
           { to: '/showcase', label: 'Galerie', position: 'left' },
           {
