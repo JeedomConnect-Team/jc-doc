@@ -4,20 +4,68 @@ sidebar_position: 1
 ---
 
 
-Le projet **Jeedom Connect** se compose de deux parties : 
-- un **plugin** pour Jeedom 
+Le projet **Jeedom Connect** se compose de deux parties :
+
+- un **plugin** pour Jeedom
 - une **application** pour Android / iOS.  
 
 Vous trouverez ici une documentation pour la mise en place et l'utilisation de ces deux éléments.
+
 ## Premiers pas {#getStarted}
 
 Pour utiliser Jeedom Connect vous aurez besoin :
+
 - Une installation fonctionnelle de Jeedom
 - Le plugin Jeedom Connect disponible sur le Market Jeedom <a href="https://market.jeedom.com/index.php?v=d&p=market_display&id=4077" target="_blank"><img src='../img/logo-MARKET.svg' width='10%' zoom="false" /></a>
 - L'application Jeedom Connect sur le Play Store <a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src='../img/playstore.png' width='10%' zoom="false"/></a>  ou bien l'application JeeConnect sur l'App Store <a href="https://apps.apple.com/us/app/jeeconnect/id1566533727" target="_blank"><img src="../img/applestore.png" width='10%' zoom="false"/></a>  
 
+Les versions entre le plugin et l'application doivent strictement être identiques, dans le cas inverse vous obtiendrez un message d'erreur vous demandant de réaligner l'ensemble avec la mise à jour du plugin et de l'application.
+
+De façon très simple donc :
+
+- version du plugin en beta <===> version de l’application en beta
+- version du plugin en stable <===> version de l’application en stable
+
+<table className="core-table">
+  <thead>
+    <tr>
+      <th>Plugin</th>
+      <th>Application</th>
+      <th>Résultat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stable</td>
+      <td>Stable</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Beta</td>
+      <td>Beta</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>---</td>
+      <td>---</td>
+      <td>---</td>
+    </tr>
+    <tr>
+      <td>Beta</td>
+      <td>Stable</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Stable</td>
+      <td>Beta</td>
+      <td>❌</td>
+    </tr>
+    </tbody>
+</table>
+
 :::note
-Le système Android dispose de deux versions différentes : 
+Le système Android dispose de deux versions différentes :
+
 - La version du Play Store
 - La version APK qui dispose de [Fonctionnalités](#features) supplémentaires
 
@@ -25,7 +73,6 @@ Le système Android dispose de deux versions différentes :
 :::
 
 ### Pré-requis
-
 
 <table className="core-table">
   <thead>
@@ -97,7 +144,7 @@ Le système Android dispose de deux versions différentes :
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-    </tr>    
+    </tr>
   </tbody>
   <thead>
     <tr>
@@ -121,7 +168,7 @@ Le système Android dispose de deux versions différentes :
       <td>✅</td>
     </tr>
     <tr>
-      <td><a href="/docs/integration/service">Service d'arrière-plan</a></td>      
+      <td><a href="/docs/integration/service">Service d'arrière-plan</a></td>
       <td>✅</td>
       <td>✅</td>
       <td></td>
@@ -134,24 +181,24 @@ Le système Android dispose de deux versions différentes :
     </tr>
     <tr>
       <td>Réception/Envoie de SMS</td>
-      <td></td>      
+      <td></td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/docs/integration/speechRecognition">Reconnaissance vocale</a></td>      
+      <td><a href="/docs/integration/speechRecognition">Reconnaissance vocale</a></td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
     </tr>
     <tr>
-      <td>Reconnaissance faciale</td>      
+      <td>Reconnaissance faciale</td>
       <td>✅</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
-      <td>Stream vidéo de la caméra</td>      
+      <td>Stream vidéo de la caméra</td>
       <td>✅</td>
       <td>✅</td>
       <td></td>
@@ -175,13 +222,13 @@ Le système Android dispose de deux versions différentes :
       <td>✅</td>
     </tr>
     <tr>
-      <td>Raccourcis de paramètre rapides</td>      
+      <td>Raccourcis de paramètre rapides</td>
       <td>✅</td>
       <td>✅</td>
       <td></td>
     </tr>
     <tr>
-      <td>Contrôles d'appareils par le système</td>      
+      <td>Contrôles d'appareils par le système</td>
       <td>✅</td>
       <td>✅</td>
       <td></td>
