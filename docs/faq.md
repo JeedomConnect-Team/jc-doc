@@ -284,11 +284,11 @@ Vous pouvez retourner sur la page configuration de JC pour redémarrer le démon
 
 En partageant vos idées d'améliorations, vos suggestions et vos retours sur des bugs !
 Puisque ça a été demandé plusieurs fois, si vous souhaitez soutenir "financièrement" parlant, nous vous proposons de payer un café (ou deux, ou mille ! :) ) :  
-<a href="https://ko-fi.com/tomitomas" target="_blank"><img src="../img/support.png" width='20%'/></a>
+<a href="https://ko-fi.com/tomitomas" target="_blank"><img src="../img/support.png" width='20%' zoom="false"/></a>
 
 Ou bien
 
-<a href="https://www.paypal.me/JeedomConnect" target="_blank"><img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" width='20%'/></a>
+<a href="https://www.paypal.me/JeedomConnect" target="_blank"><img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" width='20%' zoom="false"/></a>
 
 <br/>
 
