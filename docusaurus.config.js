@@ -88,7 +88,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          { to: '/doc/changelog', label: 'Changelog', position: 'left' },
+          { to: '/docs/changelog', label: 'Changelog', position: 'left' },
           { to: '/download', label: 'Téléchargement', position: 'left' },
           { to: '/showcase', label: 'Galerie', position: 'left' },
           {
