@@ -395,38 +395,40 @@ Les possibilités de personalisation deviennent immense ! Vous pouvez dorénavan
   - Ajout activation de l'option `polling` sur chaque équipement du plugin
   - Ajout activation de l'option `websocket` dans l'application
   - La mise à jour du plugin JC n'est plus proposée par l'application, si la connexion active est en websocket
-  - Clic possible n'importe où sur la tuile (et plus uniquement l'icone) si un widget en mode vignette bloque l'accès à la vue détail
-  - Option pour retourner horizontalement la vidéo streamé (certaines caméras frontales ont un effet miroir)
+  - Clic possible n'importe où sur la tuile (et plus uniquement l'icône) si un widget en mode vignette bloque l'accès à la vue détail
+  - Option pour retourner horizontalement la vidéo streamée (certaines caméras frontales ont un effet miroir)
   - Option pour bloquer l'accès détails d'un résumé de widget
   - Sur la configuration d'un widget depuis le plugin, ajout des noms des équipements sur lesquels le widget est paramétré
   - Sauvegarde quotidienne des fichiers de configuration
   - Ajout des options `averageValue`, `minValue`, `maxValue` (récupérées sur les commandes historisées uniquement). (utilisation: `average(#cmd#)` ou `min(#cmd#)` ou `max(#cmd#)`)
-  - Check et affichage d'un message d'info si jamais le démon est en marche (et automatique) alors qu'aucun équipement n'utilise le websocket
+  - Vérification et affichage d'un message d'information si le démon est en marche (et automatique) alors qu'aucun équipement n'utilise le websocket
   - Ajout de la version de l'os/api sur chaque équipement dans le résumé d'infos
   - Flaguer les widgets sans nom (visible avec le bouton "erreur")
   - Gestion de l'IPv6 pour la connexion Websocket  
   
 <details>
-  <summary>Bugs fixes</summary>  
-  *Arrière plan auto pour les widgets lumières
-  * Icône lumière quand intensité < 5%
-  *Sélecteur de fichiers sur iOS
-  * Notifications iOS quand l'appli est fermée
-  *Crash au démarrage si objet vide dans la conf Jeedom
-  * Crash au démarrage sur certains appareils Android
-  *Mode immersif sur certains appareils Android
-  * Min/max de l'axe vertical du widget `Historique`
-  *Nombre de plugin à mettre à jour corrigé
-  * Encodage des caractères dans les notifications
-  *Bug de la lecture des vidéos depuis l'extérieur
-  * Les personnalisations étaient parfois perdues après un changement/création de widget
-  *Message vide si changement d'équipement non possible
-  * Edition d'un scénario sans nom
-  *Masquer le bouton mise à jour, lorsque seule la version de jeedom est à mettre à jour
-  * Crash sur certaines configurations sans menus bas
-  *Affichage de la barre du haut sur iOS
-  * Authentification au démarrage par FaceId
-  * Titre dans la modale du widget actions génériques
+
+<summary>Bugs fixes</summary>
+  
+- Arrière-plan automatique pour les widgets lumières.
+- Icône lumière quand intensité < 5 %.
+- Sélecteur de fichiers sur iOS.
+- Notifications iOS quand l'application est fermée.
+- Crash au démarrage si un objet vide est présent dans la configuration Jeedom.
+- Crash au démarrage sur certains appareils Android.
+- Mode immersif sur certains appareils Android.
+- Min/max de l'axe vertical du widget `Historique`.
+- Nombre de plugins à mettre à jour corrigé.
+- Encodage des caractères dans les notifications.
+- Bug de la lecture des vidéos depuis l'extérieur.
+- Les personnalisations étaient parfois perdues après un changement/création de widget.
+- Message vide si changement d'équipement non possible.
+- Édition d'un scénario sans nom.
+- Masquer le bouton de mise à jour lorsque seule la version de Jeedom est à mettre à jour.
+- Crash sur certaines configurations sans menus bas.
+- Affichage de la barre du haut sur iOS.
+- Authentification au démarrage par Face ID.
+
 </details>
 
 ## Version 1.2.0 (12/04/2022)
@@ -886,112 +888,149 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 ## Version 0.15.3 Beta (10/02/2021)
 
 - Fix bug taille icônes Jeedom
-
+- Fix connection http
 - Fix connection http
 
 ## Version 0.15.2 Beta (09/02/2021)
 
-- Ajout des icônes Jeedom
+## Version 0.15.2 Beta (09/02/2021)
 
+- Ajout des icônes Jeedom
+- Ajout des icônes Jeedom
+- Correction du bug des widgets en double
 - Correction du bug des widgets en double
 
 ## Version 0.15.1 Beta (06/02/2021)
 
-- Widget groupe de prises
+## Version 0.15.1 Beta (06/02/2021)
 
+- Widget groupe de prises
+- Widget groupe de prises
+- Lumières : température de blancs
 - Lumières : température de blancs
 
 ## Version 0.15.0 Beta (04/02/2021)
 
+## Version 0.15.0 Beta (04/02/2021)
+
+***Attention, l'application n'est plus en debug mais en release, veuillez désinstaller la version précédente***
 ***Attention, l'application n'est plus en debug mais en release, veuillez désinstaller la version précédente***
 
 - Pièces : possibilité de lié un objet Jeedom aux pièces
 - Pièces : ajout du widget Pièce qui donne le résumé de l'objet
 - Pièces : ajout dans l'app d'un bouton Pièces (menu gauche) qui donne accès à tous les résumés
-- Authentification automatique à l'interface Web
+- Authentification automatique à l'interface Webmenu gauche) qui donne accès à tous les résumés
 - Menu du bas : possibilité d'exécuter des actions lors d'un swipe vers le haut ou le bas
-- Historique : Axe horizontal en bas (même avec valeurs négatives)
-- Historique : Option pour ne pas afficher dans la vue détails
-- Historique : Option pour choisir le zoom par défaut
-- Thermostat : slider désactivé lorsque vérouillé
-- Optimisation de la connexion http
+- Historique : Axe horizontal en bas (même avec valeurs négatives) vers le haut ou le bas
+- Historique : Option pour ne pas afficher dans la vue détailsves)
+- Historique : Option pour choisir le zoom par défaute détails
+- Thermostat : slider désactivé lorsque vérouilléfaut
+- Optimisation de la connexion httpsque vérouillé
+- Résolution de divers bugs et améliorations mineures
 - Résolution de divers bugs et améliorations mineures
 
 ## Version 0.14.3 (27/01/2021)
 
+## Version 0.14.3 (27/01/2021)
+
+=======
 =======
 
 ## Version 0.14.3 (28/01/2021)
 
+## Version 0.14.3 (28/01/2021)
+
 - Correction bug status lumières
-- Ajout icônes groupe
+- Ajout icônes groupeus lumières
 - Option pour inverser un binaire
 - Assistant widget: remplissage auto de certains champs info
-- Appli : option pour retour haptique sur action
-- Bugs corrigés sur l'assistant de config
+- Appli : option pour retour haptique sur action champs info
+- Bugs corrigés sur l'assistant de config action
+- Bug échelle historiquesistant de config
 - Bug échelle historique
 
 ## Version 0.14.0 Beta (19/01/2021)
 
+## Version 0.14.0 Beta (19/01/2021)
+
 - Widget Portail : status en option
-
+- Widget Portail : status en option
 - Widget Lumière On/Off : le status peut être numérique
+- Fix : titre des fenêtres dans l'assistantre numérique
 - Fix : titre des fenêtres dans l'assistant
-
 - Nouveaux widgets : Groupe PIR - Groupe génériques binaires - Générique slider
-
+- Nouveaux widgets : Groupe PIR - Groupe génériques binaires - Générique slider
 - Ajout des icônes Font Awesome
-
+- Ajout des icônes Font Awesome
 - Appli fix : images des notifications
 - Appli : Option pour définir les arrondis des éléments
+- Un groupe vide fera passer à la ligne en mode vignettes
 - Un groupe vide fera passer à la ligne en mode vignettes
 
 ## Version 0.13.3 (18/01/2021)
 
+## Version 0.13.3 (18/01/2021)
+
 - Ajout de la connexion en http
-
+- Ajout de la connexion en http
 - Possibilité de donner 2 adresses (locale et externe). Le switch se fait automatiquement pas l'appli
-
+- Possibilité de donner 2 adresses (locale et externe). Le switch se fait automatiquement pas l'appli
 - Nouveau widget Prise
-
+- Nouveau widget Prise
 - Fix : image perso sur le générique switch
-
+- Fix : image perso sur le générique switch
 - Fix : Arrondi sur valeur intensité lumière
-- Volets : status et action stop en option
+- Volets : status et action stop en optionre
+- Maj de la docus et action stop en option
 - Maj de la doc
 
 ## Version 0.12.0
 
-- Historique : correction du bug des boutons de zoom
+## Version 0.12.0
 
+- Historique : correction du bug des boutons de zoom
+- Historique : correction du bug des boutons de zoom
 - Historique : accès à l'historique de toutes les commandes info via la page détails
-- Notification : ajout de la compatibilité avec les machines ARM 64 bits
-- Assistant : ajout des pièces dans la liste des widgets
+- Notification : ajout de la compatibilité avec les machines ARM 64 bitspage détails
+- Assistant : ajout des pièces dans la liste des widgetsines ARM 64 bits
 - Scénarios : option pour l'accès à la page des scénarios. correction d'un bug sur cette page
+- Page de login : meilleur rendu en mode paysagescénarios. correction d'un bug sur cette page
 - Page de login : meilleur rendu en mode paysage
 
 ## Version 0.11.0
 
-- Notifications : possibilité de mettre à jour le contenu d'une notification existante
+## Version 0.11.0
 
+- Notifications : possibilité de mettre à jour le contenu d'une notification existante
+- Notifications : possibilité de mettre à jour le contenu d'une notification existante
 - Possibilité d'ajouter des conditions sur status pour le choix de l'image sur les widgets (gérérique numérique - Température - Humidité - Puissance)
-- Scénarios : Ajout d'une page dédiée récupérant tous les scénarios. Un appui sur l'icône lance le scénario (si actif). Icône grisée si désactivé
-- Les lumières d'un groupe sont affichées dans la vue détails
-- Changement de l'icône de notification
+- Scénarios : Ajout d'une page dédiée récupérant tous les scénarios. Un appui sur l'icône lance le scénario (si actif). Icône grisée si désactivénce)
+- Les lumières d'un groupe sont affichées dans la vue détailsnarios. Un appui sur l'icône lance le scénario (si actif). Icône grisée si désactivé
+- Changement de l'icône de notificationes dans la vue détails
 - Amélioration de la géolocalisation. La localisation est récupérée même si l'appareil a été éteind ou en mode avion.
-- Widget volets : Possibilité de mettre un binaire pour l'état. Stop et slider facultatifs
+- Widget volets : Possibilité de mettre un binaire pour l'état. Stop et slider facultatifsté éteind ou en mode avion.
+- Corrections de bugssibilité de mettre un binaire pour l'état. Stop et slider facultatifs
 - Corrections de bugs
 
 ## Version 0.10.0
 
+## Version 0.10.0
+
+- Ajout de la géolocalisation
 - Ajout de la géolocalisation
 
 ## Version 0.5.0
 
-- Ajout d'un widget Mode
+## Version 0.5.0
 
+- Ajout d'un widget Mode
+- Ajout d'un widget Mode
+- Ajout d'un widget Action Générique (other)
 - Ajout d'un widget Action Générique (other)
 
 ## Version 0.1.0
 
+## Version 0.1.0
+
+Version initiale
 Version initiale
