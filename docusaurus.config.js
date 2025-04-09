@@ -88,12 +88,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'changelogSidebar',
-            position: 'left',
-            label: 'Changelog',
-          },
+          { to: '/changelog', label: 'Changelog', position: 'left' },
           { to: '/download', label: 'Téléchargement', position: 'left' },
           { to: '/showcase', label: 'Galerie', position: 'left' },
           {
