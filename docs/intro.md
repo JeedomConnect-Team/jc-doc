@@ -240,4 +240,4 @@ Le système Android dispose de deux versions différentes :
 
 Le plugin, ainsi que l'application sont complètement **gratuits** et le resteront.  
 L'équipe Jeedom Connect ne dispose d'aucun accord commercial ou financier avec qui que ce soit.  
-Si l'application vous plaît et que vous souhaitez nous soutenir, c'est <a href="/docs/donate">par ici</a>
+Si l'application vous plaît et que vous souhaitez nous soutenir, c'est <a href="/docs/donate">par ici</a> !  
