@@ -33,9 +33,9 @@ const config = {
     locales: ['fr'],
   },
 
-  // plugins: [
-  //   'plugin-image-zoom'
-  // ],
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom'),
+  ],
 
   presets: [
     [
