@@ -6,38 +6,38 @@ title: Beta
 # Changelog JeedomConnect BETA
 
 :::note
-Chaque mise a jour est a faire sur l app ET le plugin en meme temps (sauf mentions contraire)  
+Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
 ## Version 1.13.1 (02/03/25)
 
 PLUGIN UNIQUEMENT
 
-- ajout d'un lien dans l'app vers la Politique de Confidentialité de Jeedom Connect
+- Ajout d'un lien dans l'app vers la Politique de Confidentialité de Jeedom Connect.
 
 ## Version 1.12.1 (02/03/25)
 
 PLUGIN UNIQUEMENT
 
-- fix sur message d'erreur incorrect [[ici]](https://community.jeedom.com/t/vnotif-2-sendnotif-x64-not-found/137257/4)
-- contrôle sur l'état de l'utilisateur (actif ou non) alors qu'une connexion est déjà établie [[ici]](https://community.jeedom.com/t/acces-non-autorises/138599/3)
+- Correction d'un message d'erreur incorrect [[ici]](https://community.jeedom.com/t/vnotif-2-sendnotif-x64-not-found/137257/4).
+- Contrôle sur l'état de l'utilisateur (actif ou non) alors qu'une connexion est déjà établie [[ici]](https://community.jeedom.com/t/acces-non-autorises/138599/3).
 
 ## Version 1.11.2 (26/01/25)
 
 PLUGIN UNIQUEMENT
 
-- Fix Websocket
-- Changement niveau de log Erreur -> Warning, pour les notifications potentiellement non émise
-- Correction lien vers documentation
+- Correction du WebSocket.
+- Changement du niveau de log Erreur -> Warning, pour les notifications potentiellement non émises.
+- Correction du lien vers la documentation.
 
 ## Version 1.11.1 (21/01/25)
 
 PLUGIN UNIQUEMENT
 
-- MaJ du démon python provoquant une potentielle fuite de mémoire, initialement proposé jeedom et corrigé par @Mips [ici](https://community.jeedom.com/t/consommation-memoire-des-demons-python-sous-deb11-bases-sur-le-plugin-template/135569)
-- Ajout de la gestion des dépendances (nécessaire en 4.5) → uniquement nécessaire pour ceux qui ont besoin d’une connexion en websocket
-- FIXs pour php8
-- MaJ des liens vers changelog et documentation
+- Mise à jour du démon Python provoquant une potentielle fuite de mémoire, initialement proposée par Jeedom et corrigée par @Mips [ici](https://community.jeedom.com/t/consommation-memoire-des-demons-python-sous-deb11-bases-sur-le-plugin-template/135569).
+- Ajout de la gestion des dépendances (nécessaire en 4.5) → uniquement nécessaire pour ceux qui ont besoin d’une connexion en WebSocket.
+- Corrections pour PHP8.
+- Mise à jour des liens vers le changelog et la documentation.
 
 ## Version 1.10.1 (05/09/24)
 

@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Reconnaissance vocale 
+# Reconnaissance vocale
 
 L'application utilise le moteur principal configuré sur votre appareil pour la reconnaissance vocale. Si aucun moteur n'est installé sur votre appareil Android, vous pouvez [installer celui de Google](https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox&hl=en).
 Il existe deux méthodes pour activer la reconnaissance :
@@ -12,7 +12,7 @@ Il existe deux méthodes pour activer la reconnaissance :
 
 Pour activer la détection de mots clés, un assistant vous guide dans l'application.
 
-<img src='../../img/voice4.png' width='200px' /><img src='/img/voice2.png' width='200px' /><img src='../../img/voice3.png' width='200px' /><img src='../../img/voice1.png' width='200px' />
+<img src='../../../../img/voice4.png' width='200px' /><img src='/img/voice2.png' width='200px' /><img src='../../../../img/voice3.png' width='200px' /><img src='../../../../img/voice1.png' width='200px' />
 
 Il est nécessaire de créer un compte gratuit chez [Picovoice](https://picovoice.ai/). Un compte permet :
 
