@@ -4,13 +4,13 @@ title: Fond d'écran
 sidebar_position: 2
 ---
 
-Les paramètres de cette page font parti de la [configuration de l'appareil](../../../../../../plugin/equipment/deviceConfig).
+Les paramètres de cette page font parti de la [configuration de l'appareil](/docs/documentation/plugin/equipment/deviceConfig).
 
-<img src="../../../../../../../../img/app/background.png"  width="400" />
+<img src="/img/app/background.png"  width="400" />
 
 ## Fond d'écran
 
-Choix de l'arrière-plan par défaut de l'application via un [sélecteur d'arrière-plan](../../../../interface/backgroundPicker).
+Choix de l'arrière-plan par défaut de l'application via un [sélecteur d'arrière-plan](/docs/documentation/app/interface/backgroundPicker).
 
 ## Fond d'écran sous conditions
 

@@ -16,8 +16,8 @@ Vous trouverez ici une documentation pour la mise en place et l'utilisation de c
 Pour utiliser Jeedom Connect vous aurez besoin :
 
 - Une installation fonctionnelle de Jeedom
-- Le plugin Jeedom Connect disponible sur le Market Jeedom <a href="https://market.jeedom.com/index.php?v=d&p=market_display&id=4077" target="_blank"><img src='../../img/logo-MARKET.svg' width='10%' zoom="false" /></a>
-- L'application Jeedom Connect sur le Play Store <a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src='../../img/playstore.png' width='10%' zoom="false"/></a>  ou bien l'application JeeConnect sur l'App Store <a href="https://apps.apple.com/us/app/jeeconnect/id1566533727" target="_blank"><img src="../../img/applestore.png" width='10%' zoom="false"/></a>  
+- Le plugin Jeedom Connect disponible sur le Market Jeedom <a href="https://market.jeedom.com/index.php?v=d&p=market_display&id=4077" target="_blank"><img src='/img/logo-MARKET.svg' width='10%' zoom="false" /></a>
+- L'application Jeedom Connect sur le Play Store <a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src='/img/applestore.png" width='10%' zoom="false"/></a>  
 
 Les versions entre le plugin et l'application doivent strictement être identiques, dans le cas inverse vous obtiendrez un message d'erreur vous demandant de réaligner l'ensemble avec la mise à jour du plugin et de l'application.
 
@@ -87,11 +87,11 @@ Le système Android dispose de deux versions différentes :
       <td>&ge; 4.2</td>
     </tr>
     <tr>
-      <td><img alt="Android" src="../../img/android.svg" width="20" zoom="false" />Android</td>
+      <td><img alt="Android" src="/img/android.svg" width="20" zoom="false" />Android</td>
       <td>&ge; 6 (Services Google requis)</td>
     </tr>
     <tr>
-      <td><img alt="iOS" src="../../img/apple.svg" zoom="false" />iOS</td>
+      <td><img alt="iOS" src="/img/apple.svg" zoom="false" />iOS</td>
       <td>&ge; 13</td>
     </tr>
     </tbody>
@@ -103,9 +103,9 @@ Le système Android dispose de deux versions différentes :
   <thead>
     <tr>
       <th><strong>Interface</strong></th>
-      <th><img alt="Android" src="../../img/android.svg" zoom="false" />Android (Store)</th>
-      <th><img alt="Android" src="../../img/android.svg" zoom="false" />Android (APK)</th>
-      <th><img alt="iOS" src="../../img/apple.svg" zoom="false" />_iOS</th>
+      <th><img alt="Android" src="/img/android.svg" zoom="false" />Android (Store)</th>
+      <th><img alt="Android" src="/img/android.svg" zoom="false" />Android (APK)</th>
+      <th><img alt="iOS" src="/img/apple.svg" zoom="false" />_iOS</th>
       </tr>
   </thead>
   <tbody>
@@ -149,9 +149,9 @@ Le système Android dispose de deux versions différentes :
   <thead>
     <tr>
       <th><strong>Intégration</strong></th>
-      <th><img alt="Android" src="../../img/android.svg" zoom="false" />Android (Store)</th>
-      <th><img alt="Android" src="../../img/android.svg" zoom="false" />Android (APK)</th>
-      <th><img alt="iOS" src="../../img/apple.svg" zoom="false" />iOS</th>
+      <th><img alt="Android" src="/img/android.svg" zoom="false" />Android (Store)</th>
+      <th><img alt="Android" src="/img/android.svg" zoom="false" />Android (APK)</th>
+      <th><img alt="iOS" src="/img/apple.svg" zoom="false" />iOS</th>
       </tr>
   </thead>
   <tbody>

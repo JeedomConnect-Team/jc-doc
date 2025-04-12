@@ -1279,7 +1279,7 @@ Passage en stable
 
 ## Version 0.18.2 Beta ET Stable (18/03/2021)  
 
-Dorénavant l'application (apk) sera disponible au téléchargement directement et uniquement sur le Store, aussi bien pour la version stable que pour la version bêta (dans ce dernier cas, un enregistrement est nécessaire -- [lire la doc](faq.md#qBeta))  
+Dorénavant l'application (apk) sera disponible au téléchargement directement et uniquement sur le Store, aussi bien pour la version stable que pour la version bêta (dans ce dernier cas, un enregistrement est nécessaire -- [lire la doc](/docs/documentation/faq.md#qBeta))  
 
 - Changement du logo et du splash-screen
 - Possibilité de passer en mode Vignette/Cartes sur la page des Pièces
@@ -1305,7 +1305,7 @@ Côté plugin :
 :information_source: Pré-requis (facultatif mais préférable !) : <b>AVANT</b> de mettre à jour le plugin, ouvrez l'assistant sur chacun de vos équipements, allez sur l'onglet `Pièces` et assurez vous que chacune des pièces créée est bien attachée à un objet Jeedom !  
 Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 
-:warning: Une fois la mise à jour effectuée, une migration manuelle est nécessaire pour faire fonctionner cette nouvelle version. <b>Merci de lire la [documentation](faq.md#qMigration)</b> pour voir comment faire ! :warning:
+:warning: Une fois la mise à jour effectuée, une migration manuelle est nécessaire pour faire fonctionner cette nouvelle version. <b>Merci de lire la [documentation](/docs/documentation/faq.md#qMigration)</b> pour voir comment faire ! :warning:
 
 - Refonte complète de la gestion des widgets :
   - création des widgets depuis la page principale du plugin

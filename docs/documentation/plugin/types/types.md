@@ -11,10 +11,14 @@ Sur JeedomConnect, vous pourrez vous amuser à configurer deux types "d'élémen
 - les Composants : élément brut sans rien de plus, afin de vous permettre de l'habiller comme vous le souhaitez (grâce à d'autres composants!)
 
 Par exemple, voici une représenation d'un **widget** de type `Générique switch`  
-<img alt="ex_widget" src="../../../../img/ex_widget.jpg" width="20%;" />  
+<!-- <img alt="ex_widget" src="/img/ex_widget.jpg" width="20%;" />   -->
+![Exemple widget](/img/ex_widget.jpg)
+
+<img src="/img/ex_widget.jpg" className="image-20 image-centered" />
 
 alors que voici l'exemple d'un **composant**  
-<img alt="ex_composant" src="../../../../img/ex_composant.jpg" width="20%;" />  
+<!-- <img alt="ex_composant" src="/img/ex_composant.jpg" width="20%;" />   -->
+![Exemple composant](/img/ex_composant.jpg){.image-20}
 
 ## Par où commencer ?
 

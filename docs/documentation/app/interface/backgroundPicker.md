@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Favoris
 
-<img src="../../../../../../img/app/backgroundPicker2.png"  width="400" />
+<img src="/img/app/backgroundPicker2.png"  width="400" />
 
 Afin de partager facilement des arrière-plans à travers différents éléments de l'application, Jeedom Connect dispose d'un système de gestion de favoris.  
 Le bouton <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/favorite/default/48px.svg" width="20" zoom="false" /> permet d'accéder aux favoris alors que <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/heart_plus/default/48px.svg" width="20" zoom="false" /> ajoute l'arrière-plan actuel à la liste.
@@ -17,7 +17,7 @@ L'arrière-plan sera calculé automatiquement en fonction du contexte.
 
 ## Image
 
-<img src="../../../../../../img/app/backgroundPicker1.png"  width="400" />
+<img src="/img/app/backgroundPicker1.png"  width="400" />
 
 ### Image
 
@@ -38,9 +38,9 @@ Détermine la transparence de l'arrière-plan.
 
 ## Couleurs
 
-<img src="../../../../../../img/app/backgroundPicker3.png"  width="33%" />
-<img src="../../../../../../img/app/backgroundPicker4.png"  width="33%" />
-<img src="../../../../../../img/app/backgroundPicker5.png"  width="33%" />
+<img src="/img/app/backgroundPicker3.png"  width="33%" />
+<img src="/img/app/backgroundPicker4.png"  width="33%" />
+<img src="/img/app/backgroundPicker5.png"  width="33%" />
 
 ## Gradient
 

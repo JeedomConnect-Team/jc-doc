@@ -3,9 +3,9 @@ title: Options des menus
 sidebar_position: 4
 ---
 
-<img src="../../../../../../../../img/app/menuOptions.png"  width="400" />
+<img src="/img/app/menuOptions.png"  width="400" />
 
-Ces paramètres concernent les menus bas / haut définis dans la [configuration de l'appareil](../../../../../../plugin/equipment/deviceConfig).
+Ces paramètres concernent les menus bas / haut définis dans la [configuration de l'appareil](/docs/documentation/plugin/equipment/deviceConfig).
 
 ## Menus du haut
 

@@ -20,7 +20,7 @@ function HomepageHeader() {
               'button button--outline button--secondary button--lg',
               styles.doc,
             )}
-            to="/docs/intro">
+            to="/docs/documentation/intro">
             Documentation
           </Link>
         </div>

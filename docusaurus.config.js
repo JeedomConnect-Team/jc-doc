@@ -45,13 +45,14 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [require('remark-attr')],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/jeedomconnect-team/jc-doc/edit/main/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.css')
         },
       }),
     ],
@@ -111,7 +112,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro',
+                to: '/docs/documentation/intro',
               },
               {
                 label: 'Téléchargement',
@@ -153,7 +154,7 @@ const config = {
               },
               {
                 label: 'Nous soutenir',
-                to: '/docs/donate',
+                to: '/docs/documentation/donate',
               },
             ],
           },

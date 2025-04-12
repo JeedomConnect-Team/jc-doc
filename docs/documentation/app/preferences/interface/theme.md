@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Thème
 
-<img src="../../../../../../../../img/app/theme1.png"  width="400" />
+<img src="/img/app/theme1.png"  width="400" />
 
 ### Mode du thème
 
@@ -23,7 +23,7 @@ Le schéma `Custom` (dernier dans la liste) permet de personnaliser les couleurs
 
 ## Mixage des couleurs
 
-<img src="../../../../../../../../img/app/theme2.png"  width="400" />
+<img src="/img/app/theme2.png"  width="400" />
 
 ### Mode de mixage
 
@@ -36,7 +36,7 @@ Plus l'intensité est élevée, plus le contraste entre les différents élémen
 
 ## Tuiles
 
-<img src="../../../../../../../../img/app/theme3.png"  width="400" />
+<img src="/img/app/theme3.png"  width="400" />
 
 Les tuiles sont les cartes qui apparaissent un peu partout dans l'interface.
 

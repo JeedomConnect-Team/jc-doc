@@ -4,11 +4,11 @@ sidebar_position: 2
 ---
 
 
-<img src="../../../../../../../../img/app/dataManagement.png"  width="400" />
+<img src="/img/app/dataManagement.png"  width="400" />
 
 ### Recharger la configuration
 
-Force le rechargement de la [configuration de l'équipement](../../../../../../plugin/equipment/deviceConfig).
+Force le rechargement de la [configuration de l'équipement](/docs/documentation/plugin/equipment/deviceConfig).
 
 ### Recharger les données
 
