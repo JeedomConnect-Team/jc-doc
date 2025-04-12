@@ -28,7 +28,7 @@ Ces **informations** et **actions** sont décrites dans la section [Commandes di
 Pour remonter les informations, le service utilise des **déclencheurs** qui sont des événements du système. Vous devez activer les déclencheurs qui vous intéressent pour que la remontée ait lieu.
 A chaque fois qu'un événement lié à un déclencheur a lieu, **toutes** les informations sont remontées vers Jeedom.
 
-:::danger 
+:::danger
 Activer trop de déclencheurs peut nuire au niveau de votre batterie !
 :::
 
@@ -41,8 +41,8 @@ Activer trop de déclencheurs peut nuire au niveau de votre batterie !
 - `Connectivité changée` : se déclenche lorsqu'un changement dans la connection au réseau a lieu (par exemple passer du réseau mobile à un réseau Wifi)
 - `Chargeur branché`
 - `Chargeur débranché`
-- `Batterie faible` : se déclenche lorsque le niveau de batterie devient faible (généralement <= 15%)
-- `Batterie OK` : se déclenche lorsque le niveau de batterie revient à un état normal (généralement > 15%)
+- `Batterie faible` : se déclenche lorsque le niveau de batterie devient faible (généralement &le; 15%)
+- `Batterie OK` : se déclenche lorsque le niveau de batterie revient à un état normal (généralement &gt; 15%)
 - `Ecran éteint`
 - `Ecran allumé`
 - `Bluetooth connecté` : se déclenche dès que l'appareil est connecté à un périphérique bluetooth.

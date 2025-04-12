@@ -18,7 +18,7 @@ Par exemple, voici une représenation d'un **widget** de type `Générique switc
 
 alors que voici l'exemple d'un **composant**  
 <!-- <img alt="ex_composant" src="/img/ex_composant.jpg" width="20%;" />   -->
-![Exemple composant](/img/ex_composant.jpg){.image-20}
+![Exemple composant](/img/ex_composant.jpg)
 
 ## Par où commencer ?
 

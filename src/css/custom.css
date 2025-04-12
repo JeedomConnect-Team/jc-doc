@@ -29,10 +29,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.download-badges {
-  line-height: 0px;
-}
-
 /* Réduction de taille d'image */
 .image-10 {
   width: 10%;

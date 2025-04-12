@@ -381,9 +381,9 @@ Les possibilités de personalisation deviennent immense ! Vous pouvez dorénavan
     - Ajout d'une option pour recharger automatiquement la configuration Jeedom (est réalisée lors du démarrage de l'appli) de façon régulière (par défaut : `tous les jours`)
     - Ajouts des fonctions `modifiedDate` et `collectDate`, ainsi que la librairie `momentjs` pour les textes dynamiques
     - Inversion possible des sliders dans les paramètres personnalisés :
-      - horizontal : droite <-> gauche
-      - vertical : haut <-> bas
-      - circulaire : horaire <-> antihoraire
+      - horizontal : droite `<->` gauche
+      - vertical : haut `<->` bas
+      - circulaire : horaire `<->` antihoraire
 
 - Bug fixes :
   - Connections multiples quand le démarrage de l'app est sécurisé
