@@ -7,8 +7,8 @@ sidebar_position: 6
 ## Comment télécharger l'application ? <a name="qOU"></a>
 
 L'application est disponible sur vos Store :
-<a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src="/img/playstore.png" width='10%'/></a>  
-<a href="https://apps.apple.com/us/app/jeeconnect/id1566533727" target="_blank"><img src="/img/applestore.png" width='10%'/></a>  
+<a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src="../../img/playstore.png" width='10%'/></a>  
+<a href="https://apps.apple.com/us/app/jeeconnect/id1566533727" target="_blank"><img src="../../img/applestore.png" width='10%'/></a>  
 
 <br/>
 
@@ -33,7 +33,7 @@ Si vous voyez cette erreur, c'est que le fichier de configuration de votre équi
 <details>
 <summary>Ancienne méthode</summary>
 
-<img src='/img/JC_changement_format.jpg' width='20%' />  
+<img src='../../img/JC_changement_format.jpg' width='20%' />  
 
 La mise à jour que vous venez de réaliser nécessite une mise à jour au niveau du fichier de configuration utilisé pour définir vos widgets.  
 Que va faire cette opération ? Elle va lire votre(vos) fichier(s) de configuration et créér automatiquement tous les widgets correspondant.  
@@ -51,10 +51,10 @@ Nous préconisons la solution #1 ! Voici comment nous vous proposons de faire :
 
 - commencer par mettre le niveau de log en `DEBUG` sur l'application (page `configuration` du plugin, pensez à sauvegarder !)
 - désactiver l'ensemble de vos équipements sous le plugin JeedomConnect, et n'en laisser qu'<b>UN SEUL actif</b> (le plus utilisé, ou celui qui contient le plus de widgets)
-<img src='/img/JC_disableEq.gif' width='50%' />  
+<img src='../../img/JC_disableEq.gif' width='50%' />  
 
 - rendez-vous sur la page `configuration` de votre plugin (Menu `Plugins/Gestion des plugins/Jeedom Connect`)  
-<img src='/img/JeedomConnect_configuration.png' width='600px' />  
+<img src='../../img/JeedomConnect_configuration.png' width='600px' />  
 
 L'option `Migration des configurations` va vous aider à réaliser cette mise à jour.  
 
@@ -74,18 +74,18 @@ Pour fonctionner, il faut que le plugin installé sur Jeedom et l'application (A
 
 | Version Plugin | Version Application | Fonctionnement |
 |----------------|----------------|----------------|
-| Stable         | Stable         |     <img src='/img/ok.png' />               |
-| Stable         | Beta           | <img src='/img/ko.png' />               |
-| Beta           | Beta           | <img src='/img/ok.png' />               |
-| Beta           | Stable         | <img src='/img/ko.png' />               |
+| Stable         | Stable         |     <img src='../../img/ok.png' />               |
+| Stable         | Beta           | <img src='../../img/ko.png' />               |
+| Beta           | Beta           | <img src='../../img/ok.png' />               |
+| Beta           | Stable         | <img src='../../img/ko.png' />               |
 
 La version du plugin est disponible sur la page de `configuration` du plugin :  
-<img src='/img/JC_pluginVersion.gif' width='30%' />  
+<img src='../../img/JC_pluginVersion.gif' width='30%' />  
 <br/>
 La version de l'application est disponible sur la page de connexion :  
-<img src='/img/JeedomConnect_VersionApk.jpeg' width='30%' />  
+<img src='../../img/JeedomConnect_VersionApk.jpeg' width='30%' />  
 ainsi qu'en bas de la page `Préférences` (dans la menu de l'application) :  
-<img src='/img/JC_getAplVersion.gif' width='30%' />  
+<img src='../../img/JC_getAplVersion.gif' width='30%' />  
 
 <br/>
 
@@ -109,7 +109,7 @@ Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre
 
 ## Comment « vider le cache » ou « supprimer les données » ? <a name="qVideCache"></a>  
 
-<img src='/img/JC_videt_cache.gif' width='20%' />  
+<img src='../../img/JC_videt_cache.gif' width='20%' />  
 
 1. Appui long sur l’icone 'JeedomConnect' (sur votre bureau ou dans la liste de toutes vos applications disponibles)
 2. Clic sur le petit `i`
@@ -146,7 +146,7 @@ Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre
 Cette option est principalement utilisée pour les appareils qui ne serviront qu'à faire de la domotique (par exemple une tablette murale pour gérer votre domotique). Le launcher ou 'application de l'écran d'accueil' permet de définir JeedomConnect comme votre nouveau bureau.  
 Vous n'aurez donc plus accès à la page d'accueil de votre terminal tel que vous la connaissez avec toutes vos applications, mais votre page principale sera dorénavant JeedomConnect
 
-<img src='/img/set_launcher.jpg' width='20%' />  
+<img src='../../img/set_launcher.jpg' width='20%' />  
 
 <br/>
 
@@ -155,13 +155,13 @@ Vous n'aurez donc plus accès à la page d'accueil de votre terminal tel que vou
 Si vous souhaitez retirer le mode launcher de votre téléphone, il vous suffit d'aller dans le menu "Application d'accueil"  (le chemin peut différer selon votre modèle du téléphone)  
 `Paramètres du téléphone (par la barre du haut/roue crantée) / Applications / Applications par défaut / Application d’accueil`
 
-<img src='/img/reset_launcher.png' width='20%' />  
+<img src='../../img/reset_launcher.png' width='20%' />  
 
 <br/>
 
 ## Comment configurer le widget Caméra ? <a name="qCamera"></a>  
 
-<img src='/img/widget_camera.png' width='50%' />  
+<img src='../../img/widget_camera.png' width='50%' />  
 
 en jaune :  
 ce sont des données qui sont utilisées pour remplacer des informations saisies sur les champs `url de flux` et `url de snapshot` (champs 1 et/ou champs 2)  
@@ -189,7 +189,7 @@ permet de réduire le nombre de photos reçues ainsi que la qualité
 <details>
   <summary>un exemple</summary>  
 
-<img src='/img/widget_camera_exemple.png' width='50%' />  
+<img src='../../img/widget_camera_exemple.png' width='50%' />  
 <br/>  
 url de flux : j’ai indiqué une IP locale => la caméra n’est pas visible depuis l’extérieur de mon domicile  
 DONC je coche la case LAN  <br/><br/>
@@ -205,7 +205,7 @@ quand je suis en 4G => je reçois une photo toutes les 5 sec, avec une qualité 
 ## J'ai un message "A lire" qui n'arrête pas de s'afficher. Comment le masquer définitivement ? <a name="qWarning"></a>  
 
 <br/>
-<img src='/img/warningMessage.png' width='30%' />  
+<img src='../../img/warningMessage.png' width='30%' />  
 
 rassurez-vous, il n’y a AUCUN bug sur cette fenêtre, si elle réapparait systématiquement c'est que vous faites mal quelque chose :)  
 
@@ -254,7 +254,7 @@ sur la nouvelle page qui s'affiche :
 Ensuite dans la barre (a) changer la commande et tappez `sudo kill -9 7476` (évidemment remplacez `7476` par le nombre que vous avez trouvé en (d))  
 Vous pouvez retourner sur la page configuration de JC pour redémarrer le démon
 
-<img src='/img/JC_demon_address.png' width='50%' />  
+<img src='../../img/JC_demon_address.png' width='50%' />  
 
 <br/>
 
@@ -262,7 +262,7 @@ Vous pouvez retourner sur la page configuration de JC pour redémarrer le démon
 
 En partageant vos idées d'améliorations, vos suggestions et vos retours sur des bugs !
 Puisque ça a été demandé plusieurs fois, si vous souhaitez soutenir "financièrement" parlant, nous vous proposons de payer un café (ou deux, ou mille ! :) ) :  
-<a href="https://ko-fi.com/tomitomas" target="_blank"><img src="/img/support.png" width='20%' zoom="false"/></a>
+<a href="https://ko-fi.com/tomitomas" target="_blank"><img src="../../img/support.png" width='20%' zoom="false"/></a>
 
 Ou bien
 

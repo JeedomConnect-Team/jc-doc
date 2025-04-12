@@ -11,7 +11,9 @@ Vous avez simplement envie de nous dire "merci" ?
   
 Pour nous soutenir "financièrement" parlant, vous pouvez nous offrir un café/cocktail (ou deux, ou mille ! :) ) :  
 
-<a href="https://ko-fi.com/tomitomas" target="_blank"><img src="/img/support.png" width='20%' zoom="false"/></a>
+<a href="https://ko-fi.com/tomitomas" target="_blank"><img src="../../img/support.png" width='20%' zoom="false"/></a>
+
+<!-- [![Support](/img/support.png)](https://ko-fi.com/tomitomas) -->
 
 Ou bien
 

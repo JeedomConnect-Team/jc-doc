@@ -5,7 +5,7 @@ sidebar_position: 3
 # Service
 
 :::info
-Cette intégration ne concerne que <img alt="Android" src="/img/android.svg" /> Android
+Cette intégration ne concerne que ![Android](/img/android.svg) Android
 :::
 
 Jeedom Connect dispose d'un service qui tourne en tâche de fond et permet une communication permanente entre votre appareil et le plugin, **quelque soit l'état de l'application** (premier plan / arrière plan / tuée).

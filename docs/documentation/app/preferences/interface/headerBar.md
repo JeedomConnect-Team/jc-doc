@@ -3,10 +3,10 @@ title: Barre du haut
 sidebar_position: 3
 ---
 
-<img src="/img/app/headerBar.png"  width="400" />
+<img src="../../../../../img/app/headerBar.png"  width="400" />
 
 Ces paramètres concernent la barre du haut de l'application :
-<img src="/img/app/headerBar2.png"  width="400" />
+<img src="../../../../../img/app/headerBar2.png"  width="400" />
 
 ## Afficher la barre du haut
 
@@ -32,6 +32,6 @@ Deux styles d'horloge sont disponibles. Ils s'adaptent automatiquement aux mode 
 
 ## Boutons de la barre du haut
 
-<img src="/img/app/headerBar3.png"  width="400" />
+<img src="../../../../../img/app/headerBar3.png"  width="400" />
 
 Liste de boutons pour ajouter / trier les raccourcis de la barre du haut.

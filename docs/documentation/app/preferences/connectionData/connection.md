@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Informations sur la connexion
 
-<img src="/img/app/connection1.png"  width="400" />
+<img src="../../../../../img/app/connection1.png"  width="400" />
 
 ### Bouton QR code
 
@@ -34,7 +34,7 @@ Nom de l'utilisateur Jeedom rattaché à l'équipement.
 
 ## Paramètres de connexion
 
-<img src="/img/app/connection2.png"  width="400" />
+<img src="../../../../../img/app/connection2.png"  width="400" />
 
 ### Se déconnecter
 

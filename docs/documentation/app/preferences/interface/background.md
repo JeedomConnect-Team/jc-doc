@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Les paramètres de cette page font parti de la [configuration de l'appareil](/docs/documentation/plugin/equipment/deviceConfig).
 
-<img src="/img/app/background.png"  width="400" />
+<img src="../../../../../img/app/background.png"  width="400" />
 
 ## Fond d'écran
 

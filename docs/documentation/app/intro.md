@@ -13,7 +13,7 @@ Si vous n'êtes pas certain de ce que vous faites, gardez votre launcher habitue
 :::
 
 Au premier lancement de l'application, il vous sera demandé de vous connecter à Jeedom.
-<img src="/img/app/login1.png" width="300" />
+<img src="../../../img/app/login1.png" width="300" />
 
 Deux possibilités :
 
@@ -21,7 +21,7 @@ Deux possibilités :
 - **Manuelle** : En indiquant manuellement l'adresse de votre installation Jeedom.
 
 Avec la méthode **manuelle** vous devrez ensuite entrer les **identifiants** de l'utilisateur Jeedom.
-<img src="/img/app/login2.png"  width="300" />
+<img src="../../../img/app/login2.png"  width="300" />
 
 Enfin, vous devez choisir un **équipement** créé depuis le plugin.
-<img src="/img/app/login3.png"  width="300" />
+<img src="../../../img/app/login3.png"  width="300" />
