@@ -58,7 +58,7 @@ Jeedom Connect ne partage aucune de vos informations avec des tiers.
 
 ## Contactez nous
 
-Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter à l'adresse suivante : *<jeedomconnect@gmail.com>*
+Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter à l'adresse suivante : **[jeedomconnect@gmail.com](mailto:jeedomconnect@gmail.com)**
 
 ---
 **Date de dernière mise à jour** : *31/03/2025*
