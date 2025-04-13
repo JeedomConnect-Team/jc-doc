@@ -154,14 +154,15 @@ Certaines options sont visibles uniquement dans l'application.
 4. Cliquez sur **Sauvegarder**.
 
 :::warning
-Ces personnalisations sont **spécifiques à l’équipement mobile concerné**.
+Ces personnalisations sont **spécifiques à l’équipement mobile** sur lequel vous faites ces modifications.  
+L'ensemble de vos autres équipements JC ne sera pas touché par cette personnalisation.
 :::
 
 ---
 
 ## 6. Modifier la mise en page
 
-:::note
+:::info
 Par défaut, l'application place les widgets les uns après les autres de façon ordonnée.  
 Si vous souhaitez modifier la taille d'un widget et le positionner à l'endroit où vous le souhaitez, il est nécessaire de passer le menu en mode `grille avancée`
 :::
