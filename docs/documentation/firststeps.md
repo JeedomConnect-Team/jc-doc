@@ -161,9 +161,18 @@ Ces personnalisations sont **spécifiques à l’équipement mobile concerné**.
 
 ## 6. Modifier la mise en page
 
-1. Dans un menu de l’application, faites un **clic long en dehors d’un widget**.
-2. Choisissez **Éditer la grille**.
-3. Vous pourrez :
+:::note
+Par défaut, l'application place les widgets les uns après les autres de façon ordonnée.  
+Si vous souhaitez modifier la taille d'un widget et le positionner à l'endroit où vous le souhaitez, il est nécessaire de passer le menu en mode `grille avancée`
+:::
+
+1. Dans un menu de l’application, faites un **clic long sur le menu** (haut/bas) où vous souhaitez placer vous-même les widgets.
+2. Choisissez **Éditer ce menu**
+3. En face du champ **Mode de grille**, choisissez **Avancée**
+4. Sauvegarder
+5. Faites maintenant un **clic long à l'intérieur de la page en dehors d’un widget**.
+6. Choisissez **Éditer la grille**.
+7. Vous pourrez :
    - Déplacer les widgets
    - Les redimensionner
    - Les verrouiller pour éviter qu’ils bougent
