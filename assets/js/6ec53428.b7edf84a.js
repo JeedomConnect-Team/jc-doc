@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjc_doc=self.webpackChunkjc_doc||[]).push([[6594],{3064:o=>{o.exports=JSON.parse('{"permalink":"/jc-doc/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
