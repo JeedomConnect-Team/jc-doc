@@ -19,6 +19,8 @@ Pour utiliser Jeedom Connect vous aurez besoin :
 - Le plugin Jeedom Connect disponible sur le Market Jeedom <a href="https://market.jeedom.com/index.php?v=d&p=market_display&id=4077" target="_blank"><img src='../../img/logo-MARKET.svg' width='10%' zoom="false" /></a>
 - L'application Jeedom Connect sur le Play Store <a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src="../../img/applestore.png" width="10%" zoom="false"/></a>  
 
+#### {#version-table}
+
 Les versions entre le plugin et l'application doivent strictement être identiques, dans le cas inverse vous obtiendrez un message d'erreur vous demandant de réaligner l'ensemble avec la mise à jour du plugin et de l'application.
 
 De façon très simple donc :

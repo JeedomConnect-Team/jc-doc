@@ -56,8 +56,8 @@ Par défaut, vous ne devriez rien avoir à modifier dans la partie **Configurati
 - **Android** : [JeedomConnect sur Google Play](https://play.google.com/store/apps/details?id=com.jeedomconnect.app)
 - **iOS** : [JeeConnect sur l'App Store](https://apps.apple.com/fr/app/jeeconnect/id1608704579)
 
-:::warning
-La version de l’application doit correspondre à celle du plugin (stable ou bêta).
+:::warning[Versions IDENTIQUES]
+La version de l’application doit correspondre à celle du plugin (stable ou bêta), [voir ici](intro#version-table).
 :::
 
 ### Étape 2 : Ajouter une connexion dans l’application
@@ -137,7 +137,7 @@ Si le widget n’apparaît pas tout de suite dans l’application, ouvrez le men
 4. Cliquez sur **Sauvegarder**.
 5. Vérifiez les changements dans le plugin Jeedom.
 
-:::warning
+:::warning[Édition = tous les équipements !]
 Ces modifications s’appliquent **à tous les équipements utilisant ce widget**.  
 Certaines options sont visibles uniquement dans l'application.
 :::
@@ -153,7 +153,7 @@ Certaines options sont visibles uniquement dans l'application.
    - Format d’affichage, disposition
 4. Cliquez sur **Sauvegarder**.
 
-:::warning
+:::warning[Personnalisation = 1 équipement !]
 Ces personnalisations sont **spécifiques à l’équipement mobile** sur lequel vous faites ces modifications.  
 L'ensemble de vos autres équipements JC ne sera pas touché par cette personnalisation.
 :::
