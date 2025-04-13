@@ -11,7 +11,7 @@ Le projet **Jeedom Connect** se compose de deux parties :
 
 Vous trouverez ici une documentation pour la mise en place et l'utilisation de ces deux éléments.
 
-## Premiers pas {#getStarted}
+## Pour bien commencer {#getStarted}
 
 Pour utiliser Jeedom Connect vous aurez besoin :
 
