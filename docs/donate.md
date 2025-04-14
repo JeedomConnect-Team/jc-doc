@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Nous soutenir
 
 Vous trouvez le plugin génial ?  

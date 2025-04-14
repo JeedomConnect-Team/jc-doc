@@ -102,6 +102,11 @@ const config = {
           { to: '/download', label: 'Téléchargement', position: 'left' },
           { to: '/showcase', label: 'Galerie', position: 'left' },
           {
+            to: '/docs/help',
+            label: 'A l\'aide',
+            position: 'right',
+          },
+          {
             to: '/docs/donate',
             label: 'Nous soutenir',
             position: 'right',
