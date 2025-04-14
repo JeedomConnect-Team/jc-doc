@@ -80,6 +80,14 @@ Le système Android dispose de deux versions différentes :
 | Raccourcis de paramètres rapides | ✅ | ✅ |     |
 | Contrôles d'appareils par le système | ✅ | ✅ |     |
 
+## Point fort / Point faible
+
+Le plus **gros point** fort de JeedomConnect c'est que **tout est totalement personnalisable**, rendant alors les possibilités (*presque*) infinies !  
+
+Le point faible ... et oui il y en a un... pour laisser la possibilité à chacun de faire ce qu'il veut, comme il veut, il faut mettre un peu la main à la patte pour réaliser son besoin et avoir une interface complètement à soi !  
+
+Le "plus long" c’est de savoir comment on souhaite organiser ses écrans : "ah mais non plutôt comme ça", "ah et ça là!", "un autre menu ? sous-menu ?", … au final il y a tellement de possibilités qu'il n'est pas surprenant de refaire quelques fois sa configuration pour finalement trouver LE truc qui nous convient ! mais généralement ... ça en vaut la peine !
+
 ## Prix
 
 Le plugin, ainsi que l'application sont complètement **gratuits** et le resteront.  
