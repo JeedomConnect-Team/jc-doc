@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Configuration de l'appareil
@@ -38,10 +38,10 @@ La configuration de cette partie est optionnelle, et n'est à réaliser que si v
 - Ajouter un résumé, après l'avoir sélectionné dans la liste déroulante  
 - Importer l'ensemble des résumés existants (le bouton est caché si vous avez déjà tous les résumés dans l'application)
 
-<img src="/img/JC_assistant_summary.png" width="50%" />  
+![](/img/JC_assistant_summary.png)
 
 Il vous est ensuite possible de cliquer sur chaque résumé pour personnaliser les icônes et leurs conditions d'affichage.  
-<img src="/img/JC_summary_conditions.png" width="50%" />  
+![](/img/JC_summary_conditions.png)
 
 Deux variables sont disponibles : `#value#` et `#total#` :  
 
@@ -57,13 +57,13 @@ Deux variables sont disponibles : `#value#` et `#total#` :
 
 - **Ajouter un groupe** : Vous pouvez ranger vos widgets dans un menu dépliable (type "acordéon").  
 
-  <img src="/img/plugin/assistantAddGroup.png" width="25%" />  
+  ![](/img/plugin/assistantAddGroup.png)  
 
   - **Actif** : Le groupe sera (ne sera pas) affiché dans l'application.
   - **Développé par défaut** : Le comportement par défaut (plié / déplié) du menu.  
   
  Différentes actions sur possible sur chaque élément :  
- <img src="/img/btn-action-widget.png" width="20%" />  
+ ![](/img/btn-action-widget.png)  
 
 - les flèches bleues permettent de monter ou descendre le widget par rapport aux autre widgets sur la même page. Elles permettent aussi de faire entrer ou sortir un widget dans un groupe  
 - le moins rouge permet d'enlever le widget de la page (ça ne supprime pas le widget dans Jeedom)
