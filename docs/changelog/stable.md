@@ -1,5 +1,4 @@
 ---
-displayed_sidebar: changelogSidebar
 title: Stable
 ---
 
