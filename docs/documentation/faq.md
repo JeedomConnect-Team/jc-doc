@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # FAQ
 
-## Comment télécharger l'application ? <a name="qOU"></a>
+## Comment télécharger l'application ? {#qOU}
 
 L'application est disponible sur vos Store :
 <a href="https://play.google.com/store/apps/details?id=com.jeedomconnect.app" target="_blank"><img src="../../img/playstore.png" width='10%'/></a>  
@@ -12,7 +12,7 @@ L'application est disponible sur vos Store :
 
 <br/>
 
-## Quelle est la différence entre connexion HTTP, Websocket et Polling ? <a name="qConnexion"></a>  
+## Quelle est la différence entre connexion HTTP, Websocket et Polling ? {#qConnexion}  
 
 Avec Jeedom Connect, il est possible d'établir la connexion entre votre appareil et le plugin de deux façons différentes :
 
@@ -25,7 +25,7 @@ Le Websocket offre une connexion **plus stable et plus performante** que la conn
 
 <br/>
 
-## L'application m'indique "Cet équipement utilise un ancien format de configuration. Veuillez effectuer la migration" <a name="qMigration"></a>  
+## L'application m'indique "Cet équipement utilise un ancien format de configuration. Veuillez effectuer la migration" {#qMigration}  
 
 La migration était une étape nécessaire lors de l'utilisation de la version 0.18.0, elle n'est donc plus à utiliser.  
 Si vous voyez cette erreur, c'est que le fichier de configuration de votre équipement est corrompu (mauvaise manip, mauvais import, .. ). Récupérez une ancienne sauvegarde de Jeedom et dézipper-là pour restaurer le fichier de configuration en question (disponible dans `plugins/JeedomConnect/data/configs/<apiKey de l'équipement>.json` )
@@ -68,7 +68,7 @@ Vous pouvez retourner sur votre page principale du plugin JeedomConnect et vous 
 
 <br/>
 
-## J'ai l'erreur suivante "Cette application requiert une version plus récente du plugin" <a name="qVersion"></a>
+## J'ai l'erreur suivante "Cette application requiert une version plus récente du plugin" {#qVersion}
 
 Pour fonctionner, il faut que le plugin installé sur Jeedom et l'application (APK) que vous avez téléchargés et utilisés soient alignés.  
 
@@ -89,7 +89,7 @@ ainsi qu'en bas de la page `Préférences` (dans la menu de l'application) :
 
 <br/>
 
-## Je suis bêta-testeur, que dois-je faire ?<a name="qBeta"></a>
+## Je suis bêta-testeur, que dois-je faire ?{#qBeta}
   
 Comme son nom l'indique, la version bêta n'est pas une version stable. En l'utilisant, vous savez et acceptez que celle-ci puisse comporter des anomalies, remonter des états incohérents, réaliser (ou pas) des actions, etc ...
   
@@ -98,7 +98,7 @@ Cette inscription est à <a href="https://play.google.com/apps/testing/com.jeedo
 
 <br/>
 
-## Je ne vois pas la batterie d'un de mes équipements sur JC, pourquoi ? <a name="qBattery"></a>  
+## Je ne vois pas la batterie d'un de mes équipements sur JC, pourquoi ? {#qBattery}  
 
 Seules les batteries disponibles sur la page `index.php?v=d&p=eqAnalyse` de votre jeedom sont remontées dans JeedomConnect.  
 Si votre batterie n'apparait pas sur cette page, alors elle n'apparaitra pas sur JeedomConnect !  
@@ -107,7 +107,7 @@ Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre
 
 <br/>
 
-## Comment « vider le cache » ou « supprimer les données » ? <a name="qVideCache"></a>  
+## Comment « vider le cache » ou « supprimer les données » ? {#qVideCache}  
 
 <img src='../../img/JC_videt_cache.gif' width='20%' />  
 
@@ -118,7 +118,7 @@ Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre
 
 <br/>
 
-## Quelles différences entre l'édition et la personnalisation d'un widget ? <a name="qEditCustom"></a>  
+## Quelles différences entre l'édition et la personnalisation d'un widget ? {#qEditCustom}  
 
 - Editer un widget :
   - permet de modifier la configuration d’un widget.
@@ -141,7 +141,7 @@ Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre
 
 <br/>
 
-## Lors de ma première utilisation une pop-up me demande de "Sélectionner une application de l'écran d'accueil", que dois-je faire ? <a name="qSetLauncher"></a>  
+## Lors de ma première utilisation une pop-up me demande de "Sélectionner une application de l'écran d'accueil", que dois-je faire ? {#qSetLauncher}  
 
 Cette option est principalement utilisée pour les appareils qui ne serviront qu'à faire de la domotique (par exemple une tablette murale pour gérer votre domotique). Le launcher ou 'application de l'écran d'accueil' permet de définir JeedomConnect comme votre nouveau bureau.  
 Vous n'aurez donc plus accès à la page d'accueil de votre terminal tel que vous la connaissez avec toutes vos applications, mais votre page principale sera dorénavant JeedomConnect
@@ -150,7 +150,7 @@ Vous n'aurez donc plus accès à la page d'accueil de votre terminal tel que vou
 
 <br/>
 
-## Mon téléphone reste "bloqué" sur JeedomConnect. Comment retirer le mode launcher ? <a name="qLauncher"></a>  
+## Mon téléphone reste "bloqué" sur JeedomConnect. Comment retirer le mode launcher ? {#qLauncher}  
 
 Si vous souhaitez retirer le mode launcher de votre téléphone, il vous suffit d'aller dans le menu "Application d'accueil"  (le chemin peut différer selon votre modèle du téléphone)  
 `Paramètres du téléphone (par la barre du haut/roue crantée) / Applications / Applications par défaut / Application d’accueil`
@@ -159,7 +159,7 @@ Si vous souhaitez retirer le mode launcher de votre téléphone, il vous suffit 
 
 <br/>
 
-## Comment configurer le widget Caméra ? <a name="qCamera"></a>  
+## Comment configurer le widget Caméra ? {#qCamera}  
 
 <img src='../../img/widget_camera.png' width='50%' />  
 
@@ -202,7 +202,7 @@ quand je suis en 4G => je reçois une photo toutes les 5 sec, avec une qualité 
 
 <br/>
 
-## J'ai un message "A lire" qui n'arrête pas de s'afficher. Comment le masquer définitivement ? <a name="qWarning"></a>  
+## J'ai un message "A lire" qui n'arrête pas de s'afficher. Comment le masquer définitivement ? {#qWarning}  
 
 <br/>
 <img src='../../img/warningMessage.png' width='30%' />  
@@ -226,20 +226,20 @@ bonne lecture, et attention à vos clics !
 
 <br/>
 
-## Les cartes de geofence et de localisation sont centrées sur Paris par défaut, comment changer ? <a name="qCarteParis"></a>  
+## Les cartes de geofence et de localisation sont centrées sur Paris par défaut, comment changer ? {#qCarteParis}  
 
 Les différentes cartes se centrent sur la position définie sur la page configuration du plugin JC.  
 Si ces informations ne sont pas renseignées, nous prenons alors les coordonnées de votre Jeedom (`Réglages / Systèmes / Configuration / Coordonnées`). Dans le cas où ces dernières ne sont pas indiquées, alors par défaut nous centrons sur Paris.
 
 <br/>
 
-## Comment formater une date/heure dans les widgets ? <a name="qDatetime"></a>  
+## Comment formater une date/heure dans les widgets ? {#qDatetime}  
 
 Direction quelques exemples donnés [ici](#momentjs)
 
 <br/>
 
-## J'ai un message "Address already in use" au démarrage du démon, comment faire ? <a name="qAddressUsed"></a>  
+## J'ai un message "Address already in use" au démarrage du démon, comment faire ? {#qAddressUsed}  
 
 Il y a deux options :
 
@@ -258,7 +258,7 @@ Vous pouvez retourner sur la page configuration de JC pour redémarrer le démon
 
 <br/>
 
-## Je trouve l'application géniale ! Comment vous aider ? <a name="qDon"></a>  
+## Je trouve l'application géniale ! Comment vous aider ? {#qDon}  
 
 En partageant vos idées d'améliorations, vos suggestions et vos retours sur des bugs !
 Puisque ça a été demandé plusieurs fois, si vous souhaitez soutenir "financièrement" parlant, nous vous proposons de payer un café (ou deux, ou mille ! :) ) :  
@@ -270,6 +270,6 @@ Ou bien
 
 <br/>
 
-## Je ne trouve pas de réponse à mon probleme dans la doc. Que faire ? <a name="qForum"></a>  
+## Je ne trouve pas de réponse à mon probleme dans la doc. Que faire ? {#qForum}  
 
 Suivez les indications postées dans [ce message](https://community.jeedom.com/t/plugin-jeedomconnect-actualites/71794/2) afin de créer un nouveau sujet sur le forum.
