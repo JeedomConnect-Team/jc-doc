@@ -6,7 +6,7 @@ sidebar_position: 11
 
 ## Comment aligner toutes les infos dans un tableau
 
-Vous aimez les choses carrées, bien alignées, résumé en un sens endroit ...  
+Vous aimez les choses carrées, bien alignées, résumé en un seul endroit ...  
 Pourquoi ne pas tout mettre dans un tableau !?
 
 Voici un exemple de ce que vous pouvez faire :  
