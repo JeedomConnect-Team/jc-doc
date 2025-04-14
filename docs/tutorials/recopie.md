@@ -23,7 +23,7 @@ L'application essaiera de mettre les éléments avec la place disponible et se r
 
 Cette option n'est donc pas proposée sur le plugin, pour éviter d'avoir des dizaines de posts indiquant "ça ne fonctionne pas", alors que c'est tout à fait normal puisqu'il n'y a pas la place pour :slight_smile:  
 
-### Les 3 téléphones de la maison sont strictement IDENTIQUES --> donc même taille d'écran, comment faire dans ce cas ?
+### Les 3 téléphones de la maison sont strictement IDENTIQUES ➡️ donc même taille d'écran, comment faire dans ce cas ?
 
 Dans le cas où l'ensemble de vos téléphones (source/cible) aurait la même taille d'écran, il est dans ce cas en effet dommage de devoir refaire toute la configuration à la main.
 
@@ -43,16 +43,14 @@ Disponible depuis les versions stable 1.8.0 et beta 1.7.5
 Sur l'application JC de l'équipement source (le "modèle")
 
 1. Allez dans `menu > pref > Sauvergarder`, OK
-
 Sur le plugin :
-
 2. Ouvrez votre équipement JC source,
 3. faites `Copier vers`, cochez les équipements JC cibles, la perso, puis OK
 4. Allez dans les scénarios, créez en un nouveau, donnez lui un nom, activez le
 5. Ajoutez un `bloc code`
 6. Collez l'ensemble des éléments suivants :
 
-```
+```php
 require_once dirname(__FILE__) . '/../../plugins/JeedomConnect/core/class/JeedomConnect.class.php';
 
 $apiKeySource = 'azerty12345678';  // A MODIFIER
@@ -70,7 +68,7 @@ Sur l'application JC de l'équipement cible :
 11. Allez dans `menu > pref > Restaurer`
 12. Choisissez la dernière sauvegarde nommée `GridLayout-xxxx`, puis OK
 
---> les configuration de taille et position ont été appliquées à ce téléphone !
+➡️ les configuration de taille et position ont été appliquées à ce téléphone !
 
 ### Pourquoi ne pas mettre le script en automatique sur le plugin ?
 
