@@ -92,4 +92,4 @@ Le "plus long" c’est de savoir comment on souhaite organiser ses écrans : "ah
 
 Le plugin, ainsi que l'application sont complètement **gratuits** et le resteront.  
 L'équipe Jeedom Connect ne dispose d'aucun accord commercial ou financier avec qui que ce soit.  
-Si l'application vous plaît et que vous souhaitez nous soutenir, c'est [par ici](/docs/donate) !  
+Si l'application vous plaît et que vous souhaitez nous soutenir/offrir un café, c'est [par ici](/docs/donate) !  
