@@ -163,7 +163,7 @@ const config = {
               },
               {
                 label: 'Nous soutenir',
-                to: '/docs/documentation/donate',
+                to: '/docs/donate',
               },
             ],
           },
