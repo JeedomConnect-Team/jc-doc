@@ -105,8 +105,6 @@ Si votre batterie n'apparait pas sur cette page, alors elle n'apparaitra pas sur
 
 Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre équipement afin qu'il fasse en sorte que la batterie soit visible sur la page indiquée plus haut ;)
 
-<br/>
-
 ## Comment « vider le cache » ou « supprimer les données » ? {#qVideCache}  
 
 <img src='../../img/JC_videt_cache.gif' width='20%' />  
@@ -115,8 +113,6 @@ Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre
 2. Clic sur le petit `i`
 3. Sélection 'Stockage'
 4. Au choix (en fonction de ce que vous avez à faire!) : 'Vider le cache' et/ou 'Supprimer les données'
-
-<br/>
 
 ## Quelles différences entre l'édition et la personnalisation d'un widget ? {#qEditCustom}  
 
@@ -139,8 +135,6 @@ Comment l'ajouter ? Rapprochez-vous du développeur du plugin utilisé par votre
 > exemple : par défaut mon widget fenetre est configuré pour avoir une fenêtre fermée bleu. ma femme prefère le jaune (ca lui rappelle le soleil des vacances), sur son équipement je vais donc personnaliser le widget fenêtre pour modifier l’icone de fenetre fermée avec la couleur jaune. Cette fenêtre jaune sera uniquement appliquée sur son équipement à elle.  
 >
 
-<br/>
-
 ## Lors de ma première utilisation une pop-up me demande de "Sélectionner une application de l'écran d'accueil", que dois-je faire ? {#qSetLauncher}  
 
 Cette option est principalement utilisée pour les appareils qui ne serviront qu'à faire de la domotique (par exemple une tablette murale pour gérer votre domotique). Le launcher ou 'application de l'écran d'accueil' permet de définir JeedomConnect comme votre nouveau bureau.  
@@ -148,16 +142,12 @@ Vous n'aurez donc plus accès à la page d'accueil de votre terminal tel que vou
 
 <img src='../../img/set_launcher.jpg' width='20%' />  
 
-<br/>
-
 ## Mon téléphone reste "bloqué" sur JeedomConnect. Comment retirer le mode launcher ? {#qLauncher}  
 
 Si vous souhaitez retirer le mode launcher de votre téléphone, il vous suffit d'aller dans le menu "Application d'accueil"  (le chemin peut différer selon votre modèle du téléphone)  
 `Paramètres du téléphone (par la barre du haut/roue crantée) / Applications / Applications par défaut / Application d’accueil`
 
 <img src='../../img/reset_launcher.png' width='20%' />  
-
-<br/>
 
 ## Comment configurer le widget Caméra ? {#qCamera}  
 
@@ -200,8 +190,6 @@ quand je suis en wifi => je vois la vidéo en direct  <br/>
 quand je suis en 4G => je reçois une photo toutes les 5 sec, avec une qualité de 70%<br/>
 </details>
 
-<br/>
-
 ## J'ai un message "A lire" qui n'arrête pas de s'afficher. Comment le masquer définitivement ? {#qWarning}  
 
 <br/>
@@ -224,20 +212,14 @@ après tout… il n’y a pas de raison qu’il n’y ait que moi qui ait la par
 
 bonne lecture, et attention à vos clics !  
 
-<br/>
-
 ## Les cartes de geofence et de localisation sont centrées sur Paris par défaut, comment changer ? {#qCarteParis}  
 
 Les différentes cartes se centrent sur la position définie sur la page configuration du plugin JC.  
 Si ces informations ne sont pas renseignées, nous prenons alors les coordonnées de votre Jeedom (`Réglages / Systèmes / Configuration / Coordonnées`). Dans le cas où ces dernières ne sont pas indiquées, alors par défaut nous centrons sur Paris.
 
-<br/>
-
 ## Comment formater une date/heure dans les widgets ? {#qDatetime}  
 
-Direction quelques exemples donnés [ici](#momentjs)
-
-<br/>
+Direction quelques exemples donnés [ici](/docs/documentation/plugin/types/widgets.md#momentjs)
 
 ## J'ai un message "Address already in use" au démarrage du démon, comment faire ? {#qAddressUsed}  
 
@@ -256,8 +238,6 @@ Vous pouvez retourner sur la page configuration de JC pour redémarrer le démon
 
 <img src='../../img/JC_demon_address.png' width='50%' />  
 
-<br/>
-
 ## Je trouve l'application géniale ! Comment vous aider ? {#qDon}  
 
 En partageant vos idées d'améliorations, vos suggestions et vos retours sur des bugs !
@@ -268,8 +248,6 @@ Ou bien
 
 <a href="https://www.paypal.me/JeedomConnect" target="_blank"><img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" width='20%' zoom="false"/></a>
 
-<br/>
-
 ## Je ne trouve pas de réponse à mon probleme dans la doc. Que faire ? {#qForum}  
 
-Suivez les indications postées dans [ce message](https://community.jeedom.com/t/plugin-jeedomconnect-actualites/71794/2) afin de créer un nouveau sujet sur le forum.
+Suivez les indications postées dans [ce message](/docs/help) afin de créer un nouveau sujet sur le forum.
