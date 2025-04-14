@@ -96,6 +96,11 @@ const config = {
           { to: '/download', label: 'Téléchargement', position: 'left' },
           { to: '/showcase', label: 'Galerie', position: 'left' },
           {
+            to: '/docs/donate',
+            label: 'Nous soutenir',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/jeedomconnect-team/JeedomConnect',
             label: 'GitHub',
             position: 'right',
