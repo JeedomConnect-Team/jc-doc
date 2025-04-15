@@ -41,11 +41,8 @@ const Showcase = () => {
                 <img src='img/gallery/JeedomConnect_screenshot1.png' width='200px' />
                 <img src='img/gallery/JeedomConnect_screenshot2.png' width='200px' />
                 <img src='img/gallery/JeedomConnect_screenshot3.png' width='200px' />
-                <img src='img/gallery/JeedomConnect_screenshot4.png' width='200px' />
-                <img src='img/gallery/JeedomConnect_screenshot5.png' width='200px' />
                 <img src='img/gallery/JeedomConnect_screenshot6.png' width='200px' />
-                <img src='img/gallery/JeedomConnect_screenshot7.png' width='200px' />
-                <img src='img/gallery/JeedomConnect_screenshot8.png' width='200px' />
+                <img src='img/gallery/JeedomConnect_screenshot5.png' width='200px' />
                 <img src='img/gallery/JeedomConnect_screenshot9.png' width='200px' />
                 <img src='img/gallery/JeedomConnect_screenshot10.jpg' width='200px' />
                 <img src='img/gallery/JeedomConnect_screenshot11.jpg' width='200px' />
@@ -57,6 +54,10 @@ const Showcase = () => {
                 <img src='img/gallery/JeedomConnect_screenshot17.png' width='200px' />
                 <img src='img/gallery/JeedomConnect_screenshot18.png' width='200px' />
                 <img src='img/gallery/JeedomConnect_screenshot19.png' width='200px' />
+                <img src='img/gallery/JeedomConnect_screenshot20.png' width='200px' />
+                <img src='img/gallery/JeedomConnect_screenshot7.png' width='200px' />
+                <img src='img/gallery/JeedomConnect_screenshot8.png' width='200px' />
+
             </div>
         </Layout >
     )
