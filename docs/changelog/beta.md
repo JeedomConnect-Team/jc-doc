@@ -2,7 +2,7 @@
 title: Beta
 ---
 
-# Changelog JeedomConnect BETA
+# Changelog BETA
 
 :::note
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
@@ -17,20 +17,20 @@ Plugin et application !
 - Possibilité de créer un post community directement depuis l'app : `Menu > A propos > Obtenir de l'aide`
 - Correction redimensionnement et position sur une page type `menu haut`
 
-## Version 1.13.1 (02/03/25)
+## Version 1.13.1 (02/03/2025)
 
 PLUGIN UNIQUEMENT
 
 - Ajout d'un lien dans l'app vers la Politique de Confidentialité de Jeedom Connect.
 
-## Version 1.12.1 (02/03/25)
+## Version 1.12.1 (02/03/2025)
 
 PLUGIN UNIQUEMENT
 
 - Correction d'un message d'erreur incorrect [ici](https://community.jeedom.com/t/vnotif-2-sendnotif-x64-not-found/137257/4).
 - Contrôle sur l'état de l'utilisateur (actif ou non) alors qu'une connexion est déjà établie [ici](https://community.jeedom.com/t/acces-non-autorises/138599/3).
 
-## Version 1.11.2 (26/01/25)
+## Version 1.11.2 (26/01/2025)
 
 PLUGIN UNIQUEMENT
 
@@ -38,7 +38,7 @@ PLUGIN UNIQUEMENT
 - Changement du niveau de log Erreur -> Warning, pour les notifications potentiellement non émises.
 - Correction du lien vers la documentation.
 
-## Version 1.11.1 (21/01/25)
+## Version 1.11.1 (21/01/2025)
 
 PLUGIN UNIQUEMENT
 
@@ -47,7 +47,7 @@ PLUGIN UNIQUEMENT
 - Corrections pour PHP8.
 - Mise à jour des liens vers le changelog et la documentation.
 
-## Version 1.10.1 (05/09/24)
+## Version 1.10.1 (05/09/2024)
 
 PLUGIN UNIQUEMENT
 
@@ -56,7 +56,7 @@ Fix pour les notifications :
 - 100% de réussite pour android
 - uniquement si l'app est lancée pour ios (pour l'instant)
 
-## Version 1.9.1 (24/06/24)
+## Version 1.9.1 (24/06/2024)
 
 - Nouveautés :
   - création d’une commande Supprimer la personnalisation qui prend en argument le widgetId (propre à chaque équipement JC !)
@@ -64,14 +64,14 @@ Fix pour les notifications :
 - Bug Fix :
   - correction d’une erreur fatale sur php8 pour certain historique
 
-## Version 1.8.2 (09/06/24)
+## Version 1.8.2 (09/06/2024)
 
 - Fix :
   - Ajout version OS et PHP dans les infos de community
   - Bouton de création de post automatique
   - Fix mineur pour php8
 
-## Version 1.8.1 (22/04/24)
+## Version 1.8.1 (22/04/2024)
 
 - Nouveautés :
   - Ajout la possibilité de ne pas fermer un widget lors de sa configuration (depuis le plugin)
@@ -82,7 +82,7 @@ Fix pour les notifications :
   - Bordures arrondis
   - Affichage des widgets sur la page complete (4.4)
 
-## Version 1.8.0.1 (31/05/23)
+## Version 1.8.0.1 (31/05/2023)
 
 - Bug fixes :
   - Ajout de la traduction de `#room#` dans les  `contrôleurs`
@@ -90,7 +90,7 @@ Fix pour les notifications :
   - Prise en compte de l'inversion des commandes (type statut) dans les `contrôleurs`
   - Update du démon pour éviter les crash "broken pipe"
 
-## Version 1.7.5 (04/04/23)
+## Version 1.7.5 (04/04/2023)
 
 - Nouveautés :
   - [Android 11+] Ajout des contrôleurs de type `Composant` : Switch, Slider et Texte
@@ -103,7 +103,7 @@ Fix pour les notifications :
   - Sélection du thème sur iOS
   - Téléchargement du QR Code depuis l'appli sur iOS
 
-## Version 1.7.4 (29/03/23)
+## Version 1.7.4 (29/03/2023)
 
 Relancez l app au moins une fois avant d’utiliser la nouveauté (ie : kill l’application JC, puis relancer la).
 
@@ -121,7 +121,7 @@ Relancez l app au moins une fois avant d’utiliser la nouveauté (ie : kill l�
   - Boutons de la barre du haut sur iOS
   - Authentification au démarrage sur iOS
 
-## Version 1.7.3 (24/02/23)
+## Version 1.7.3 (24/02/2023)
 
 - Nouveautés :
   - [Version APK] : Réception des SMS. Deux nouvelles commandes donnent le dernier SMS reçu et le numéro de l'expéditeur
@@ -245,7 +245,9 @@ Les possibilités de personalisation deviennent immense ! Vous pouvez dorénavan
   - `Ask` sur une commande `notifier tous` ne renvoyez plus l'info d'une réponse déjà obtenue (android)
   - Oblige la sélection d'un widget sur les éléments "plus de widgets"
   
-## Version 1.5.6+ (06/12/2022) - PLUGIN UNIQUEMENT
+## Version 1.5.6+ (06/12/2022)
+
+PLUGIN UNIQUEMENT
 
 - Bug fix :
   - non création du répertoire où sont stockées les images perso
@@ -398,7 +400,7 @@ Les possibilités de personalisation deviennent immense ! Vous pouvez dorénavan
   - Corrections sur le Geofencing
   - Remontée de la prochaine alarme à `-1` si aucune alarme programmée
 
-## Version 1.4.1 (29/08/22)
+## Version 1.4.1 (29/08/2022)
 
 - Bugs fixes sur la partie Geofencing/Localisation du plugin :
   - Affichage d'un message si aucun équipement n'est sélectionné pour être affiché sur la carte `Localisation`
@@ -1172,7 +1174,7 @@ Passage en stable
   - Suppression d'un widget met à jour immédiatement la configuration des équipements
   - Drag & drop : ajout d'un élément dans un groupe (déjà rempli)
 
-## Version 0.19.4 Beta (17/04/2021)
+## Version 0.19.4 (17/04/2021)
 
 - Nouveautés :
   - Commande Position : ajout de l'altitude (nouveau format :`latitude,longitude,altitude`)
@@ -1185,7 +1187,7 @@ Passage en stable
   - Affichage et sélection des images perso
   - Drag and drop fix
 
-## Version 0.19.3 Beta (16/04/2021)  
+## Version 0.19.3 (16/04/2021)  
 
 - Nouveautés Plugin :
   - `Drag & drop` l'ensemble des objets sur les assistants & widgets
@@ -1214,12 +1216,12 @@ Passage en stable
   - Effacement du texte d'un message générique après envoie (en vue détail)
   - Correction d'un bug d'affichage lors d'une rotation de l'écran quand une vidéo est en plein écran
 
-## Version 0.19.2b Beta (08/04/2021)
+## Version 0.19.2b (08/04/2021)
 
 - Bug Fixes :
   - corriger l'erreur sur la création d'un nouvel équipement
 
-## Version 0.19.2 Beta (02/04/2021)
+## Version 0.19.2 (02/04/2021)
 
 - Nouveautés:
   - Ajout des vidéos dans les notifications
@@ -1231,7 +1233,7 @@ Passage en stable
   - Correction de la commande LAN seulement (basculement auto sur snapshot)
   - Sous-titres persos sur widget camera
 
-## Version 0.19.1 Beta (01/04/2021)
+## Version 0.19.1 (01/04/2021)
 
 - Nouveautés:
   - Personnalisation des icones sur les résumés : nouveau menu "Résumé" à configurer dans l'assistant widget
@@ -1245,7 +1247,9 @@ Passage en stable
   - recherche des icônes non sensible à la casse
   - liste des widgets triées par ordre alphabétique
 
-## Version 0.18.4 Beta (25/03/2021) [Application uniquement]
+## Version 0.18.4 (25/03/2021)
+
+Application uniquement
 
 - Corrige la récupération de l'historique en http
 
@@ -1258,7 +1262,7 @@ Passage en stable
 - Ajout d'une option pour masquer les historiques
 - Ajout d'une option pour définir le zoom par défaut sur les historiques
 
-## Version 0.18.3 Beta (24/03/2021)
+## Version 0.18.3 (24/03/2021)
 
 - Nouveautés :  
   - SplashScreen qui pique pas les yeux  
@@ -1302,13 +1306,13 @@ Côté plugin :
 - Bug Fix :  
   - importer plusieurs fois des fichiers à la suite
 
-## Version 0.18.1 Beta (17/03/2021)  
+## Version 0.18.1 (17/03/2021)  
 
 - Bug Fix :
   - lors d'une modification d'un widget, l'application est mise à jour automatiquement
   - erreur sur le déplacement des widgets sans parent
 
-## Version 0.18.0 Beta (15/03/2021)  
+## Version 0.18.0 (15/03/2021)  
 
 :information_source: Pré-requis (facultatif mais préférable !) : <b>AVANT</b> de mettre à jour le plugin, ouvrez l'assistant sur chacun de vos équipements, allez sur l'onglet `Pièces` et assurez vous que chacune des pièces créée est bien attachée à un objet Jeedom !  
 Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
@@ -1331,7 +1335,7 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
   - affichage d'un message plus précis sur la différence entre la version de plugin et celle de l'application
   - mise en place d'un pop-up pour télécharger la bonne dernière version de l'application directement
 
-## Version 0.17.1 Beta (05/03/2021)  -- Version Stable (15/03/2021)
+## Version 0.17.1 (05/03/2021)  -- Version Stable (15/03/2021)
 
 - Possibilité d'envoyer plusieurs images dans les notifications
 
@@ -1341,7 +1345,7 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 - Nouveau widget Web View qui permet d'afficher un design, le dashboard ou n'importe quelle page web
 - Bug fix
 
-## Version 0.17.0 Beta (04/03/2021)
+## Version 0.17.0 (04/03/2021)
 
 - Ajout d'un bouton Dupliquer pour les widgets
 
@@ -1365,25 +1369,25 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 
 - Option pour afficher la barre du haut
 
-## Version 0.15.3 Beta (10/02/2021)
+## Version 0.15.3 (10/02/2021)
 
 - Fix bug taille icônes Jeedom
 
 - Fix connection http
 
-## Version 0.15.2 Beta (09/02/2021)
+## Version 0.15.2 (09/02/2021)
 
 - Ajout des icônes Jeedom
 
 - Correction du bug des widgets en double
 
-## Version 0.15.1 Beta (06/02/2021)
+## Version 0.15.1 (06/02/2021)
 
 - Widget groupe de prises
 
 - Lumières : température de blancs
 
-## Version 0.15.0 Beta (04/02/2021)
+## Version 0.15.0 (04/02/2021)
 
 ***Attention, l'application n'est plus en debug mais en release, veuillez désinstaller la version précédente***
 
@@ -1413,7 +1417,7 @@ Pensez également à mettre le plugin JeedomConnect en `DEBUG` !
 - Bugs corrigés sur l'assistant de config
 - Bug échelle historique
 
-## Version 0.14.0 Beta (19/01/2021)
+## Version 0.14.0 (19/01/2021)
 
 - Widget Portail : status en option
 
