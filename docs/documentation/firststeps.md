@@ -105,14 +105,7 @@ Vous venez de créer deux menus bas (indispensables pour l’affichage) et un me
 4. Associez les **commandes Jeedom**.
 5. Cliquez sur **Sauvegarder**.
 
-### Étape 3 : Ajouter le widget à un menu
-
-1. Retournez dans l’onglet **Menus**.
-2. Ajoutez une **entrée** vers ce widget dans un menu ou une vue.
-
-**Exemple :** Ajoutez le widget température dans un menu "Salon" pour un accès rapide.
-
-### Étape 4 : Ajouter le widget depuis l’appareil
+### Étape 3 : Ajouter le widget depuis l’appareil
 
 1. Cliquez à nouveau sur **Configurer l'appareil**, sur votre équipement JeedomConnect depuis le plugin
 2. Allez dans **Widgets / Composants**.
