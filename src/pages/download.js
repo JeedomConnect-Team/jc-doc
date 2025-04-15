@@ -24,22 +24,24 @@ function Hello() {
                             <img width="200" alt='Télécharger sur Github' src='img/getGithub.png' />
                         </a>
                     </div>
-                    <div>
-                        <p className="hero__subtitle">Vous êtes bêta-testeur ?</p>
-                        <div className={clsx(styles.buttons, 'download-badges')} >
-                            <a href='https://play.google.com/apps/testing/com.jeedomconnect.app'>
-                                <img width="200" alt='Télécharger sur Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
-                            </a>
-                            <a href="https://testflight.apple.com/join/luZsKILI">
-                                <img width="163" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1492214400&h=3ef4307fa479838e52fe9bd8bd17913b" alt="Télécharger sur App Store" />
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </header>
+            <div className={clsx('hero', styles.heroBanner)}>
+                <div className="container">
+                    <p className="hero__subtitle">Vous êtes bêta-testeur ?</p>
+                    <div className={clsx(styles.buttons, 'download-badges')} >
+                        <a href='https://play.google.com/apps/testing/com.jeedomconnect.app'>
+                            <img width="200" alt='Télécharger sur Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
+                        </a>
+                        <a href="https://testflight.apple.com/join/luZsKILI">
+                            <img width="163" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1492214400&h=3ef4307fa479838e52fe9bd8bd17913b" alt="Télécharger sur App Store" />
+                        </a>
+                    </div>
+                </div>
+            </div>
 
 
-        </Layout>
+        </Layout >
     );
 }
 export default Hello;
