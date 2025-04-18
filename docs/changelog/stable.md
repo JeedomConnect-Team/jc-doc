@@ -8,6 +8,17 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
+## Version 1.14.0 (18/04/2025)
+
+Plugin et application !
+
+- Mise à jour des liens vers la documentation
+- Ajout d'un lien sur l'application vers la Politique de Confidentialité
+- Changement du logo community
+- Possibilité de créer un post community directement depuis l'app : `Menu > A propos > Obtenir de l'aide`
+- Correction redimensionnement et position sur une page type `menu haut`
+- mise à jour des librairies et dépendances
+
 ## Version 1.13.0 (02/03/2025)
 
 PLUGIN UNIQUEMENT

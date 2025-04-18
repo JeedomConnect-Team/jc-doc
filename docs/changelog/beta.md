@@ -8,6 +8,10 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.14.0 (18/04/2025)
+
+- Mise à jour des liens vers la documentation
+
 ## Version 1.13.2 (13/04/2025)
 
 Plugin et application !
