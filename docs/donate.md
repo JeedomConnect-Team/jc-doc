@@ -2,7 +2,7 @@
 
 Vous trouvez le plugin génial ?  
 Sans JC (pour les intimes) vous ne seriez pas resté sur Jeedom ?  
-Vous avez conscient du nombre d'heures et de jours passés à développer/corriger/améliorer l'application ?  
+Vous avez conscience du nombre d'heures et de jours passés à développer/corriger/améliorer l'application ?  
 Vous avez simplement envie de nous dire "merci" ?  
   
 Pour nous soutenir "financièrement" parlant, vous pouvez nous offrir un café/cocktail (ou deux, ou mille ! :) ) :  

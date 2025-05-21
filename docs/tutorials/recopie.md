@@ -64,9 +64,9 @@ JeedomConnectUtils::copyGridLayout($apiKeySource , $apiKeyCible );
 9. Sauvegardez le scénario
 10. Exécutez le scénario  (check des logs si tout est OK)
 
-Sur l'application JC de l'équipement cible :
-11. Allez dans `menu > pref > Restaurer`
-12. Choisissez la dernière sauvegarde nommée `GridLayout-xxxx`, puis OK
+Sur l'application JC de l'équipement cible :  
+11. Allez dans `menu > pref > Restaurer`  
+12. Choisissez la dernière sauvegarde nommée `GridLayout-xxxx`, puis OK  
 
 ➡️ les configuration de taille et position ont été appliquées à ce téléphone !
 
