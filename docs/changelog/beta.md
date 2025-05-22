@@ -8,6 +8,23 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.14.1+1682 (20/05/2025)
+
+Mises à jour :
+
+- app : framework react native & librairies divers sur l'app
+- plugin : lib pour installer les dépedances sur le plugins
+
+Corrections :
+
+- Notifications Ask [ici](https://community.jeedom.com/t/notification-et-ask/135852)
+- Affichage bulles des jauges [ici](https://community.jeedom.com/t/forme-bulle-des-jauges-slider/140399)
+- Lecture des QRCode via fichier
+- Affichage de l'historique sur la geoloc [ici](https://community.jeedom.com/t/filtres-par-dates-sur-widget-localisation-historique/140064)
+- Fix autorisation pour utiliser le service
+- Autorise uniquement des info numériques dans la configuration des coordonnées GPS [ici](https://community.jeedom.com/t/generation-de-carte-blanche/140043)
+- Remplacement des derniers liens vers les nouveaux repo
+
 ## Version 1.14.0 (18/04/2025)
 
 - Mise à jour des liens vers la documentation
