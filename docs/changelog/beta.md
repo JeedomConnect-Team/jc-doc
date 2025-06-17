@@ -8,6 +8,18 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.14.2 (17/06/2025)
+
+Nouveauté :
+
+Mise en place des `Programmations` : une façon ultra simple de programmer la réalisation d'une action (commande/scénario) à un instant donné et/ou de manière récurrente.  
+[Plus d'infos ici](/docs/documentation/integration/programmation)
+
+Corrections :
+
+- mise à jour des librairies
+- divers bugs
+
 ## Version 1.14.1+1682 (20/05/2025)
 
 Mises à jour :
