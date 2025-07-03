@@ -8,6 +8,14 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.14.3 (03/07/2025)
+
+Nouveauté :
+
+- Possibilité d'ajouter un nom à une `Programmations`
+- Ajout d'une page côté plugin pour visualiser les programmations enregistrées sur un équipement JC, pouvoir les désactiver/activer et supprimer
+- Correction de divers bugs mineurs
+
 ## Version 1.14.2 (17/06/2025)
 
 Nouveauté :
@@ -17,15 +25,15 @@ Mise en place des `Programmations` : une façon ultra simple de programmer la r�
 
 Corrections :
 
-- mise à jour des librairies
-- divers bugs
+- Mise à jour des librairies
+- Divers bugs
 
 ## Version 1.14.1+1682 (20/05/2025)
 
 Mises à jour :
 
-- app : framework react native & librairies divers sur l'app
-- plugin : lib pour installer les dépedances sur le plugins
+- Application : framework react native & librairies divers sur l'app
+- Plugin : lib pour installer les dépedances sur le plugins
 
 Corrections :
 
