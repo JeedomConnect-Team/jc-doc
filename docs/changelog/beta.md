@@ -8,6 +8,17 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.14.4 (17/07/20205) - BETA
+
+### Application uniquement
+
+- Pages détails des widgets remises en forme
+- Correction des connexions en websocket
+
+## Version 1.14.3+2  (09/07/2025)
+
+petite correction sur les programmations unitaires
+
 ## Version 1.14.3 (03/07/2025)
 
 Nouveauté :
