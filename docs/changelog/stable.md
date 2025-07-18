@@ -8,6 +8,28 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
+## Version 1.15.0 (18/06/2025)
+
+Nouveautés :
+
+Mise en place des `Programmations` : une façon ultra simple de programmer la réalisation d'une action (commande/scénario) à un instant donné et/ou de manière récurrente.  
+[Plus d'infos ici](/docs/documentation/integration/programmation)
+
+- Ajout d'une page côté plugin pour visualiser les programmations enregistrées sur un équipement JC, pouvoir les désactiver/activer et supprimer
+- Pages détails des widgets remises en forme
+
+Corrections :
+
+- Correction des connexions en websocket
+- Mise à jour des librairies
+- Notifications Ask [ici](https://community.jeedom.com/t/notification-et-ask/135852)
+- Affichage bulles des jauges [ici](https://community.jeedom.com/t/forme-bulle-des-jauges-slider/140399)
+- Lecture des QRCode via fichier
+- Affichage de l'historique sur la geoloc [ici](https://community.jeedom.com/t/filtres-par-dates-sur-widget-localisation-historique/140064)
+- Fix autorisation pour utiliser le service
+- Autorise uniquement des info numériques dans la configuration des coordonnées GPS [ici](https://community.jeedom.com/t/generation-de-carte-blanche/140043)
+- Mise à jour des liens vers la documentation
+
 ## Version 1.14.0 (18/04/2025)
 
 Plugin et application !
