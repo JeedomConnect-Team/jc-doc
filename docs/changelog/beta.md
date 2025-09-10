@@ -8,7 +8,17 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
-## Version 1.14.4 (17/07/20205) - BETA
+## Version 1.16.1 (10/09/20205)
+
+- Correction d'un bug de connexion au démarrage
+- Correction d'un bug de refresh de snapshot
+- Correction de la vitesse de lecture du TTS
+- Mise à jour de dépendances
+- Correction pour les connexions en `websocket` : ip local vs externe
+- Ajout de log pour les snapshot
+- Réduction de la taille du plugin
+
+## Version 1.14.4 (17/07/20205)
 
 ### Application uniquement
 
