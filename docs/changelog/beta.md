@@ -8,6 +8,12 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.17.1 (20/09/20205)
+
+- Activation/Désactivation d'un scénario uniquement possible par un admin
+- FIX fatal erreur
+- Correction contrôle utilisateur local en cas d'utilisation du websocket
+
 ## Version 1.16.1 (10/09/20205)
 
 - Correction d'un bug de connexion au démarrage

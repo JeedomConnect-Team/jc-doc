@@ -8,6 +8,34 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
+## Version 1.17.0 (10/09/20205)
+
+Application (19/09) :
+
+- Correction d'un bug de connexion au démarrage
+- Correction d'un bug de refresh de snapshot
+- Correction de la vitesse de lecture du TTS
+- Mise à jour de dépendances
+- Correction pour les connexions en `websocket` : ip local vs externe
+- Ajout de log pour les snapshot
+- Réduction de la taille du plugin
+
+Plugin (20/09) :
+
+- Activation/Désactivation d'un scénario uniquement possible par un admin
+- FIX fatal erreur
+- Affichage d'un message d'erreur sur page principale du plugin si incohérence entre version plugin & app
+- Ajout d'un log lors des snapshots des caméras
+- Correction contrôle utilisateur local en cas d'utilisation du websocket
+
+## Version 1.16.0 (24/07/2025)
+
+*Application uniquement*
+
+- Fix problème de connexion au démarrage
+- Changement de lib pour le TTS
+- Modification du layout des widget en carte
+
 ## Version 1.15.0 (18/06/2025)
 
 Nouveautés :
