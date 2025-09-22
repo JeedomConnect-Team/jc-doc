@@ -8,6 +8,10 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.17.2 (21/09/20205)
+
+Fix activation/désactivation d'un scénario par un admin - bloqué pour tous les profils
+
 ## Version 1.17.1 (20/09/20205)
 
 - Activation/Désactivation d'un scénario uniquement possible par un admin
