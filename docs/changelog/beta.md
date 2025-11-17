@@ -8,17 +8,17 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
-## Version 1.17.2 (21/09/20205)
+## Version 1.17.2 (21/09/2025)
 
 Fix activation/désactivation d'un scénario par un admin - bloqué pour tous les profils
 
-## Version 1.17.1 (20/09/20205)
+## Version 1.17.1 (20/09/2025)
 
 - Activation/Désactivation d'un scénario uniquement possible par un admin
 - FIX fatal erreur
 - Correction contrôle utilisateur local en cas d'utilisation du websocket
 
-## Version 1.16.1 (10/09/20205)
+## Version 1.16.1 (10/09/2025)
 
 - Correction d'un bug de connexion au démarrage
 - Correction d'un bug de refresh de snapshot
@@ -28,7 +28,7 @@ Fix activation/désactivation d'un scénario par un admin - bloqué pour tous le
 - Ajout de log pour les snapshot
 - Réduction de la taille du plugin
 
-## Version 1.14.4 (17/07/20205)
+## Version 1.14.4 (17/07/2025)
 
 ### Application uniquement
 

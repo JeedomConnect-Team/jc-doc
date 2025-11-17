@@ -8,11 +8,11 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
-## Version 1.17.2 (21/09/20205)
+## Version 1.17.2 (21/09/2025)
 
 Fix activation/désactivation d'un scénario par un admin - bloqué pour tous les profils
 
-## Version 1.17.0 (10/09/20205)
+## Version 1.17.0 (10/09/2025)
 
 Application (19/09) :
 
