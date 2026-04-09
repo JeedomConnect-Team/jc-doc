@@ -8,6 +8,12 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.24.1 (09/04/2026) - Appli
+
+- Fix édition grille avancée
+- Fix crash avec VLC
+- Mise à jour des dépendances et du framework
+
 ## Version 1.17.2 (21/09/2025)
 
 Fix activation/désactivation d'un scénario par un admin - bloqué pour tous les profils
