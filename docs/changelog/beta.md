@@ -8,6 +8,11 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.24.2 (14/04/2026) - Appli
+
+- Fix édition grille avancée, suite
+- Mise à jour des dépendances
+
 ## Version 1.24.1 (09/04/2026) - Appli
 
 - Fix édition grille avancée
