@@ -8,6 +8,14 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.24.3 (28/04/2026) - Appli
+
+- Ajout d'un mode debug pour la géolocalisation (`Préférences / Géolocalisation / Paramètres avancés`)
+- Fix dépendance de géolocalisation
+- Fix sélecteur de cron
+- Fis layout sélecteur de couleurs
+- Mise à jour des dépendances
+
 ## Version 1.24.2 (14/04/2026) - Appli
 
 - Fix édition grille avancée, suite
