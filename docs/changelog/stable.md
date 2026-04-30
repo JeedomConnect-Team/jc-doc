@@ -8,6 +8,17 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
+## Version 1.25.0 (30/04/2026) - Appli
+
+- Ajout d'un mode debug pour la géolocalisation (`Préférences / Géolocalisation / Paramètres avancés`)
+- Fix dépendance de géolocalisation
+- Fix sélecteur de cron
+- Fis layout sélecteur de couleurs
+- Mise à jour des dépendances
+- Fix édition grille avancée
+- Fix crash avec VLC
+- Mise à jour des dépendances et du framework
+
 ## Version 1.17.2 (21/09/2025)
 
 Fix activation/désactivation d'un scénario par un admin - bloqué pour tous les profils
