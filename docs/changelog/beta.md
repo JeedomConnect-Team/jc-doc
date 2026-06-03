@@ -8,6 +8,16 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.25.2 (03/06/2026) - BETA - Appli
+
+- Possibilité d'ajouter des pastilles aux widgets et aux menus
+- Ajout de contrôles dans les logsde scénarios
+- Fix raccourcis rapides sur Android
+- Fix page de configuration des geofences en mode sombre
+- Fix valeurs des sliders
+- Fix évaluation des conditions avec des commandes infos other
+- Mises à jours des dépendances
+
 ## Version 1.24.3 (28/04/2026) - Appli
 
 - Ajout d'un mode debug pour la géolocalisation (`Préférences / Géolocalisation / Paramètres avancés`)
