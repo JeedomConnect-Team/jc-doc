@@ -8,6 +8,15 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.25.5 (10/06/2026) - BETA - Appli
+
+- fix bug badge
+- fix affichage de la page de notifications
+
+## Version 1.25.3 (04/06/2026) - BETA - Appli
+
+- fix bug de connexion en websocket
+
 ## Version 1.25.2 (03/06/2026) - BETA - Appli
 
 - Possibilité d'ajouter des pastilles aux widgets et aux menus
