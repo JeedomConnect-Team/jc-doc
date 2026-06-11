@@ -8,6 +8,17 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
+## Version 1.26.0 (11/06/2026) - Appli
+
+- Possibilité d'ajouter des pastilles aux widgets et aux menus
+- Ajout de contrôles dans les logs  de scénarios
+- Fix raccourcis rapides sur Android
+- Fix page de configuration des geofences en mode sombre
+- Fix valeurs des sliders
+- Fix évaluation des conditions avec des commandes infos other
+- Fix affichage de la page de notifications
+- Mise à jour des dépendances et du framework
+
 ## Version 1.25.0 (30/04/2026) - Appli
 
 - Ajout d'un mode debug pour la géolocalisation (`Préférences / Géolocalisation / Paramètres avancés`)
