@@ -8,6 +8,16 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.26.1 (25/06/2026) - BETA - Appli
+
+- fix navigation depuis notification
+- Mise à jour des packs d'icônes
+- Fix badge dans des widget inclus dans un résumé
+- Fix affichage de la page Pièces
+- Fix bug dans le sélecteur de couleurs
+- Fix version du binaire de la librairie de géolocalisation
+- Mise à jour des dépendances
+
 ## Version 1.25.5 (10/06/2026) - BETA - Appli
 
 - fix bug badge
