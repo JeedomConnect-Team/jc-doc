@@ -8,6 +8,16 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
+## Version 1.27.0 (29/06/2026) - Appli
+
+- fix navigation depuis notification
+- Mise à jour des packs d'icônes
+- Fix badge dans des widget inclus dans un résumé
+- Fix affichage de la page Pièces
+- Fix bug dans le sélecteur de couleurs
+- Fix version du binaire de la librairie de géolocalisation
+- Mise à jour des dépendances
+
 ## Version 1.26.0 (11/06/2026) - Appli
 
 - Possibilité d'ajouter des pastilles aux widgets et aux menus
