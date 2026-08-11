@@ -8,6 +8,16 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.27.1 (11/08/2026) - BETA - Appli
+
+- fix action sur résumé
+- fix mode sombre
+- fix position popup
+- fix refresh historique
+- refonte affichage des modales
+- refonte de l'édition des grilles avancées
+- mises à jour des dépendances
+
 ## Version 1.26.1 (25/06/2026) - BETA - Appli
 
 - fix navigation depuis notification
