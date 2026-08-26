@@ -8,6 +8,15 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.27.2 (26/08/2026) - BETA - Appli
+
+- **Breaking change** : Suppression de Picovoice (suite à leur annonce de ne plus supporter l'api gratuite). Remplcé par OpenWakeWord
+- fix taille groupe
+- fix couleur titre groupe
+- fix serveur rtsp et écoute wakeword en arrière plan sur version récentes d'android
+- amélioration perf widget caméra + nouvelle option de réglage du cache réseau
+- mise à jour framework et dépendances
+
 ## Version 1.27.1 (11/08/2026) - BETA - Appli
 
 - fix action sur résumé
