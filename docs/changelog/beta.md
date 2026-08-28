@@ -8,9 +8,15 @@ title: Beta
 Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
 :::
 
+## Version 1.27.3 (28/08/2026) - BETA - Appli
+- Ajout d'une option pour désactiver l'accélération matérielle de VLC sur iOS
+- Fix acceptation autorisation de la géolocalisation
+- Amélioration lecture des logs
+- Mise à jour des dépendances
+
 ## Version 1.27.2 (26/08/2026) - BETA - Appli
 
-- **Breaking change** : Suppression de Picovoice (suite à leur annonce de ne plus supporter l'api gratuite). Remplcé par OpenWakeWord
+- **Breaking change** : Suppression de Picovoice (suite à leur annonce de ne plus supporter l'api gratuite). Remplacé par OpenWakeWord
 - fix taille groupe
 - fix couleur titre groupe
 - fix serveur rtsp et écoute wakeword en arrière plan sur version récentes d'android
