@@ -8,6 +8,24 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
+## Version 1.28.0 (28/08/2026) - Appli
+
+- **Breaking change** : Suppression de Picovoice (suite à leur annonce de ne plus supporter l'api gratuite). Remplacé par OpenWakeWord
+- fix action sur résumé
+- fix mode sombre
+- fix position popup
+- fix refresh historique
+- refonte affichage des modales
+- refonte de l'édition des grilles avancées
+- fix taille groupe
+- fix couleur titre groupe
+- fix serveur rtsp et écoute wakeword en arrière plan sur version récentes d'android
+- amélioration perf widget caméra + nouvelle option de réglage du cache réseau
+- Ajout d'une option pour désactiver l'accélération matérielle de VLC sur iOS
+- Fix acceptation autorisation de la géolocalisation
+- Amélioration lecture des logs
+- Mise à jour du framework et des dépendances
+
 ## Version 1.27.0 (29/06/2026) - Appli
 
 - fix navigation depuis notification
