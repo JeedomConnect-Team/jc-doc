@@ -4,9 +4,10 @@ title: Beta
 
 # Changelog BETA
 
-:::note
-Chaque mise à jour est à faire sur l'app ET le plugin en même temps (sauf mention contraire).  
-:::
+## Version 1.28.1 (01/09/2026) - BETA - Appli
+- Fix action sur icône de widget, iOS
+- Fix bugs mineurs
+- Mise à jour des dépendances
 
 ## Version 1.27.3 (28/08/2026) - BETA - Appli
 - Ajout d'une option pour désactiver l'accélération matérielle de VLC sur iOS

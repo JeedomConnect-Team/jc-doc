@@ -8,6 +8,11 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
+## Version 1.29.0 (01/09/2026) - Appli
+- Fix action sur icône de widget, iOS
+- Fix bugs mineurs
+- Mise à jour des dépendances
+
 ## Version 1.28.0 (28/08/2026) - Appli
 
 - **Breaking change** : Suppression de Picovoice (suite à leur annonce de ne plus supporter l'api gratuite). Remplacé par OpenWakeWord
