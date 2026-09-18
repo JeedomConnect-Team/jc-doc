@@ -71,7 +71,7 @@ Le **Jeton d'API** n'est affiché **qu'une seule fois**, à cet instant. Copiez-
 
 ## Étape 5 - Renseigner les identifiants dans JeedomConnect
 
-Rendez-vous sur la page `Configuration` du plugin JeedomConnect, jusqu'à la section décrivant le relais TURN Cloudflare :
+Rendez-vous sur la page `Gestion` du plugin JeedomConnect, cliquez sur **Services de streaming**, jusqu'à la section décrivant le relais TURN Cloudflare :
 
 <img src="../../img/tutorials/cloudflare_turn_8.png" width="80%" />
 
