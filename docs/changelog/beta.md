@@ -4,6 +4,21 @@ title: Beta
 
 # Changelog BETA
 
+## Version 1.29.1 (21/09/2026) - BETA
+
+Plugin et application ! **Mettez à jour les deux** (fonctionnalités partagées entre les deux côtés).
+
+- Accès aux caméras depuis l'extérieur du réseau local, sans configuration réseau ([plus d'infos](/docs/documentation/integration/cameraTurn))
+- Accès aux widgets Web View depuis l'extérieur du réseau local, via tunnel automatique ([plus d'infos](/docs/documentation/integration/webviewTunnel))
+- Ajout d'un bouton son sur les widgets caméra, avec option de démarrage automatique du son à l'ouverture
+- Ajout du pull-to-refresh sur les widgets Web View
+- Amélioration du zoom caméra : passage automatique en plein écran
+- Fix crash sur les marqueurs de la carte (Android)
+- Fix appui long sur les widgets dans les groupes (iOS)
+- Fix rechargement intempestif de l'app au premier plan lors d'un changement de réseau
+- Fix appui sur les caméras (iOS) et affichage des caméras dans les grilles
+- Mise à jour des dépendances
+
 ## Version 1.28.1 (01/09/2026) - BETA - Appli
 - Fix action sur icône de widget, iOS
 - Fix bugs mineurs
