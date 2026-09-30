@@ -4,15 +4,33 @@ title: Beta
 
 # Changelog BETA
 
-## Version 1.29.1 (21/09/2026) - BETA
+## Version 1.29.3 (30/09/2026) - BETA
 
-Plugin et application ! **Mettez à jour les deux** (fonctionnalités partagées entre les deux côtés).
+Plugin et application : mettez à jour les deux (fonctionnalités partagées entre les deux côtés).
+
+- Nouveau widget **Caméra Frigate** : live et historique des événements (filtres par date, type, zone, sous-étiquettes), lecture et téléchargement des clips et snapshots, conservation ou suppression d'un événement ([plus d'infos](/docs/documentation/plugin/types/widgets/frigate))
+- Widget Caméra Frigate : audio bidirectionnel, pour parler dans le micro du téléphone vers le haut-parleur de la caméra (caméras compatibles)
+- Widget caméra : nouvelle option « Contrôles toujours visibles » (ligne de boutons permanente au-dessus de la vidéo)
+- Composant bouton : ajout des images et de l'arrière-plan sous conditions
+- Affichage des nouveautés de la version au premier lancement après une mise à jour
+- Fix scintillement du widget image lors du rafraîchissement
+- Fix crash du sélecteur de couleurs
+- Fix crash de navigation vers un onglet depuis un raccourci de l'app
+- Mise à jour des dépendances
+
+## Version 1.29.2 (23/09/2026) - Plugin
+
+- fix logLevel sur daemon
+
+## Version 1.29.1 (22/09/2026) - BETA
+
+Plugin et application : mettez à jour les deux (fonctionnalités partagées entre les deux côtés).
 
 - Accès aux caméras depuis l'extérieur du réseau local, sans configuration réseau ([plus d'infos](/docs/documentation/integration/cameraTurn))
 - Accès aux widgets Web View depuis l'extérieur du réseau local, via tunnel automatique ([plus d'infos](/docs/documentation/integration/webviewTunnel))
-- Ajout d'un bouton son sur les widgets caméra, avec option de démarrage automatique du son à l'ouverture
+- Ajout d'un bouton son sur les widgets caméra, avec une option pour démarrer le son automatiquement à l'ouverture
 - Ajout du pull-to-refresh sur les widgets Web View
-- Amélioration du zoom caméra : passage automatique en plein écran
+- Zoom caméra : passage automatique en plein écran
 - Fix crash sur les marqueurs de la carte (Android)
 - Fix appui long sur les widgets dans les groupes (iOS)
 - Fix rechargement intempestif de l'app au premier plan lors d'un changement de réseau
