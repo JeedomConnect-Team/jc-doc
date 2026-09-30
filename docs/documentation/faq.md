@@ -219,7 +219,7 @@ Si ces informations ne sont pas renseignées, nous prenons alors les coordonnée
 
 ## Comment formater une date/heure dans les widgets ? {#qDatetime}  
 
-Direction quelques exemples donnés [ici](/docs/documentation/plugin/types/widgets.md#momentjs)
+Direction quelques exemples donnés [ici](/docs/documentation/plugin/types/widgets/index.md#momentjs)
 
 ## J'ai un message "Address already in use" au démarrage du démon, comment faire ? {#qAddressUsed}  
 
