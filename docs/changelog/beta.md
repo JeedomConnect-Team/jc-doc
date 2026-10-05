@@ -4,6 +4,22 @@ title: Beta
 
 # Changelog BETA
 
+## Version 1.29.4 (05/10/2026) - BETA
+
+Plugin et application : mettez à jour les deux.
+
+- Widget Caméra Frigate : le flux go2rtc de la caméra est retrouvé automatiquement dans la configuration de Frigate, même s'il ne porte pas le nom de la caméra ([plus d'infos](/docs/documentation/plugin/types/widgets/frigate#flux-vidéo))
+- Widget Caméra Frigate : affichage du dernier snapshot (rafraîchi toutes les 2 secondes) quand le flux vidéo ne peut pas démarrer, et hors réseau local sans l'option Flux vidéo optimisé
+- Widget Caméra Frigate : carte Timeline dans la vue détail, option Widgets supplémentaires, et rafraîchissement de l'historique au retour dans l'application
+- Flux vidéo optimisé (go2rtc) : bascule automatique sur le mode de repli MSE si la connexion WebRTC échoue, sur le réseau local comme à l'extérieur
+- Widgets caméra : correction de la vidéo invisible avec le menu du haut en mode « flottant »
+- Widgets caméra : correction de la vidéo restée affichée par-dessus une autre page sur les appareils lents
+- Widgets caméra : correction de la barre de contrôle du bas tronquée et de la position de la vidéo sur Android 14 et inférieur
+- Page Caméras hors LAN : les champs Turn Key ID et API Token ne sont plus masqués par le clavier
+- Plugin : lien vers la documentation du widget dans sa page de configuration
+- Plugin : réinstallation automatique des dépendances quand un module est manquant, et message explicite si le service de streaming ne peut pas démarrer pour cette raison
+- Mise à jour des dépendances
+
 ## Version 1.29.3 (30/09/2026) - BETA
 
 Plugin et application : mettez à jour les deux (fonctionnalités partagées entre les deux côtés).
