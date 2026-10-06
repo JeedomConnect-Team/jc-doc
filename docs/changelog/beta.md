@@ -4,6 +4,19 @@ title: Beta
 
 # Changelog BETA
 
+## Version 1.29.5 (06/10/2026) - BETA
+
+Plugin et application : mettez à jour les deux.
+
+- Widget Caméra Frigate : l'option « URL RTSP directe de la caméra » est maintenant utilisée pour le direct même sans l'audio bidirectionnel, pour avoir le son d'origine de la caméra quand celui du restream Frigate n'est pas lisible
+- Édition des widgets : bouton « Doc » vers la page de documentation du widget ou du composant, et descriptions des options raccourcies et plus lisibles
+- Fix historiques parfois non rafraîchis quand une même commande est utilisée dans plusieurs widgets
+- Fix appui long sur les widgets et les menus qui pouvait ne plus fonctionner jusqu'au redémarrage de l'application
+- Fix blocage possible de l'application au démarrage (Android)
+- Fix partage des logs de géolocalisation
+- Fix fermeture de la fenêtre de téléchargement des données
+- Mise à jour des dépendances
+
 ## Version 1.29.4 (05/10/2026) - BETA
 
 Plugin et application : mettez à jour les deux.
