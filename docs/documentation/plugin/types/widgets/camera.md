@@ -23,11 +23,11 @@ Options communes à tous les widgets (voir [Gestion des widgets](./index.md#gest
 | **URL flux** | Texte |  |  |
 | **Commande URL flux** | Commande info texte |  | Commande info contenant l'URL du flux<br/>Type générique : `CAMERA_URL` |
 | **Flux vidéo uniquement sur le LAN** | Case à cocher |  |  |
-| **Flux vidéo optimisé (go2rtc)** | Case à cocher |  | Diffusion fluide en LAN et hors LAN via le pont go2rtc du plugin, à la place du flux RTSP/Snapshot classique. |
-| **Son automatique à l'ouverture** | Case à cocher |  | Démarre le son dès l'ouverture du widget, sans action de l'utilisateur. Sinon, muet par défaut (activable via le bouton son). |
-| **Contrôles toujours visibles** | Case à cocher |  | Affiche les boutons de contrôle sur une ligne permanente au-dessus de la vidéo, au lieu des barres affichées au toucher sur l'image. Les barres restent utilisées en plein écran. |
+| **Flux vidéo optimisé (go2rtc)** | Case à cocher |  | Flux fluide en LAN et hors LAN via go2rtc, au lieu du flux RTSP/Snapshot classique |
+| **Son automatique à l'ouverture** | Case à cocher |  | Active le son dès l'ouverture du widget. Sinon, muet par défaut (bouton son) |
+| **Contrôles toujours visibles** | Case à cocher |  | Boutons de contrôle sur une ligne fixe au-dessus de la vidéo, au lieu des barres affichées au toucher (sauf en plein écran) |
 | **Mise en cache réseau (ms)** | Texte |  | 300ms par défaut. Augmenter en cas de saccades sur réseau instable, réduire pour moins de latence |
-| **Désactiver le décodage matériel (iOS)** | Case à cocher |  | À activer uniquement si l'image reste noire sur cette caméra. Bascule sur un décodage logiciel, plus gourmand en CPU |
+| **Désactiver le décodage matériel (iOS)** | Case à cocher |  | À activer seulement si l'image reste noire : décodage logiciel, plus gourmand en CPU |
 | **Authentification Snapshot** | Liste de choix |  | Définit la méthode d'authentification, si nécessaire<br/>Choix : Aucune (par défaut), Basic, Digest |
 | **URL SnapShot** | Texte |  |  |
 | **Commande Url Snapshot** | Commande info texte |  | Commande info contenant l'URL du snapshot |

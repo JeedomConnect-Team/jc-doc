@@ -63,14 +63,17 @@ La documentation de Frigate recommande de donner au flux go2rtc **le même nom**
 
 Saisissez donc toujours le **nom de la caméra** dans le widget. Si vous modifiez ensuite vos flux go2rtc dans Frigate, réenregistrez le widget pour qu'il les prenne en compte.
 
-Vous pouvez aussi renseigner l'**URL RTSP directe de la caméra** (identifiants inclus) : la vidéo en direct provient alors directement de la caméra au lieu du restream de Frigate, les snapshots et l'historique passant toujours par Frigate. C'est utile pour avoir **le son d'origine de la caméra** : la piste audio du restream Frigate est souvent absente, ou en AAC (le format de ses enregistrements), que WebRTC ne sait pas lire. C'est aussi indispensable pour l'[audio bidirectionnel](#audio-bidirectionnel).
+Vous pouvez aussi renseigner une **Source directe du flux** (les snapshots et l'historique passent toujours par Frigate). Deux formes sont possibles :
+
+- l'**URL RTSP de la caméra** (identifiants inclus) : la vidéo en direct provient alors directement de la caméra au lieu du restream de Frigate, avec **le son d'origine de la caméra**. La piste audio du restream Frigate est souvent absente, ou en AAC (le format de ses enregistrements), que WebRTC ne sait pas lire ;
+- le **flux go2rtc de Frigate en WebRTC**, `webrtc:ws://<hôte Frigate>:1984/api/ws?src=<nom du flux>`, pour l'[audio bidirectionnel](#audio-bidirectionnel) quand c'est Frigate qui gère le canal audio vers la caméra. La vidéo reste celle du restream ; ce lien ne sert qu'à envoyer votre voix, et seulement pendant que le micro est actif.
 
 **Sans** l'option Flux vidéo optimisé, l'application lit le restream directement en RTSP : cela ne fonctionne que sur le réseau local. Hors réseau local, ou si le flux vidéo ne peut pas démarrer, l'application affiche à la place le dernier snapshot de la caméra, rafraîchi toutes les 2 secondes.
 
 :::tip Dépannage
 - **Image grisée avec un chargement qui tourne, ou snapshot sans vidéo** : Frigate ne fournit pas de flux go2rtc pour cette caméra. Vérifiez la section `go2rtc` de Frigate puis réenregistrez le widget ; le log du plugin indique le flux retenu, ou l'absence de flux.
 - **Écran noir, erreur 404 sur `/api/<nom>/latest.jpg` dans le log** : le nom saisi dans le widget n'est pas celui d'une caméra Frigate (souvent, le nom d'un flux go2rtc a été saisi à la place).
-- **Vidéo sans son** : la piste audio du restream Frigate est absente ou illisible en WebRTC. Renseignez l'URL RTSP directe de la caméra, ou ajoutez dans la section `go2rtc` de Frigate une piste audio convertie en Opus (`- "ffmpeg:<nom du flux>#audio=opus"`), puis réenregistrez le widget.
+- **Vidéo sans son** : la piste audio du restream Frigate est absente ou illisible en WebRTC. Renseignez l'URL RTSP de la caméra comme source directe du flux, ou ajoutez dans la section `go2rtc` de Frigate une piste audio convertie en Opus (`- "ffmpeg:<nom du flux>#audio=opus"`), puis réenregistrez le widget.
 :::
 
 ## Dans l'application
@@ -125,13 +128,34 @@ Avec une caméra compatible (interphone, sonnette vidéo…), l'option **Audio b
 Prérequis :
 
 - l'option **Flux vidéo optimisé (go2rtc)** doit être activée, et la caméra doit gérer le *backchannel* audio (canal audio vers la caméra) ;
-- renseignez l'**URL RTSP directe de la caméra**, identifiants inclus. Le restream de Frigate ne transmet pas encore le canal audio vers la caméra (go2rtc embarqué dans Frigate antérieur à 1.9.9) : c'est donc cette URL qui doit servir de source du flux (voir [Flux vidéo](#flux-vidéo)).  
+- renseignez la **Source directe du flux** (voir [Flux vidéo](#flux-vidéo)), selon votre installation (voir ci-dessous) ;
+- si go2rtc était déjà installé avant la mise à jour du plugin, redémarrez-le une fois avec le bouton **Redémarrer go2rtc** (page `Gestion` du plugin, bouton **Services de streaming**) pour qu'il prenne en compte la configuration nécessaire au micro. Redémarrer le démon ou le plugin ne suffit pas.
+
+Beaucoup de caméras, dont les interphones Dahua (VTO), n'acceptent **qu'une seule conversation à la fois**. Un seul go2rtc doit donc demander le canal audio vers la caméra, sinon le second reçoit un refus et le micro reste muet :
+
+- **Frigate ne demande pas le canal audio** (aucune source `#backchannel=1` pour cette caméra dans sa section `go2rtc`) : renseignez l'**URL RTSP de la caméra**, identifiants inclus.  
   Exemple pour une caméra Dahua (les paramètres `unicast=true&proto=Onvif` sont nécessaires pour que la caméra annonce son canal audio) :  
   `rtsp://user:motdepasse@192.168.1.60/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif`
-- si go2rtc était déjà installé avant la mise à jour du plugin, redémarrez-le une fois avec le bouton **Redémarrer go2rtc** (page `Gestion` du plugin, bouton **Services de streaming**) pour qu'il prenne en compte la configuration nécessaire au micro. Redémarrer le démon ou le plugin ne suffit pas.
+- **Frigate tient le canal audio** (source `#backchannel=1` dans sa section `go2rtc`, pour partager le micro avec Home Assistant ou faire des annonces) : renseignez son flux en WebRTC, par exemple `webrtc:ws://192.168.1.50:1984/api/ws?src=sonnette`. L'API go2rtc de Frigate (port `1984`) et son port WebRTC (`8555`) doivent être joignables depuis Jeedom. L'application ne demande le canal audio qu'à l'activation du micro (l'image est brièvement coupée le temps de reconnecter le flux) et le libère à l'arrêt : les annonces restent possibles pendant que la sonnette est ouverte dans l'application. Le restream RTSP de Frigate ne convient pas pour parler : il ne propose pour le retour que le premier format audio de la caméra (de l'AAC sur un VTO Dahua), qu'un téléphone ne sait pas envoyer.  
+  Dans ce cas, séparez dans Frigate la source qui sert à **écouter** de celle qui sert à **parler**, et placez l'écoute en premier. go2rtc prend chaque piste dans la première source qui la fournit : la connexion qui tient le canal audio ne s'ouvre alors que pendant qu'on parle (micro, annonce), puis se referme. Sinon, elle reste ouverte en permanence pour l'écoute, et go2rtc doit la reconnecter à chaque nouvelle prise de parole, ce que l'interphone refuse souvent (« wrong response on DESCRIBE » dans le log go2rtc de Frigate). Exemple pour un interphone Dahua :
+
+  ```yaml
+  go2rtc:
+    streams:
+      sonnette:
+        - ffmpeg:rtsp://user:motdepasse@192.168.1.60/cam/realmonitor?channel=1&subtype=0#video=copy
+        # écoute seule (un fragment # désactive le canal audio vers la caméra)
+        - rtsp://user:motdepasse@192.168.1.60/cam/realmonitor?channel=1&subtype=0#media=audio
+        # parole seule
+        - rtsp://user:motdepasse@192.168.1.60/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif#media=audio#backchannel=1
+  ```
 
 :::note
 Le micro n'est disponible qu'en WebRTC. Hors LAN, si la connexion bascule en mode de repli MSE (sans relais TURN), le live fonctionne mais le bouton micro n'est pas proposé.
+:::
+
+:::tip Interphone Dahua (VTO) muet
+Le VTO repasse son audio en PCM 16 kHz à chaque redémarrage, et reste alors muet même si le canal audio est ouvert. Il faut le remettre en G.711A (`Encode[0].MainFormat[0].Audio.Compression=G.711A` via son API `configManager.cgi`). Dans Frigate, le script `fix_vto_codecs.sh` placé devant les sources du VTO s'en charge automatiquement.
 :::
 
 <!-- AUTO:CONFIG:START - généré par scripts/generateWidgetDocs.js, ne pas modifier -->
@@ -141,18 +165,18 @@ Options communes à tous les widgets (voir [Gestion des widgets](./index.md#gest
 
 | Option | Type | Obligatoire | Description |
 |---|---|:---:|---|
-| **URL Frigate** | Texte | Oui | URL de base de Frigate, ex. http://192.168.1.50:5000 (ou le port 8971 si l'authentification Frigate est activée) |
-| **Nom de la caméra (Frigate)** | Texte | Oui | Nom de la caméra tel que défini dans la section cameras du config.yml de Frigate (respectez la casse). Le flux go2rtc correspondant est retrouvé automatiquement dans la configuration de Frigate à l'enregistrement du widget, même s'il porte un autre nom. |
-| **Flux vidéo optimisé (go2rtc)** | Case à cocher |  | Diffusion fluide en LAN et hors LAN via le pont go2rtc du plugin, à la place du flux RTSP direct (qui ne fonctionne que sur le réseau local). Nécessite un flux go2rtc pour cette caméra dans Frigate (section go2rtc: streams du config.yml). Hors LAN, aucun relais TURN n'est nécessaire. |
-| **Audio bidirectionnel (micro)** | Case à cocher |  | Ajoute un bouton micro pour parler via le haut-parleur de la caméra. Nécessite le flux vidéo optimisé (go2rtc) et une caméra compatible (backchannel audio). Indisponible en repli MSE hors LAN. |
-| **URL RTSP directe de la caméra** | Texte |  | Facultatif. Si renseignée, source de la vidéo en direct à la place du restream Frigate (les snapshots et l'historique passent toujours par Frigate). Utile pour avoir le son d'origine de la caméra (le restream Frigate fournit souvent un audio absent ou illisible en WebRTC) et nécessaire pour l'audio bidirectionnel (le restream ne transmet pas le canal audio vers la caméra, go2rtc &lt; 1.9.9). Identifiants inclus dans l'URL. Ex. Dahua : rtsp://user:pass@IP/cam/realmonitor?channel=1&amp;subtype=0&amp;unicast=true&amp;proto=Onvif |
-| **Contrôles toujours visibles** | Case à cocher |  | Affiche les boutons de contrôle sur une ligne permanente au-dessus de la vidéo, au lieu des barres affichées au toucher sur l'image. Les barres restent utilisées en plein écran. |
+| **URL Frigate** | Texte | Oui | URL de Frigate, ex. http://192.168.1.50:5000 (port 8971 si l'authentification Frigate est activée) |
+| **Nom de la caméra (Frigate)** | Texte | Oui | Nom de la caméra dans la section cameras du config.yml de Frigate (respectez la casse) |
+| **Flux vidéo optimisé (go2rtc)** | Case à cocher |  | Flux fluide en LAN et hors LAN via go2rtc, au lieu du RTSP direct (LAN uniquement). Nécessite un flux go2rtc pour cette caméra dans Frigate |
+| **Audio bidirectionnel (micro)** | Case à cocher |  | Bouton micro pour parler via le haut-parleur de la caméra. Nécessite le flux vidéo optimisé (go2rtc) et une caméra compatible |
+| **Source directe du flux** | Texte |  | Facultatif. Remplace le restream Frigate pour le direct : URL RTSP de la caméra (identifiants inclus), ou flux go2rtc de Frigate en WebRTC (webrtc:ws://&lt;ip frigate&gt;:1984/api/ws?src=&lt;flux&gt;) pour l'audio bidirectionnel quand Frigate gère le canal retour. Voir la documentation |
+| **Contrôles toujours visibles** | Case à cocher |  | Boutons de contrôle sur une ligne fixe au-dessus de la vidéo, au lieu des barres affichées au toucher (sauf en plein écran) |
 | **Authentification Frigate activée** | Case à cocher |  |  |
 | **Nom d'utilisateur Frigate** | Texte |  | Utilisé uniquement si l'authentification Frigate est activée |
 | **Mot de passe Frigate** | Texte |  | Utilisé uniquement si l'authentification Frigate est activée |
-| **Commande MQTT statut caméra Frigate** | Commande info texte |  | Optionnel : commande Jeedom alimentée (via jMQTT, MQTT Manager...) par le topic MQTT frigate/&lt;nom_caméra&gt;/review_status (spécifique à cette caméra, valeurs NONE/DETECTION/ALERT). Rafraîchit automatiquement l'historique dès qu'un nouvel événement est détecté sur cette caméra ; sans elle, l'historique est rafraîchi toutes les minutes |
-| **Écran ouvert au tap** | Liste de choix |  | Écran ouvert en tapant sur le widget. Le bouton "Historique" reste de toute façon toujours accessible depuis la vue détail, quel que soit ce choix.<br/>Choix : Vue détail (live) (par défaut), Historique des événements |
-| **Vue par défaut** | Liste de choix |  | Vue affichée au premier affichage de la carte du widget (Direct ou Timeline). L'utilisateur peut toujours basculer ensuite avec les boutons en haut de la carte.<br/>Choix : Direct (par défaut), Timeline |
+| **Commande MQTT statut caméra Frigate** | Commande info texte |  | Facultatif : info du topic MQTT frigate/&lt;caméra&gt;/review_status, pour rafraîchir l'historique à chaque événement (sinon toutes les minutes) |
+| **Écran ouvert au tap** | Liste de choix |  | Écran ouvert en tapant sur le widget. L'historique reste accessible depuis la vue détail<br/>Choix : Vue détail (live) (par défaut), Historique des événements |
+| **Vue par défaut** | Liste de choix |  | Vue affichée à l'ouverture de la carte (Direct ou Timeline), modifiable ensuite via les boutons de la carte<br/>Choix : Direct (par défaut), Timeline |
 | **Direction haut** | Commande action |  | Type générique : `CAMERA_UP` |
 | **Direction bas** | Commande action |  | Type générique : `CAMERA_DOWN` |
 | **Direction gauche** | Commande action |  | Type générique : `CAMERA_LEFT` |

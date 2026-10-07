@@ -18,7 +18,7 @@ Options communes à tous les widgets (voir [Gestion des widgets](./index.md#gest
 
 | Option | Type | Obligatoire | Description |
 |---|---|:---:|---|
-| **Nom du package** | Texte | Oui | Nom du package Android de l'application. Vous pouvez utiliser l'application Package Name Viewer 2.0 pour l'obtenir |
+| **Nom du package** | Texte | Oui | Nom du package Android de l'application (visible avec l'app Package Name Viewer 2.0) |
 | **Widgets supplémentaires** | Liste de widgets |  | Widgets supplémentaires affichés dans la vue détails |
 
 ## Variables pour textes dynamiques
