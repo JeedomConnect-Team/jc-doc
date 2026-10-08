@@ -4,6 +4,19 @@ title: Beta
 
 # Changelog BETA
 
+## Version 1.29.6 (08/10/2026) - BETA
+
+Plugin et application : mettez à jour les deux.
+
+- Notifications : nouvelle option `gotoPageIdOnTap`, un appui sur la notification ouvre directement l'application sur la page choisie ([plus d'infos](/docs/documentation/integration/notifications#options-denvoi))
+- Notifications : les options (`gotoPageId`, `gotoPageIdOnTap`, `gotoWidgetId`, `launchActivity`, `files`) peuvent aussi être passées directement dans le tableau d'options d'un bloc code, en plus de la syntaxe `clé=valeur | ...` dans le titre
+- Notifications : documentation complétée (liste de toutes les options, envoi d'images)
+- Notifications : les boutons `gotoPageId` / `gotoWidgetId` ont le même comportement que l'application soit ouverte ou fermée ; un appui sur la notification elle-même ouvre la page Notifications (ou la page de `gotoPageIdOnTap`)
+- Préférences des widgets : « Nombre max vignettes par colonne » accepte maintenant 3 vignettes par ligne
+- Widgets caméra : le flux et le son s'arrêtent quand l'application passe en arrière-plan
+- Widget Caméra Frigate : le micro n'est activé que pendant l'audio bidirectionnel
+- Mise à jour des dépendances
+
 ## Version 1.29.5 (06/10/2026) - BETA
 
 Plugin et application : mettez à jour les deux.
