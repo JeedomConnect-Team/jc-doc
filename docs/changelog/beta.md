@@ -4,7 +4,7 @@ title: Beta
 
 # Changelog BETA
 
-## Version 1.29.6 (08/10/2026) - BETA
+## Version 1.29.6 (12/10/2026) - BETA
 
 Plugin et application : mettez à jour les deux.
 
@@ -15,6 +15,9 @@ Plugin et application : mettez à jour les deux.
 - Préférences des widgets : « Nombre max vignettes par colonne » accepte maintenant 3 vignettes par ligne
 - Widgets caméra : le flux et le son s'arrêtent quand l'application passe en arrière-plan
 - Widget Caméra Frigate : le micro n'est activé que pendant l'audio bidirectionnel
+- Widget Caméra Frigate : bouton de téléchargement des clips en blanc, plus lisible sur la vidéo
+- Flux vidéo optimisé (go2rtc) : connexion WebRTC plus légère (deux fois moins de candidats réseau et de relais TURN à établir), surtout hors réseau local
+- Composant Bouton : texte plus grand quand le bouton affiche à la fois une icône et un texte
 - Mise à jour des dépendances
 
 ## Version 1.29.5 (06/10/2026) - BETA
