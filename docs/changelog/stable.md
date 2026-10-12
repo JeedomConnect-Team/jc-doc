@@ -8,6 +8,42 @@ title: Stable
 Chaque mise à jour est à faire sur l app ET le plugin en même temps (sauf mentions contraire)  
 :::
 
+## Version 1.30.0 (12/10/2026)
+
+Plugin et application : mettez à jour les deux.
+
+**Caméras et Frigate**
+
+- Nouveau widget **Caméra Frigate** : direct, historique des événements avec filtres et timeline, lecture et téléchargement des clips et snapshots ([plus d'infos](/docs/documentation/plugin/types/widgets/frigate))
+- **Audio bidirectionnel** : parlez depuis le micro du téléphone vers le haut-parleur de la caméra (caméras compatibles, via Frigate)
+- **Accès aux caméras depuis l'extérieur du réseau local**, sans configuration réseau ([plus d'infos](/docs/documentation/integration/cameraTurn))
+- Bouton son sur les widgets caméra, avec une option pour démarrer le son automatiquement
+- Nouvelle option « Contrôles toujours visibles » (boutons permanents au-dessus de la vidéo)
+- Zoom : passage automatique en plein écran
+- Flux vidéo optimisé (go2rtc) : connexion plus fiable (repli automatique si WebRTC échoue) et plus légère
+- Le flux et le son s'arrêtent quand l'application passe en arrière-plan
+- Nombreuses corrections d'affichage des caméras (grilles, plein écran, iOS, Android 14 et inférieur)
+
+**Autres nouveautés**
+
+- Accès aux widgets Web View depuis l'extérieur du réseau local, via un tunnel automatique ([plus d'infos](/docs/documentation/integration/webviewTunnel)), et pull-to-refresh
+- Notifications : option `gotoPageIdOnTap` pour ouvrir une page en appuyant sur la notification, et options utilisables depuis un bloc code ([plus d'infos](/docs/documentation/integration/notifications#options-denvoi))
+- Composant Bouton : images, arrière-plan sous conditions et texte plus lisible
+- Grilles de widgets : jusqu'à 3 vignettes par ligne
+- Édition des widgets : bouton « Doc » vers la documentation du widget
+- Affichage des nouveautés de la version après chaque mise à jour
+- Plugin : réinstallation automatique des dépendances manquantes
+
+**Corrections**
+
+- Fix appui long sur les widgets et les menus qui pouvait ne plus fonctionner jusqu'au redémarrage de l'application
+- Fix blocage possible de l'application au démarrage (Android)
+- Fix rechargement de l'application lors d'un changement de réseau
+- Fix crashs (marqueurs de la carte sur Android, sélecteur de couleurs, raccourcis de l'application)
+- Fix scintillement du widget image et historiques parfois non rafraîchis
+- Fix partage des logs de géolocalisation
+- Mise à jour des dépendances
+
 ## Version 1.29.0 (01/09/2026) - Appli
 - Fix action sur icône de widget, iOS
 - Fix bugs mineurs
