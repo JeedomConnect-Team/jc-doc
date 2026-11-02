@@ -22,7 +22,7 @@ Plugin et application : mettez à jour les deux.
 - Zoom : passage automatique en plein écran
 - Flux vidéo optimisé (go2rtc) : connexion plus fiable (repli automatique si WebRTC échoue) et plus légère
 - Le flux et le son s'arrêtent quand l'application passe en arrière-plan
-- Nombreuses corrections d'affichage des caméras (grilles, plein écran, iOS, Android 14 et inférieur)
+- Nombreuses corrections d'affichage des caméras (grilles, plein écran, iOS)
 
 **Autres nouveautés**
 
@@ -39,7 +39,7 @@ Plugin et application : mettez à jour les deux.
 - Fix appui long sur les widgets et les menus qui pouvait ne plus fonctionner jusqu'au redémarrage de l'application
 - Fix blocage possible de l'application au démarrage (Android)
 - Fix rechargement de l'application lors d'un changement de réseau
-- Fix crashs (marqueurs de la carte sur Android, sélecteur de couleurs, raccourcis de l'application)
+- Fix crashs (marqueurs de la carte, sélecteur de couleurs, raccourcis de l'application)
 - Fix scintillement du widget image et historiques parfois non rafraîchis
 - Fix partage des logs de géolocalisation
 - Mise à jour des dépendances

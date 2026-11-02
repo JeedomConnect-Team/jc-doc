@@ -4,6 +4,17 @@ title: Beta
 
 # Changelog BETA
 
+## Version 1.30.1 (02/11/2026) - BETA
+
+- Widget Webview : le tirer pour rafraîchir (Android) ne recharge plus la page quand on remonte dans une page qui défile dans un bloc interne (designs Jeedom, Home Assistant, Grafana...)
+- Fix défilement horizontal des listes dans les cartes des widgets Pièce, Favoris, Alarme, Résumé et Action générique (Android)
+- Fix curseurs (horizontaux, verticaux, circulaires) dont le glissement pouvait s'interrompre
+- Fix couleurs de la jauge horizontale sur iOS (la première couleur occupait la moitié de la barre)
+- Fix suppression d'une couleur dans l'éditeur de dégradé (la mauvaise couleur pouvait être supprimée) et réglage de la position des bandes de couleur
+- Fix erreur à l'ouverture des accordéons
+- Passage à React Native 0.88
+- Mise à jour des dépendances
+
 ## Version 1.29.6 (12/10/2026) - BETA
 
 Plugin et application : mettez à jour les deux.
