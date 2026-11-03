@@ -4,6 +4,19 @@ title: Beta
 
 # Changelog BETA
 
+## Version 1.30.2 (03/11/2026) - BETA
+
+Plugin et application : mettez à jour les deux.
+
+- **Nouveau : Jeedom Connect dans la voiture**, avec Android Auto et sur les voitures avec Android intégré (Android Automotive) ([plus d'infos](/docs/documentation/integration/car))
+- Voiture : vos widgets favoris en tuiles, avec leur état en temps réel et leurs icônes, rangés par pièce, par type ou selon les menus de l'application
+- Voiture : lumières, prises, portail, volets, scénarios, modes, listes de choix, alarme, thermostat, climatiseur, curseurs, lecteur multimédia et groupes de widgets se pilotent depuis l'écran de la voiture ; les actions protégées par un code n'y sont pas disponibles
+- Voiture : réglages dans « Préférences → Voiture » de l'application, ou dans le plugin sur la page de l'équipement (« Voiture → Configurer »)
+- Voitures avec Android intégré : connexion en scannant un QR code avec le téléphone, ou connexion manuelle
+- Notifications : nouvelle option « Dans la voiture », dans l'application ou dans le plugin, pour afficher aussi une notification sur l'écran de la voiture, avec ses boutons
+- Fix plantage de la carte de géolocalisation avec des positions invalides dans l'historique
+- Mise à jour des dépendances
+
 ## Version 1.30.1 (02/11/2026) - BETA
 
 - Widget Webview : le tirer pour rafraîchir (Android) ne recharge plus la page quand on remonte dans une page qui défile dans un bloc interne (designs Jeedom, Home Assistant, Grafana...)

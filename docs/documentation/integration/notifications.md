@@ -148,6 +148,7 @@ Ces options ne se passent pas à l'envoi : elles se règlent une fois pour toute
 | Couleur | Couleur de la notification. | ✅ | ❌ |
 | Image | Petite image affichée dans la notification. | ✅ | ❌ |
 | Actions | Boutons ajoutés sous la notification, qui exécutent une commande ou un scénario. | ✅ | ✅ |
+| Dans la voiture | La notification s'affiche aussi dans Android Auto et sur les voitures avec Android intégré. Voir [Voiture](./car#notifications-dans-la-voiture). | ✅ | ❌ |
 
 ## Envoyer des images
 
