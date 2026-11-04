@@ -76,7 +76,7 @@ Comment les favoris sont organisés dans la voiture :
 
 - **Aucune** : tous les favoris sur la première page ;
 - **Par pièce** : les pièces qui contiennent au moins un favori, puis leurs favoris ;
-- **Par type** : Lumières, Volets, Ouvertures, Climat, Sécurité, Scénarios... puis les favoris de ce type ;
+- **Par type** : Lumières, Switch, Volets, Ouvertures, Sécurité, Climat, Actions... puis les favoris de ce type ;
 - **Selon les menus de l'appli** : vos menus bas, puis menus haut, comme dans l'application.
 
 Les favoris qui ne sont dans aucune pièce / aucun menu sont regroupés dans « Autres ».
