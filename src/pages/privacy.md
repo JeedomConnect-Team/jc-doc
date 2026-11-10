@@ -1,6 +1,6 @@
 ## Politique de Confidentialité de l'application Jeedom Connect {#fr_FR}
 
-**Date de dernière mise à jour** : *31/03/2025*
+**Date de dernière mise à jour** : *10/11/2026*
 
 ### 1. Introduction
 
@@ -26,7 +26,9 @@ Les données de localisation sont uniquement envoyées au serveur domotique pers
 ### 5. Données de santé et activité phyisque
 
 JeedomConnect peut nécessiter d'accéder aux données d'activité physique de façon à remonter à votre serveur domotique si vous vous déplacez à pied, en vélo, en voiture, ...  
-Aucune donnée de santé n'est utilisée ni sauvegardée par l'application.  
+
+Si vous activez l'option `Nombre de pas` du service (Android uniquement), JeedomConnect lit dans **Health Connect** le nombre de pas effectués depuis minuit (autorisation « Pas », y compris en arrière-plan). Ce total est uniquement transmis à votre serveur domotique personnel, pour vos automatisations. Aucune autre donnée de Health Connect n'est lue, rien n'est écrit dans Health Connect, et ces données ne sont ni conservées par l'application, ni partagées avec des tiers, ni utilisées à des fins publicitaires.  
+Aucune autre donnée de santé n'est utilisée ni sauvegardée par l'application.  
 
 ### 6. Accès à la galerie photo et aux fichiers
 
@@ -90,7 +92,9 @@ Location data is sent only to the user's personal smart home server and is not s
 ### 5. Health and Activity Management
 
 JeedomConnect may need to access physical activity data to report to your smart home server whether you are walking, cycling, driving, etc.  
-No health data is used nor stored by the application.
+
+If you enable the service's `Step count` option (Android only), JeedomConnect reads from **Health Connect** the number of steps taken since midnight ("Steps" permission, including in the background). This total is only sent to your personal smart home server, for your automations. No other Health Connect data is read, nothing is written to Health Connect, and this data is neither stored by the application, nor shared with third parties, nor used for advertising.  
+No other health data is used nor stored by the application.
 
 ### 6. Access to Photos and Files
 
@@ -127,4 +131,4 @@ Jeedom Connect does not share any of your information with third parties.
 For any questions regarding this privacy policy, if you have questions, or if you would like to make a complaint, you can contact us at: **[jeedomconnect@gmail.com](mailto:jeedomconnect@gmail.com)**
 
 ---
-**Last Updated**: *31/03/2025*
+**Last Updated**: *10/11/2026*
