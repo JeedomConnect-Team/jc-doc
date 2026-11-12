@@ -48,3 +48,21 @@ Activer trop de déclencheurs peut nuire au niveau de votre batterie !
 - `Bluetooth connecté` : se déclenche dès que l'appareil est connecté à un périphérique bluetooth.
 - `Bluetooth déconnecté` : se déclenche lorsqu'il n'y a plus aucun périphérique bluetooth connecté.
 - `Prochaine alarme changée` : se déclenche lorsque la date ou l'heure de la prochaine alarme programmée sur l'appareil change
+
+## Nombre de pas {#steps}
+
+Le service peut remonter le **nombre de pas effectués depuis minuit** dans la commande `Nombre de pas` de l'équipement. Cette option s'active dans `Service et actions / Gestion du service`, ligne `Nombre de pas`.
+
+Le nombre de pas est lu depuis **Health Connect**, l'espace de données de santé d'Android. Il faut donc :
+
+- que Health Connect soit disponible sur l'appareil (intégré à Android 14 et plus, application *Health Connect* à installer depuis le Play Store sur Android 9 à 13) ;
+- autoriser Jeedom Connect à lire les pas, **y compris en arrière-plan** (demandé à l'activation de l'option) ;
+- qu'une application de santé ou de sport enregistre vos pas dans Health Connect (Samsung Health, Google Fit, Fitbit, l'application de votre montre...). Le nombre remonté est le total de toutes ces sources, sans doublons : c'est le même que celui affiché par votre application de santé.
+
+Un appui sur la ligne `Nombre de pas` ouvre Health Connect, pour gérer les autorisations ou les sources de données.
+
+:::info Quand le nombre de pas est-il transmis ?
+Il n'existe **pas de déclencheur dédié aux pas**. Le nombre de pas est transmis avec les autres informations, à chaque déclencheur activé (sauf `SMS reçu`) et à chaque envoi `Périodique`. Pour un suivi régulier, activez le déclencheur `Périodique` (par exemple toutes les 15 minutes).
+
+Les applications de santé n'écrivent pas dans Health Connect en temps réel mais par paquets : la valeur dans Jeedom peut rester identique un moment, puis augmenter d'un coup.
+:::

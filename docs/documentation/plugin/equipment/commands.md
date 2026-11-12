@@ -18,6 +18,7 @@ Par défaut les commandes suivantes sont disponibles dans chaque équipement.
 | État Bluetooth | Binaire qui permet de savoir si un périphérique Bluetooth est connecté.| ✅ <br/>*Service activé*| ❌ |
 | État écran | Binaire qui permet de connaître l'état allumé/éteint de l'écran.| ✅ <br/>*Service activé*| ❌|
 | État Wifi| Binaire qui permet de savoir si l'appareil est connecté à un réseau Wi-Fi. | ✅ <br/>*Service activé, Localisation autorisée et activée* | ❌|
+| Nombre de pas | Nombre de pas effectués depuis minuit, lu depuis Health Connect. Transmis avec les autres informations du service (déclencheurs et envoi périodique), voir [Service](/docs/documentation/integration/service#steps). | ✅ <br/>*Service activé, option `Nombre de pas` activée, autorisation Health Connect* | ❌ |
 | Package Prochaine Alarme | Permet de savoir quel est le package qui déclenchera la prochaine alarme sur votre téléphone. | ✅ <br/>*Service activé*| ❌ |
 | Position | Lorsque la géolocalisation est activée, donne les coordonnées GPS de l'appareil sous la forme `latitude,longitude`. Il est aussi possible d'ajouter l'altitude, l'activité et la batterie en cochant la case correspondante dans les paramètres de l'équipement. | ✅ |✅|
 | Prochaine alarme | Permet de récupérer (au format timestamp) l'heure de la prochaine alarme.| ✅ <br/>*Service activé*| ❌ |

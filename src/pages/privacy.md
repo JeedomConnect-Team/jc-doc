@@ -23,7 +23,7 @@ JeedomConnect peut collecter des données de localisation afin de transmettre la
 
 Les données de localisation sont uniquement envoyées au serveur domotique personnel de l'utilisateur et ne sont pas partagées avec des tiers.
 
-### 5. Données de santé et activité phyisque
+### 5. Données de santé et activité physique
 
 JeedomConnect peut nécessiter d'accéder aux données d'activité physique de façon à remonter à votre serveur domotique si vous vous déplacez à pied, en vélo, en voiture, ...  
 
