@@ -51,6 +51,10 @@ Activer trop de déclencheurs peut nuire au niveau de votre batterie !
 
 ## Nombre de pas {#steps}
 
+:::note Bientôt disponible
+Le nombre de pas n'est pas encore proposé dans la version Play Store de l'application : il arrivera dans une prochaine version.
+:::
+
 Le service peut remonter le **nombre de pas effectués depuis minuit** dans la commande `Nombre de pas` de l'équipement. Cette option s'active dans `Service et actions / Gestion du service`, ligne `Nombre de pas`.
 
 Le nombre de pas est lu depuis **Health Connect**, l'espace de données de santé d'Android. Il faut donc :

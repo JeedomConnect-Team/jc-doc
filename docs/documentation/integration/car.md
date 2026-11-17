@@ -6,20 +6,17 @@ sidebar_position: 8
 
 Jeedom Connect s'affiche sur l'écran de votre voiture, pour piloter votre maison en roulant : ouvrir le portail en arrivant, lancer un scénario, vérifier que les volets sont fermés, recevoir vos notifications...
 
-Deux cas sont possibles :
+Trois cas sont possibles :
 
 - **Android Auto** : votre téléphone Android est relié à la voiture (câble ou sans fil) et s'affiche sur son écran. C'est l'application Jeedom Connect du téléphone qui fonctionne.
+- **Apple CarPlay** : votre iPhone est relié à la voiture (câble ou sans fil) et s'affiche sur son écran. C'est l'application Jeedom Connect de l'iPhone qui fonctionne.
 - **Voitures avec Android intégré** (*Android Automotive*, « Google intégré » : Volvo, Polestar, Renault, Ford, GM...) : la voiture a son propre système Android et son propre Play Store. Elle installe sa propre application Jeedom Connect, qui fonctionne même sans téléphone.
 
-Dans les deux cas, l'affichage et les réglages sont les mêmes.
+Dans tous les cas, les réglages et les commandes disponibles sont les mêmes. Android affiche les favoris en tuiles, CarPlay en listes.
 
 :::info Prérequis
-- Plugin et application en version **1.30.2** ou plus récente : mettez à jour les deux.
+- Plugin et application en version **1.30.3** ou plus récente : mettez à jour les deux.
 - Une **adresse externe** de Jeedom accessible depuis internet (dans la configuration du plugin) : la voiture n'est pas sur votre réseau local.
-:::
-
-:::note CarPlay
-L'intégration à Apple CarPlay n'est pas encore disponible.
 :::
 
 ## Ce qui s'affiche dans la voiture
@@ -48,6 +45,8 @@ Ce que fait un appui sur une tuile dépend du type de widget :
 
 L'icône de la tuile est celle du widget dans l'application, y compris les images conditionnelles et vos images personnalisées.
 
+Sur CarPlay, chaque favori est une ligne de liste, avec la même icône et le même état. L'appui fait la même chose ; les choix (actions, modes, consigne...) s'ouvrent dans une seconde liste.
+
 **Non affichables en voiture** : Caméra, Caméra Frigate, Image, Web View, Historique (pas de vidéo, de page web ni de graphique en voiture), Générique message (il faudrait taper du texte), Lanceur d'application, JC, Géolocalisation, Résumé de pièce.
 
 ### Confirmation et code
@@ -68,7 +67,7 @@ Les deux modifient les mêmes réglages, et chaque changement est pris en compte
 
 Choisissez les widgets à afficher (`+` pour en ajouter plusieurs d'un coup) et leur ordre (glisser-déposer). Chaque favori indique ce que fait un appui en voiture.
 
-Chaque voiture limite le nombre de tuiles par écran (6 au minimum). Au-delà, la dernière tuile devient « Plus » et ouvre la suite : **placez les plus utiles en premier**.
+Chaque voiture limite le nombre de tuiles par écran (6 au minimum). Au-delà, la dernière tuile devient « Plus » et ouvre la suite : **placez les plus utiles en premier**. Sur CarPlay, c'est la longueur des listes que la voiture limite (12 lignes sur certaines voitures) : les favoris au-delà ne s'affichent pas.
 
 ### Navigation
 
@@ -81,6 +80,8 @@ Comment les favoris sont organisés dans la voiture :
 
 Les favoris qui ne sont dans aucune pièce / aucun menu sont regroupés dans « Autres ».
 
+Sur CarPlay, chaque pièce, type ou menu bas devient un onglet en haut de l'écran (les menus haut deviennent des sections de la liste). Au-delà du nombre d'onglets accepté par la voiture, les derniers sont regroupés dans l'onglet « Plus ».
+
 ## Android Auto
 
 1. Installez Jeedom Connect **depuis le Play Store** (une application installée par un autre moyen n'est pas proposée par Android Auto).
@@ -88,6 +89,16 @@ Les favoris qui ne sont dans aucune pièce / aucun menu sont regroupés dans « 
 3. Branchez le téléphone à la voiture : Jeedom Connect apparaît dans la liste des applications d'Android Auto.
 
 Aucune connexion n'est à faire dans la voiture : elle utilise l'équipement du téléphone.
+
+## Apple CarPlay
+
+1. Connectez-vous à Jeedom dans l'application Jeedom Connect de l'iPhone et choisissez vos favoris.
+2. Ouvrez l'application au moins une fois après la mise à jour : c'est elle qui transmet la connexion à CarPlay.
+3. Branchez l'iPhone à la voiture (ou connectez-le en CarPlay sans fil) : Jeedom Connect apparaît sur l'écran CarPlay. Sinon, ajoutez-le dans les réglages de l'iPhone : `Général` → `CarPlay` → votre voiture → `Personnaliser`.
+
+Aucune connexion n'est à faire dans la voiture : elle utilise l'équipement de l'iPhone.
+
+Après un appui, « Commande envoyée » s'affiche quelques secondes sous la ligne, et un message s'affiche si la commande a échoué. CarPlay limite le nombre d'écrans enchaînés : dans un groupe, l'écran d'un élément remplace celui du groupe, et le retour ramène à l'accueil.
 
 ## Voitures avec Android intégré
 
@@ -106,6 +117,7 @@ Pour déconnecter la voiture : icône de compte en haut à droite de l'écran d'
 Une notification peut aussi s'afficher dans la voiture : activez l'option **Dans la voiture** de la notification, dans l'application (`Préférences` → `Notifications`, ou `Préférences` → `Voiture` → `Notifications dans la voiture`) ou dans le plugin (configuration des notifications de l'équipement). Voir [Notifications](./notifications).
 
 - **Android Auto** : la notification du téléphone s'affiche sur l'écran de la voiture, avec ses boutons (2 au maximum). Un appui sur la notification ouvre Jeedom Connect dans la voiture.
+- **CarPlay** (iOS 18.4 ou plus récent) : la notification de l'iPhone s'affiche sur l'écran CarPlay, sans ses boutons (ils restent sur l'iPhone). Elle doit être autorisée dans les réglages de l'iPhone : `Notifications` → `Jeedom Connect` → `Afficher dans CarPlay`.
 - **Voitures avec Android intégré** : la voiture reçoit la notification elle-même, même sans téléphone (elle demande l'autorisation d'afficher des notifications au premier lancement). Elle apparaît dans le panneau des notifications de la voiture, avec ses boutons (commandes, scénarios) et, pour un Ask, un bouton par réponse possible.
 
 :::note
@@ -115,5 +127,6 @@ Sur les voitures avec Android intégré, le système n'affiche par-dessus l'écr
 ## Bon à savoir
 
 - En roulant, la voiture limite la fréquence de rafraîchissement de l'écran : un état qui change souvent (puissance, température...) peut s'afficher avec quelques secondes de retard. L'état d'un appareil que vous venez de commander, lui, s'affiche immédiatement, et un message confirme chaque commande envoyée.
+- Android Auto et voitures avec Android intégré : en roulant, les réglages fins (consigne, intensité, volume, ventilation, position des volets, valeurs des curseurs) et la connexion de la voiture ne sont possibles qu'à l'arrêt ; la voiture affiche un message si vous appuyez en roulant. Marche / arrêt, modes, scénarios, ouverture / fermeture restent disponibles.
 - Le nombre d'écrans enchaînés est limité par la voiture : préférez une navigation peu profonde.
 - **« Impossible de joindre Jeedom »** : vérifiez que le plugin est à jour et que l'adresse externe de Jeedom est accessible depuis internet.
