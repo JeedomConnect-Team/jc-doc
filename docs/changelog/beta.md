@@ -4,17 +4,27 @@ title: Beta
 
 # Changelog BETA
 
-## Version 1.30.2 (03/11/2026) - BETA
+## Version 1.30.3 (17/11/2026) - BETA
 
 Plugin et application : mettez à jour les deux.
 
-- **Nouveau : Jeedom Connect dans la voiture**, avec Android Auto et sur les voitures avec Android intégré (Android Automotive) ([plus d'infos](/docs/documentation/integration/car))
-- Voiture : vos widgets favoris en tuiles, avec leur état en temps réel et leurs icônes, rangés par pièce, par type ou selon les menus de l'application
-- Voiture : lumières, prises, portail, volets, scénarios, modes, listes de choix, alarme, thermostat, climatiseur, curseurs, lecteur multimédia et groupes de widgets se pilotent depuis l'écran de la voiture ; les actions protégées par un code n'y sont pas disponibles
+- **Nouveau : Jeedom Connect dans la voiture**, avec Android Auto et Apple CarPlay ([plus d'infos](/docs/documentation/integration/car))
+- Voiture : vos widgets favoris, avec leur état en temps réel et leurs icônes, rangés par pièce, par type ou selon les menus de l'application
+- Voiture : lumières (marche / arrêt et intensité), prises, portail, volets, scénarios, modes, listes de choix, alarme, thermostat, climatiseur, curseurs, lecteur multimédia et groupes de widgets se pilotent depuis l'écran de la voiture ; les actions protégées par un code n'y sont pas disponibles
+- Voiture : sur Android Auto, les réglages fins (consigne, intensité, volume, position des volets, curseurs) ne sont accessibles qu'à l'arrêt
 - Voiture : réglages dans « Préférences → Voiture » de l'application, ou dans le plugin sur la page de l'équipement (« Voiture → Configurer »)
-- Voitures avec Android intégré : connexion en scannant un QR code avec le téléphone, ou connexion manuelle
-- Notifications : nouvelle option « Dans la voiture », dans l'application ou dans le plugin, pour afficher aussi une notification sur l'écran de la voiture, avec ses boutons
+- Notifications : nouvelle option « Dans la voiture », dans l'application ou dans le plugin, pour afficher aussi une notification sur l'écran de la voiture (avec ses boutons sur Android Auto)
+- Notifications iOS : l'appui long sur un Ask (et l'Apple Watch) propose toujours les réponses de cette notification, et une réponse ne peut plus partir vers un autre Ask
+- Notifications iOS : le nombre de notifications non lues s'affiche sur l'icône de l'application
+- Performances : application plus fluide et moins gourmande (enregistrement des données, affichage des widgets, page Scénarios plus rapide à ouvrir, mémoire), historiques téléchargés une seule fois puis seulement complétés, historiques en arrière-plan des widgets allégés
+- Historiques : libellés des jours alignés avec les barres
+- Fix interrupteur qui pouvait actionner son équipement tout seul en revenant sur un menu (Android, surtout sur tablette)
+- Fix notifications parfois affichées seulement à l'ouverture suivante de l'application (Android)
+- Fix appui sur les icônes des widgets dans les groupes et dans la vue modale (Android)
+- Fix pincement sur une carte qui ouvrait le menu du widget
+- Fix notification par défaut des automatisations perdue après un enregistrement des notifications depuis l'application
 - Fix plantage de la carte de géolocalisation avec des positions invalides dans l'historique
+- Fix textes incomplets dans les traductions catalane et espagnole
 - Mise à jour des dépendances
 
 ## Version 1.30.1 (02/11/2026) - BETA
